@@ -96,3 +96,24 @@ nlu:
     - how do I get started?
     - how do I begin?
     - where should I start?
+    - what do I press on to start using the tool?
+    - what do I click on to begin?
+    - where should I go to start?
+    - where does one go to use the tool?
+    - how do I use the tool?
+    - why can't I start?
+    - what to do to begin?
+    - how can one use the application?
+    - how can I use the application?
+    - lets begin
+    - I am starting
+    - I want to start
+
+- synonym: start
+  examples: |
+    - begin
+    - go ahead
+    - kick off
+    - commence
+    - get under way
+    - get going

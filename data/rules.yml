@@ -12,7 +12,3 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
-- rule: tell user to create a tree
-  steps:
-  - intent: get_started
-  - action: utter_start_tree
