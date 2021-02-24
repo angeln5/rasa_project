@@ -109,6 +109,68 @@ nlu:
     - I am starting
     - I want to start
 
+- intent: start_tree_build
+  examples: |
+    - how to build a tree
+    - how to start a tree
+    - how to create a tree
+    - building a tree?
+    - build ai tree
+    - what to do to form a tree
+    - can I build a tree?
+    - how to get started on a tree
+    - how do I create a tree?
+
+- intent: learn_create_tree_features
+  examples: |
+    - what are the features of create tree?
+    - what can I do to create a tree
+    - what can you do on the create tree page?
+    - what should I do on the create tree
+    - tell me about the create tree page
+    - say more about create tree
+    - what should I know about creating a tree?
+    - talk about the create tree feature
+    - list features on creating a tree
+    - I want to know about the create tree tool
+    - More on the tree tool
+    - what other features are available for the tree tool
+    - what else can you do with the tree tool
+    - teach me about creating a tool on this website
+
+- intent: howto_save_tree
+  examples: |
+    - how do I save a tree?
+    - how to save a tree?
+    - what to do to save my tree
+    - how to retain a copy of a tree
+    - I want to save my tree
+    - help with saving tree
+
+- intent: howto_download_tree
+  examples: |
+    - how do I download a tree?
+    - how do I get a tree I previously made?
+    - how to download an old tree
+    - download a tree I created
+    - help to download tree
+    - help dowloading tree
+
+- intent: howto_rename_node
+  examples: |
+    - I want to change the name of a node
+    - how to rename a node
+    - how to change the label of a node
+    - how to manage the names of the nodes
+    - how to re-label nodes on a tree?
+    - how does re-labeling nodes work?
+    - what to do to change the name of a node?
+    - how do you change a node's name?
+    - how do you change a node's label?
+    - how to change a node label
+    - how to change a node name
+    - changing a node 
+
 - synonym: start
   examples: |
     - begin
@@ -117,3 +179,34 @@ nlu:
     - commence
     - get under way
     - get going
+    - get started
+
+- synonym: tree
+  examples: |
+    - ai tree
+    - artificial intelligence tree
+
+- synonym: build
+  examples: |
+    - create
+    - form
+    - made
+  
+- synonym: create tree
+  examples: |
+    - create tree
+    - create tree tool
+    - create tree page
+    - tool to create a tree
+    - tool for creating tree
+
+- synonym: one
+  examples: |
+    - I
+
+- synonym: page
+  example: |
+    - app
+    - application
+    - tool
+    - website
