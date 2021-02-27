@@ -29,12 +29,4 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: get user to start creating a tree
-  steps:
-  - intent: get_started
-  - action: utter_start_tree
 
-- story: get user to upload a tree
-  steps: 
-  - intent: get_started
-  - action: utter_upload_tree
