@@ -1,5 +1,15 @@
 version: "2.0"
 
+# GUIDELINES:  
+# Try to have between 10-15 examples per intent
+#   Try to have roughly the same amount of examples for each intent (can be hard sometimes so this rule isn't stricly enforced)
+#   May be better to combining intents under a more broad category instead
+# Check that examples correspond to the actual intents
+# Makes sure that examples are diverse
+# Tokenizer does NOT read punctuation, commas, emoji, etc.
+#   By default, tokenizer is case sensitive
+# Synonyms are below the intents
+
 nlu:
 - intent: greet
   examples: |
@@ -120,6 +130,8 @@ nlu:
     - can I build a tree?
     - how to get started on a tree
     - how do I create a tree?
+    - where is the create tree page
+    - how to get to create tree
 
 - intent: learn_create_tree_features
   examples: |
@@ -154,7 +166,8 @@ nlu:
     - how to download an old tree
     - download a tree I created
     - help to download tree
-    - help dowloading tree
+    - help downloading tree
+    - how to get a tree that I made?
 
 - intent: howto_rename_node
   examples: |
@@ -168,8 +181,51 @@ nlu:
     - how do you change a node's name?
     - how do you change a node's label?
     - how to change a node label
-    - how to change a node name
+    - can I change the name of a node?
     - changing a node 
+
+- intent: howto_make_new_tree
+  examples: |
+    - how to create a new tree?
+    - how do you create a new tree?
+    - I want to start over with the tree
+    - make a new tree
+    - how does one make a new tree
+    - I don't like the tree and want to start over
+    - I need to make another tree
+    - need a new tree
+    - start over with new tree
+    - I messed up and want to restart
+    - how to restart tree
+
+- intent: howto_delete_tree
+  examples: |
+    - how to remove a tree I made
+    - removing a tree
+    - I don't like my tree
+    - I don't need a tree
+    - how do you delete a tree?
+    - I want to delete a tree
+    - can I delete a node from a tree?
+    - what to do to remove a node
+    - I only want to delete part of a tree
+    - take out a child node
+    - remove a parent node
+    - removing a parent node
+
+- intent: howto_select_tree
+  examples: |
+    - how do I select a tree
+    - how to get an old tree
+    - I want to access a tree I already made
+    - want to retrieve a tree I made last week
+    - can I get a tree I made previously?
+    - where to access an old tree
+    - what does the select tree tab do?
+    - how can I get a previously made tree
+    - I made a tree yesterday, how do I get it?
+    - I want to get my saved tree
+    - accessing saved tree
 
 - synonym: start
   examples: |
@@ -191,6 +247,7 @@ nlu:
     - create
     - form
     - made
+    - make
   
 - synonym: create tree
   examples: |
@@ -205,8 +262,13 @@ nlu:
     - I
 
 - synonym: page
-  example: |
+  examples: |
     - app
     - application
     - tool
     - website
+
+- synonym: delete
+  examples: |
+    - remove
+    - cut out

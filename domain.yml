@@ -9,6 +9,13 @@ intents:
   - mood_unhappy
   - bot_challenge
   - get_started
+  - start_tree_build
+  - learn_create_tree
+  - howto_save_tree
+  - howto_download_tree
+  - howto_rename_node
+  - howto_make_new_tree
+  - howto_select_tree
 
 responses:
   utter_greet:
@@ -34,7 +41,19 @@ responses:
   - text: "Click on DATA ADMINISTRATION WITH GRAPH to create a tree."
 
   utter_upload_tree:
-  - text: "Click on DATA ADMINISTRATION to create a tree."
+  - text: "Click on GET STARTED, then DATA ADMINISTRATION to create a tree."
+
+  utter_save_tree: 
+  - text: "On the Create Tree page, click on 'Save Tree' or 'Copy and Save Tree' to copy the tree."
+
+  utter_download_tree:
+  - text: "On the Create Tree page, click on 'Download' to download the tree after creating a tree or selecting a tree."
+
+  utter_rename_node:
+  - text: "Right click the node you want to rename, then left click on 'Rename node'.  Then type in the new name and click 'Rename'."
+
+  utter_make_new_tree:
+  - text: "On the Create Tree page, click on 'New' to start creating a new tree."
 
 session_config:
   session_expiration_time: 60

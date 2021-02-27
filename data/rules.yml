@@ -1,5 +1,7 @@
 version: "2.0"
 
+# Rule has a "name":description of the rule, treat this like comments
+
 rules:
 
 - rule: Say goodbye anytime the user says goodbye
@@ -12,3 +14,22 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
+- rule: tell user how to save
+  steps: 
+  - intent: howto_save_tree
+  - action: utter_save_tree
+
+- rule: tell user how to download a tree
+  steps:
+  - intent: howto_download_tree
+  - action: utter_download_tree
+
+- rule: tell user how to rename a node
+  steps:
+  - intent: howto_rename_node
+  - action: utter_rename_node
+
+- rule: tell user how to make a new tree
+  steps:
+  - intent: howto_make_new_tree
+  - action: utter_make_new_tree
