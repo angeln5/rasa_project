@@ -16,6 +16,12 @@ intents:
   - howto_rename_node
   - howto_make_new_tree
   - howto_select_tree
+  - learn_image_modulation_features
+  - howto_upload_image
+  - howto_download_image
+  - howto_undo_changes
+  - howto_reset_image
+  - howto_apply_filters
 
 responses:
   utter_greet:
