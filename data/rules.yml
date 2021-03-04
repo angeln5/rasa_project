@@ -58,7 +58,7 @@ rules:
   - rule: tell user how to browse json files
   steps:
   - intent: how to_browse_json_files
-  - action: utter_brows_json
+  - action: utter_browse_json
 
   - rule: tell user how to change file type
   steps:
