@@ -296,6 +296,7 @@ nlu:
     - help to apply filters
     - help with image filters
     - can you tel me how I can apply filters
+	- applying filters to image
 
 - synonym: start
   examples: |
