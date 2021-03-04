@@ -95,17 +95,17 @@ responses:
   utter_remove_json: 
   -text: "Simply replace the json file by browsing for another json file to submit."
 
+  utter_change_json_name: 
+  -text: "Before submitting json file, please rename your file locally."
+
   utter_submit_json: 
   - text: "Navigate to Get Started --> Data Administration. Click on 'browse' to select a json file to submit. Hit submit when ready.'
 
- utter_change_json_name:
- - text: "Before submitting json file, please rename your file locally."
+ utter_browse_json: 
+ -text: Click on the browse button to browse through your json files."
 
  utter_edit_json:
- -text: "You will need to make edits to your json file before submitting."
-
- utter_browse_json:
- -text: "Click on the browse button to browse through your json files."
+ - text: "You will need to make edits to your json file before submitting."
 
  utter_change_file_type:
  -text: "Click on the drop down list 'file type' and select one of the three options."
@@ -139,6 +139,9 @@ utter_view_test_case_groups_in_full_screen:
 
 utter_toggle:
 -text: "Click on the toggle button that is location in the middle of two buttons on the top right of the page."
+
+utter_browse_json: 
+-text: "Click on the browse button to browse through your json files."
 
 
 session_config:
