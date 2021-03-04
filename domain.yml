@@ -93,55 +93,55 @@ responses:
 # Maya
 
   utter_remove_json: 
-  -text: "Simply replace the json file by browsing for another json file to submit."
+  - text: "Simply replace the json file by browsing for another json file to submit."
 
   utter_change_json_name: 
-  -text: "Before submitting json file, please rename your file locally."
+  - text: "Before submitting json file, please rename your file locally."
 
   utter_submit_json: 
-  - text: "Navigate to Get Started --> Data Administration. Click on 'browse' to select a json file to submit. Hit submit when ready.'
+  - text: "Navigate to Get Started --> Data Administration. Click on 'browse' to select a json file to submit. Hit submit when ready."
 
- utter_browse_json: 
- -text: Click on the browse button to browse through your json files."
+  utter_browse_json: 
+  - text: "Click on the browse button to browse through your json files."
 
- utter_edit_json:
- - text: "You will need to make edits to your json file before submitting."
+  utter_edit_json:
+  - text: "You will need to make edits to your json file before submitting."
 
- utter_change_file_type:
- -text: "Click on the drop down list 'file type' and select one of the three options."
+  utter_change_file_type:
+  - text: "Click on the drop down list 'file type' and select one of the three options."
 
- utter_create_group_name:
- -text: "Navigate to Get Started --> Test Case Group and create a New Group to set a name."
+  utter_create_group_name:
+  - text: "Navigate to Get Started --> Test Case Group and create a New Group to set a name."
 
- utter_edit_product_version:
- -text: "Click on the up/down arrow next to 'Product Version' to bring it up or down in number."
+  utter_edit_product_version:
+  - text: "Click on the up/down arrow next to 'Product Version' to bring it up or down in number."
 
- utter_edit_product_sub-version:
- -text: "Click on the up/down arrow next to 'Product Sub-Version' to bring it up or down in number."
+  utter_edit_product_sub-version:
+  - text: "Click on the up/down arrow next to 'Product Sub-Version' to bring it up or down in number."
 
- utter_edit_input_file_type:
- -text: "Click on the up/down arrow next to 'Input File Name' to bring it up or down. To change the file type, you wil need to resubmit the new group."
+  utter_edit_input_file_type:
+  - text: "Click on the up/down arrow next to 'Input File Name' to bring it up or down. To change the file type, you wil need to resubmit the new group."
 
   utter_edit_input_file_name:
-  -text: "Click on the up/down arrow next to 'Input File Name' to bring it up or down. To change the file name, you wil need to resubmit the new group."
+  - text: "Click on the up/down arrow next to 'Input File Name' to bring it up or down. To change the file name, you wil need to resubmit the new group."
 
- utter_edit_context_file_name:
- -text: "Click on the up/down arrow next to 'Context File Name' to bring it up or down. To change the file name, you wil need to resubmit the new group."
+  utter_edit_context_file_name:
+  - text: "Click on the up/down arrow next to 'Context File Name' to bring it up or down. To change the file name, you wil need to resubmit the new group."
 
- utter_output_file_name:
- -text: "Click on the up/down arrow next to 'Output File Name' to bring it up or down. To change the file name, you wil need to resubmit the new group."
+  utter_output_file_name:
+  - text: "Click on the up/down arrow next to 'Output File Name' to bring it up or down. To change the file name, you wil need to resubmit the new group."
 
- utter_refresh_test_case_groups:
- -text: "Click on the circular arrows on the top right of the screen to refresh the test case groups."
+  utter_refresh_test_case_groups:
+  - text: "Click on the circular arrows on the top right of the screen to refresh the test case groups."
 
-utter_view_test_case_groups_in_full_screen:
--text: "Click on the arrows that form a cross on the top right of the page to view the test case groups in full screen."
+  utter_view_test_case_groups_in_full_screen:
+  - text: "Click on the arrows that form a cross on the top right of the page to view the test case groups in full screen."
 
-utter_toggle:
--text: "Click on the toggle button that is location in the middle of two buttons on the top right of the page."
+  utter_toggle:
+  - text: "Click on the toggle button that is location in the middle of two buttons on the top right of the page."
 
-utter_browse_json: 
--text: "Click on the browse button to browse through your json files."
+  utter_browse_json: 
+  - text: "Click on the browse button to browse through your json files."
 
 
 session_config:

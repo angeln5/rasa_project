@@ -68,7 +68,7 @@ stories:
   - action: utter_add_many_nodes
 
   #Maya Test Case Group Stories
--story: how to create new test group path 
+- story: how to create new test group path 
   - intent: Howto_create_new_test_group
   - action: utter_create_new_test_group
   - intent: mood_great
@@ -76,7 +76,7 @@ stories:
   - intent: affirm
   - action: utter_goodbye
 
--story: how to execute test case
+- story: how to execute test case
   - intent: Howto_execute_test_case
   - action: utter_execute test case
   - intent: mood_great
@@ -84,7 +84,7 @@ stories:
   - intent: affirm
   - action: utter_goodbye
 
--story: how to create new test group path 
+- story: how to create new test group path 
   - intent: Learnto_execute_action
   - action: utter_learn_to_execute_action
   - intent: mood_great
