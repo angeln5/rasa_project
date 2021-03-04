@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  # Angel
   - get_started
   - start_tree_build
   - learn_create_tree
@@ -15,7 +16,14 @@ intents:
   - howto_download_tree
   - howto_rename_node
   - howto_make_new_tree
+  - howto_delete_tree
   - howto_select_tree
+  - howto_delete_a_node
+  - howto_create_child_node
+  - many
+  - only_one
+  # Julio
+  # Maya
 
 responses:
   utter_greet:
@@ -37,6 +45,7 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+# Angel
   utter_start_tree:
   - text: "Click on DATA ADMINISTRATION WITH GRAPH to create a tree."
 
@@ -44,16 +53,44 @@ responses:
   - text: "Click on GET STARTED, then DATA ADMINISTRATION to create a tree."
 
   utter_save_tree: 
-  - text: "On the Create Tree page, click on 'Save Tree' or 'Copy and Save Tree' to copy the tree."
+  - text: "On the 'Create Tree' page, click on 'Save Tree' or 'Copy and Save Tree' to copy the tree."
 
   utter_download_tree:
-  - text: "On the Create Tree page, click on 'Download' to download the tree after creating a tree or selecting a tree."
+  - text: "On the 'Create Tree' page, click on 'Download' to download the tree after creating a tree or selecting a tree."
 
   utter_rename_node:
   - text: "Right click the node you want to rename, then left click on 'Rename node'.  Then type in the new name and click 'Rename'."
 
   utter_make_new_tree:
-  - text: "On the Create Tree page, click on 'New' to start creating a new tree."
+  - text: "On the 'Create Tree' page, click on 'New' to start creating a new tree."
+
+  utter_select_tree:
+  - text: "On the 'Create Tree' page, click on 'Select tree' and then click the tree you want to load from the drop down menu."
+
+  utter_ask_if_tree_saved:
+  - text: "Has your tree been saved?"
+
+  utter_just_delete:
+  - text: "Just click 'Delete' and your tree will be deleted."
+
+  utter_select_then_delete:
+  - text: "On the 'Create Tree' page, select your tree before clicking on 'Delete'."
+
+  utter_delete_a_node: 
+  - text: "To delete a node, right click that node, then scroll down to left click 'Delete node'."
+
+  utter_ask_num_of_nodes:
+  - text: "Would you like to add one or more than one node?"
+
+  utter_add_one_node:
+  - text: "To add one node, right click the parent node, then left click on 'Create child node', then add a name to the text box, then right click 'Create'."
+
+  utter_add_many_nodes: 
+  - text: "First, right click on the parent node, then left click on 'Add 5 Nodes', or after clicking on the parent node, left click on 'Create child node', then press on the '+' symbol on the left of the input box to add more nodes and their names before right clicking 'Create'."
+
+# Julio
+
+# Maya
 
   utter_remove_json: 
   -text: "Simply replace the json file by browsing for another json file to submit."
