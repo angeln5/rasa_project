@@ -23,7 +23,6 @@ intents:
   - many
   - only_one
   # Julio
-  # Maya
 
 responses:
   utter_greet:
