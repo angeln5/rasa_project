@@ -49,32 +49,32 @@ rules:
 - rule: tell user how to submit json
   steps:
   - intent: Howto_submit_json
-  - action: utter_submit_json
+  - action: utter_submiting_json
 
 - rule: tell user how to remove json
   steps:
   - intent: Howto_remove_json
-  - action: utter_remove_json
+  - action: utter_removing_json
 
 - rule: tell user how to change name of json
   steps:
   - intent: Howto_change_name_of_json 
-  - action: utter_change_json_name
+  - action: utter_changing_json_name
 
 - rule: tell user how to edit json
   steps:
   - intent: Howto_edit_json 
-  - action: utter_edit_json
+  - action: utter_editing_json
 
 - rule: tell user how to browse json files
   steps:
   - intent: how to_browse_json_files
-  - action: utter_browse_json
+  - action: utter_browsing_json
 
 - rule: tell user how to change file type
   steps:
   - intent: Howto_change_file_type
-  - action: utter_change_file_type
+  - action: utter_changing_file_type
 
 #Maya Test Case Group
 - rule: tell user how to create test group name
