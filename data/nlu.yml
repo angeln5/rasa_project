@@ -101,6 +101,7 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+# Angel
 - intent: get_started
   examples: |
     - how do I get started?
@@ -227,6 +228,53 @@ nlu:
     - I want to get my saved tree
     - accessing saved tree
 
+- intent: howto_delete_a_node
+  examples: |
+    - how to delete a node
+    - how to remove node
+    - I want to remove a node
+    - removing a node
+    - how do you delete only certain nodes?
+    - I accidently added a node I don't want
+    - take out unnecessary node
+    - how do I delete only specific nodes?
+    - can I delete only some nodes?
+    - remove some but not all nodes
+
+- intent: howto_create_child_node
+  examples: |
+    - how to add a child node
+    - how do you create a child node
+    - I want to expand my tree
+    - adding a node
+    - how do you grow the tree?
+    - I want to add on to my tree
+    - how to add a node
+    - make the tree larger
+    - how to add more nodes 
+    - I need more nodes
+
+- intent: many
+  examples: |
+    - more than one
+    - multiple
+    - not just one
+    - I want multiple
+    - many more
+    - a bunch
+
+- intent: only_one
+  examples: |
+    - one
+    - just one
+    - only one
+    - a single one
+    - 1
+
+# Julio
+# Maya
+
+# Synonyms 
 - synonym: start
   examples: |
     - begin
@@ -248,6 +296,7 @@ nlu:
     - form
     - made
     - make
+    - add
   
 - synonym: create tree
   examples: |
