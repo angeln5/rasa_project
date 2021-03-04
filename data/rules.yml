@@ -40,7 +40,7 @@ rules:
   - intent: Howto_submit_json
   - action: utter_submit_json
 
-   - rule: tell user how to remove json
+  - rule: tell user how to remove json
   steps:
   - intent: Howto_remove_json
   - action: utter_remove_json
@@ -91,12 +91,12 @@ rules:
   - intent: Howto_edit_input_file_name
   - action: utter_edit_input_file_name
 
-   - rule: tell user how to edit context file name
+  - rule: tell user how to edit context file name
   steps:
   - intent: Howto_edit_context_file_name
   - action: utter_edit_context_file_name
 
-   - rule: tell user how to edit output file name
+  - rule: tell user how to edit output file name
   steps:
   - intent: Howto_output_file_name
   - action: utter_output_file_name
@@ -106,7 +106,7 @@ rules:
   - intent: Howto_refresh_test_case_groups
   - action: utter_refresh_test_case_groups
 
-   - rule: tell user how to view test case groups in full screen
+  - rule: tell user how to view test case groups in full screen
   steps:
   - intent: Howto_view_test_case_groups_in_full_screen
   - action: utter_view_test_case_groups_in_full_screen

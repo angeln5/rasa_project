@@ -29,7 +29,7 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-  #Maya TestCase Group Stories
+  #Maya Test Case Group Stories
   -story: how to create new test group path 
   - intent: Howto_create_new_test_group
   - action: utter_create_new_test_group
