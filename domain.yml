@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  
   # Angel
   - get_started
   - start_tree_build
@@ -23,6 +24,30 @@ intents:
   - many
   - only_one
   # Julio
+  
+  #Maya
+ - Howto_submit_json
+ - Howto_remove_json
+ - Howto_change_name_of_json 
+ - Howto_edit_json 
+ - howto_browse_json_files
+ - howto_browse_json_files
+ - Howto_change_file_type
+ - Howto_create_group_name 
+ - Howto_edit_product_version 
+ - Howto_edit_product_sub-version
+ - Howto_edit_input_file_type 
+ - Howto_edit_input_file_name
+ - Howto_edit_context_file_name 
+ - Howto_output_file_name 
+ - Howto_refresh_test_case_groups 
+ - Howto_view_test_groups_in_full_screen 
+ - Howto_toggle
+ - Howto_create_new_test_group 
+ - Howto_execute_test_case 
+ - Learnto_execute_action 
+
+
 
 responses:
   utter_greet:
@@ -91,6 +116,9 @@ responses:
 
 # Maya
 
+  utter_change_file_type:
+ - text: "Click on the drop down list 'file type' and select one of the three options."
+
   utter_remove_json: 
   - text: "Simply replace the json file by browsing for another json file to submit."
 
@@ -141,6 +169,27 @@ responses:
 
   utter_browse_json: 
   - text: "Click on the browse button to browse through your json files."
+
+  utter_remove_json: 
+  -text: "Simply replace the json file by browsing for another json file to submit."
+
+  utter_change_json_name: 
+  -text: "Before submitting json file, please rename your file locally."
+
+  utter_create_new_test_group: 
+  -text: "To create a new test group, navigatin to Get Started --> Test Case Group and click on Create New Group."
+
+  utter_execute_test_case:
+  -text: "To create a new test group, navigatin to Get Started --> Test Case Group and click on Execute Test Case."
+
+  utter_learn_to_execute_action:
+  -text: "To execute an action, navigate to the Action tab and generate test cases to execute."
+
+  utter_edit_json:
+  -text: "You will need to make edits to your json file before submitting."
+
+  utter_submit_json: 
+  - text: "Navigate to Get Started --> Data Administration. Click on 'browse' to select a json file to submit. Hit submit when ready.'
 
 
 session_config:
