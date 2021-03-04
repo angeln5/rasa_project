@@ -65,7 +65,7 @@ rules:
   - intent: Howto_change_file_type
   - action: utter_change_file_type
 
-  #Maya Test Case Group
+  #Maya TestCase Group
   - rule: tell user how to create test group name
   steps:
   - intent: Howto_create_group_name

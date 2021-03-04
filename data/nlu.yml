@@ -119,7 +119,7 @@ nlu:
     - I am starting
     - I want to start
 
-	#Maya - Data administration
+	#Maya -- Data administration
 - intent: Howto_submit_json
   examples: |
     - how to submit a json
@@ -189,7 +189,7 @@ nlu:
     - I want to change a json file type
     - help with changing json
 
-	#Maya - Test Case Group
+	#Maya -- Test Case Group
 - intent: Howto_create_new_test_group
   examples: |
     - what are the features of creating a test case group?
@@ -438,6 +438,7 @@ intent: Howto_output_file_name
   examples: |
     - how do I select a tree
     - how to get an old tree
+
     - I want to access a tree I already made
     - want to retrieve a tree I made last week
     - can I get a tree I made previously?
