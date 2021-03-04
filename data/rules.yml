@@ -33,3 +33,85 @@ rules:
   steps:
   - intent: howto_make_new_tree
   - action: utter_make_new_tree
+
+  #Maya Data Administration
+  - rule: tell user how to submit json
+  steps:
+  - intent: Howto_submit_json
+  - action: utter_submit_json
+
+   - rule: tell user how to remove json
+  steps:
+  - intent: Howto_remove_json
+  - action: utter_remove_json
+
+  - rule: tell user how to change name of json
+  steps:
+  - intent: Howto_change_name_of_json 
+  - action: utter_change_json_name
+
+  - rule: tell user how to edit json
+  steps:
+  - intent: Howto_edit_json 
+  - action: utter_edit_json
+
+  - rule: tell user how to browse json files
+  steps:
+  - intent: how to_browse_json_files
+  - action: utter_brows_json
+
+  - rule: tell user how to change file type
+  steps:
+  - intent: Howto_change_file_type
+  - action: utter_change_file_type
+
+  #Maya Test Case Group
+  - rule: tell user how to create test group name
+  steps:
+  - intent: Howto_create_group_name
+  - action: utter_create_group_name
+
+  - rule: tell user how to edit product version
+  steps:
+  - intent: Howto_edit_product_version
+  - action: utter_edit_product_version
+
+  - rule: tell user how to edit product sub-version
+  steps:
+  - intent: Howto_edit_product_sub-version
+  - action: utter_edit_product_sub-version
+
+  - rule: tell user how to edit input file type
+  steps:
+  - intent: Howto_edit_input_file_type
+  - action: utter_edit_input_file_type
+
+  - rule: tell user how to edit input file name
+  steps:
+  - intent: Howto_edit_input_file_name
+  - action: utter_edit_input_file_name
+
+   - rule: tell user how to edit context file name
+  steps:
+  - intent: Howto_edit_context_file_name
+  - action: utter_edit_context_file_name
+
+   - rule: tell user how to edit output file name
+  steps:
+  - intent: Howto_output_file_name
+  - action: utter_output_file_name
+
+  - rule: tell user refresh test case groups
+  steps:
+  - intent: Howto_refresh_test_case_groups
+  - action: utter_refresh_test_case_groups
+
+   - rule: tell user how to view test case groups in full screen
+  steps:
+  - intent: Howto_view_test_case_groups_in_full_screen
+  - action: utter_view_test_case_groups_in_full_screen
+
+  - rule: tell user how to toggle
+  steps:
+  - intent: Howto_toggle
+  - action: utter_toggle
