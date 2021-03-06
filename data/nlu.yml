@@ -226,78 +226,7 @@ nlu:
     - how can I get a previously made tree
     - I made a tree yesterday, how do I get it?
     - I want to get my saved tree
-    - accessing saved tree
-    
-- intent: learn_image_modulation_features
-  examples: |
-    - can you tell me about image modulation?
-    - what can I do to modifiy an image?
-    - tell me more about image modulation?
-    - what is image modulation?
-    - what features are offered for input image modulation?
-    - how can I modify an image
-    - I want to learn about the features of image modulation
-    - are there any more features for image modulation?
-    - I want information on the features on input image modulation
-    - what else can I do for image modulation?
-    
-- intent: howto_upload_image
-  examples: |
-    - is it possible for me to upload my own image?
-    - I have an image I want to upload
-    - upload image
-    - what do I click to upload an image of my own
-    - I have my own image I want to use
-    - help to upload image
-    - help uploading
-    - I would like to upload my own image
-    - upload image for modulation
-       
-- intent: howto_download_image
-  examples: |
-    - I finished modifying my image
-    - I want to download my image
-    - can I download my image
-    - help to download image
-    - help downloading
-    - I do not want to modify my image anymore
-    - download image
-    - where do I go to download my image
-    - done modifiying image
-    - what do I click to download my image?
-    
-- intent: howto_undo_changes
-  examples: |
-    - I accidentally made a change I did not want
-    - I do not like the last change I made to the image
-    - where is the undo button
-    - can I undo that last modification?
-    - I want to undo the last modification
-    - undo change
-
-- intent: howto_reset_image
-  examples: |
-    - I want to reset the image of all changes
-    - reset changes to image
-    - I do not like how the image turned out
-    - can I start over again
-    - remove all edits to picture
-    - help reseting image
-    - help to reset changes to the image
-    - reset image
-    
-- intent: howto_apply_filters
-  examples: |
-    - how can I apply filters
-    - apply filters
-    - I want to apply filters to my image
-    - can I apply filters to my image
-    - modify image using filters
-    - help applying filters
-    - help to apply filters
-    - help with image filters
-    - can you tel me how I can apply filters
-	- applying filters to image
+    - accessing saved tree    
 
 - intent: howto_delete_a_node
   examples: |
@@ -324,6 +253,105 @@ nlu:
     - make the tree larger
     - how to add more nodes 
     - I need more nodes
+
+# Julio
+- intent: learn_image_modulation_features
+  examples: |
+    - can you tell me about image modulation?
+    - what can I do to modifiy an image?
+    - tell me more about image modulation?
+    - what is image modulation?
+    - what features are offered for input image modulation?
+    - how can I modify an image?
+    - I want to learn about the features of image modulation
+    - are there any more features for image modulation?
+    - I want information on the features on input image modulation
+    - what else can I do for image modulation?
+    - what can I do in the input image modulation section?
+    - I want to modify an image
+    - where can I modify an image?
+    
+- intent: howto_upload_image
+  examples: |
+    - is it possible for me to upload my own image?
+    - I have an image I want to upload
+    - upload image
+    - what do I click to upload an image of my own
+    - I have my own image I want to use
+    - help to upload image
+    - help uploading
+    - I would like to upload my own image
+    - upload image for modulation
+    - help uploading picture
+    - how to upload an image
+    - can I upload an image to edit
+    - uploading my own image
+       
+- intent: howto_download_image
+  examples: |
+    - I finished modifying my image
+    - I want to download my image
+    - can I download my image
+    - help to download image
+    - help downloading
+    - I do not want to modify my image anymore
+    - download image
+    - where do I go to download my image
+    - done modifiying image
+    - what do I click to download my image?
+    - downloading finished image
+    - is it possible to download the image
+    - save finished image
+    
+- intent: howto_undo_changes
+  examples: |
+    - I accidentally made a change I did not want
+    - I do not like the last change I made to the image
+    - where is the undo button
+    - can I undo that last modification?
+    - I want to undo the last modification
+    - undo change
+    - is there a way to undo changes
+    - I want to undo multiple changes
+    - I want to remove a filter
+    - undo filter
+    - undo
+    - I made a mistake with a filter
+    - I do not like that filter
+
+- intent: howto_reset_image
+  examples: |
+    - I want to reset the image of all changes
+    - reset changes to image
+    - I do not like how the image turned out
+    - can I start over again
+    - remove all edits to picture
+    - help reseting image
+    - help to reset changes to the image
+    - reset image
+    - remove all filters
+    - reset filters
+    - start over modifications
+    - can I reset the image
+    - I want to start the modifications all over
+    
+- intent: howto_apply_filters
+  examples: |
+    - how can I apply filters
+    - apply filters
+    - I want to apply filters to my image
+    - can I apply filters to my image
+    - modify image using filters
+    - help applying filters
+    - help to apply filters
+    - help with image filters
+    - can you tel me how I can apply filters
+    - applying filters to image
+    - apply blur to my image
+    - rotate my image
+    - noise to my image
+    - I want to draw on my image
+    - I want to change the color of my image
 
 #Maya - Data administration
 - intent: Howto_submit_json
@@ -617,3 +645,7 @@ nlu:
 - synonym: download
   examples: |
     - save
+
+- synonym: image
+  examples: |
+    - picture

@@ -25,6 +25,12 @@ intents:
   - only_one
 
   # Julio
+  - learn_image_modulation_features
+  - howto_upload_image
+  - howto_download_image
+  - howto_undo_changes
+  - howto_reset_image
+  - howto_apply_filters
 
   #Maya
   - Howto_submit_json
@@ -112,9 +118,19 @@ responses:
   - text: "First, right click on the parent node, then left click on 'Add 5 Nodes', or after clicking on the parent node, left click on 'Create child node', then press on the '+' symbol on the left of the input box to add more nodes and their names before right clicking 'Create'."
 
 # Julio
+  utter_upload_image:
+  - text: "In the INPUT IMAGE MODULATION section under GET STARTED, there is a 'Load' button that you can press to upload an image from your computer."
+
+  utter_download_image:
+  - text: "In the INPUT IMAGE MODULATION section under GET STARTED, there is a 'Download' button that you can press to download your new image with the changes tou made to it."
+
+  utter_undo_changes:
+  - text: "To undo any unwanted modifications to your image, press the first arrow on the leftmost arrow at the top of the INPUT IMAGE MODULATION page. You can undo one or many edits."
+
+  utter_reset_image:
+  - text: "To reset ALL the modifications done to your image, click on the reset button denoted with two arrows at the top of the INPUT IMAGE MODULATION page."
 
 # Maya
-
   utter_change_file_type:
   - text: "Click on the drop down list 'file type' and select one of the three options."
 
