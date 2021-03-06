@@ -100,7 +100,8 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
+    
+# Angel
 - intent: get_started
   examples: |
     - how do I get started?
@@ -298,6 +299,267 @@ nlu:
     - can you tel me how I can apply filters
 	- applying filters to image
 
+- intent: howto_delete_a_node
+  examples: |
+    - how to delete a node
+    - how to remove node
+    - I want to remove a node
+    - removing a node
+    - how do you delete only certain nodes?
+    - I accidently added a node I don't want
+    - take out unnecessary node
+    - how do I delete only specific nodes?
+    - can I delete only some nodes?
+    - remove some but not all nodes
+
+- intent: howto_create_child_node
+  examples: |
+    - how to add a child node
+    - how do you create a child node
+    - I want to expand my tree
+    - adding a node
+    - how do you grow the tree?
+    - I want to add on to my tree
+    - how to add a node
+    - make the tree larger
+    - how to add more nodes 
+    - I need more nodes
+
+#Maya - Data administration
+- intent: Howto_submit_json
+  examples: |
+    - how to submit a json
+    - how to upload a json
+    - submitting a json?
+    - what to do to submit a json
+    - can I submit a json
+    - how to get started submitting a json
+    - how do I submit a json?
+    - where is the submit json page?
+    - how to get to submit json
+
+- intent: Howto_remove_json
+  examples: |
+    - how to remove a json I submitted
+    - removing a json
+    - I don't like my json
+    - I don't need a json
+    - how do you delete a json?
+    - I want to delete a json
+    - can I delete a json
+    - what to do to remove a json
+
+- intent: Howto_change_name_of_json
+  examples: |
+    - I want to change the name of a json
+    - how to rename a json
+    - how to change the json name
+    - how to manage the name of the json
+    - how to re-label a json
+    - how does re-naming json work
+    - what to do to change the name of a json
+    - how do you change a json's name?
+    - how do you change a json's label?
+    - how to change a json name
+    - can I change the name of a json?
+    - changing json name
+
+- intent: Howto_edit_json
+  examples: |
+    - how do I edit a json?
+    - how to edit json
+    - what to do to edit a json
+    - how to edit my json
+    - I want to update a json
+    - help with updating json
+
+- intent: how to_browse_json_files
+  examples: |
+    - how do I browse json files
+    - how to get an old json file
+    - I want to access a json I already made
+    - want to retrieve a json I made last week
+    - can I get a json I made previously?
+    - where to access an old json
+    - how can I get a previously made json
+    - I made a json yesterday, how do I get it?
+    - I want to get my json
+    - accessing saved json
+
+- intent: Howto_change_file_type
+  examples: |
+    - how do I change a json file type?
+    - how to edit json file type
+    - what to do to change a json file type
+    - how to edit my json file type
+    - I want to change a json file type
+    - help with changing json
+
+#Maya - Test Case Group
+- intent: Howto_create_new_test_group
+  examples: |
+    - what are the features of creating a test case group?
+    - what can I do to create a test case group
+    - what can you do on the test case group page?
+    - what should I do on the test case group
+    - tell me about the test case group page
+    - say more about test case group
+    - what should I know about creating a test group?
+    - talk about the create test case group feature
+    - list features on creating a test case group
+    - I want to know about the create test case group
+    - More on the test case group tool
+    - what other features are available for the test case group
+    - what else can you do with the test case group
+    - teach me about creating a test case group on this website
+
+- intent: Howto_execute_test_case
+  examples: |
+    - what are the features of executing a test case?
+    - what can I do to execute a test case
+    - what can you do to execute a test case
+    - what should I do to execute a test case
+    - tell me about executing a test case
+    - say more about how to execute a test case
+    - what should I know about executing a test case?
+    - talk about the executing test case feature
+    - I want to know about executing a test case
+    - More on executing a test case
+    - teach me about executing a test case on this website
+
+- intent: Howto_create_group_name
+  examples: |
+    - how do I create a group name?
+    - how to create a name for test case group
+    - what to do to edit a test case group name
+    - how to rename test case group
+    - I want to name my test case group
+    - help with naming test case group
+
+- intent: Howto_edit_product_version
+  examples: |
+    - how do I edit product version
+    - how to create a product version
+    - what to do to edit product version
+    - how to update product version 
+    - I want to select product version
+    - help with editting product version
+
+- intent: Howto_edit_product_sub-version
+  examples: |
+    - how do I edit product sub-version
+    - how to create a product sub-version
+    - what to do to edit product sub-version
+    - how to update product sub-version 
+    - I want to select product sub-version
+    - help with editting product sub-version
+
+- intent: Howto_edit_input_file_type
+  examples: |
+    - how do I edit input file type
+    - what to do to edit input file type
+    - how to update input file type
+    - I want to select input file type to edit
+    - help with editting input file type
+
+- intent: Howto_edit_input_file_name
+  examples: |
+    - how do I edit input file type name
+    - what to do to edit input file type name
+    - how to update input file type name
+    - I want to select input file type to rename
+    - help with naming input file type
+    - I want to select input file type to name
+
+- intent: Howto_edit_context_file_name
+  examples: |
+    - how do I edit context file name
+    - what to do to edit context file name
+    - how to update context file name
+    - I want to select context file to rename
+    - help with naming context file 
+    - I want to select context file type to name
+
+- intent: Howto_output_file_name
+  examples: |
+    - how do I name output file 
+    - what to do to edit output file name
+    - how to update output file name
+    - I want to select output file to rename
+    - help with naming output file 
+    - I want to select output file to name
+
+- intent: Learnto_execute_action
+  examples: |
+    - what are the features of executing an action?
+    - what can I do to execute an action
+    - what can you do to execute an action
+    - what should I do to execute an action
+    - tell me about executing an action
+    - say more about how to execute an action
+    - what should I know about executing an action?
+    - talk about the executing action feature
+    - I want to know about executing an action
+    - More on executing an action
+    - teach me about executing an action on this page
+
+- intent: Howto_refresh_test_case_groups
+  examples: |
+    - what can I do to refresh a test case group
+    - what can you do to refresh test case group?
+    - what should I do to refresh test case group?
+    - tell me about refreshing a test case group
+    - say more about how to refresh test case group
+    - what should I know about refreshing test case groups
+    - talk about how to refresh a test case group
+    - I want to know about refreshing a test case group
+    - More on how to refresh test case group
+    - teach me about refreshing a test case group on this website
+
+- intent: Howto_view_test_groups_in_full_screen
+  examples: |
+    - what can I do to view test case group in full screen
+    - what can you do to view test case groups in full screen
+    - can I see test case groups in full screen
+    - what should I do to see test case groups in full screen
+    - tell me how to use full screen
+    - say more about full screen 
+    - talk about how to toggle full screen
+    - I want to know about full screen mode
+    - More on how to use full screen
+    - teach me where I can find the full screen button
+
+- intent: Howto_toggle
+  examples: |
+    - what can I do to toggle 
+    - what can you do to toggle test case group
+    - can I toggle a test case group
+    - what should I do to toggle test case group
+    - tell me how to toggle
+    - say more about toggle feature
+    - talk about how to toggle
+    - I want to know about toggling
+    - More on how to use toggle
+    - teach me where I can find the toggle button
+
+- intent: many
+  examples: |
+    - more than one
+    - multiple
+    - not just one
+    - I want multiple
+    - many more
+    - a bunch
+
+- intent: only_one
+  examples: |
+    - one
+    - just one
+    - only one
+    - a single one
+    - 1
+
+# Synonyms 
 - synonym: start
   examples: |
     - begin
@@ -319,6 +581,7 @@ nlu:
     - form
     - made
     - make
+    - add
   
 - synonym: create tree
   examples: |

@@ -8,6 +8,8 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  
+  # Angel
   - get_started
   - start_tree_build
   - learn_create_tree
@@ -15,13 +17,36 @@ intents:
   - howto_download_tree
   - howto_rename_node
   - howto_make_new_tree
+  - howto_delete_tree
   - howto_select_tree
-  - learn_image_modulation_features
-  - howto_upload_image
-  - howto_download_image
-  - howto_undo_changes
-  - howto_reset_image
-  - howto_apply_filters
+  - howto_delete_a_node
+  - howto_create_child_node
+  - many
+  - only_one
+
+  # Julio
+
+  #Maya
+  - Howto_submit_json
+  - Howto_remove_json
+  - Howto_change_name_of_json 
+  - Howto_edit_json 
+  - howto_browse_json_files
+  - howto_browse_json_files
+  - Howto_change_file_type
+  - Howto_create_group_name 
+  - Howto_edit_product_version 
+  - Howto_edit_product_sub-version
+  - Howto_edit_input_file_type 
+  - Howto_edit_input_file_name
+  - Howto_edit_context_file_name 
+  - Howto_output_file_name 
+  - Howto_refresh_test_case_groups 
+  - Howto_view_test_groups_in_full_screen 
+  - Howto_toggle
+  - Howto_create_new_test_group 
+  - Howto_execute_test_case 
+  - Learnto_execute_action 
 
 responses:
   utter_greet:
@@ -43,6 +68,7 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+# Angel
   utter_start_tree:
   - text: "Click on DATA ADMINISTRATION WITH GRAPH to create a tree."
 
@@ -50,16 +76,120 @@ responses:
   - text: "Click on GET STARTED, then DATA ADMINISTRATION to create a tree."
 
   utter_save_tree: 
-  - text: "On the Create Tree page, click on 'Save Tree' or 'Copy and Save Tree' to copy the tree."
+  - text: "On the 'Create Tree' page, click on 'Save Tree' or 'Copy and Save Tree' to copy the tree."
 
   utter_download_tree:
-  - text: "On the Create Tree page, click on 'Download' to download the tree after creating a tree or selecting a tree."
+  - text: "On the 'Create Tree' page, click on 'Download' to download the tree after creating a tree or selecting a tree."
 
   utter_rename_node:
   - text: "Right click the node you want to rename, then left click on 'Rename node'.  Then type in the new name and click 'Rename'."
 
   utter_make_new_tree:
-  - text: "On the Create Tree page, click on 'New' to start creating a new tree."
+  - text: "On the 'Create Tree' page, click on 'New' to start creating a new tree."
+
+  utter_select_tree:
+  - text: "On the 'Create Tree' page, click on 'Select tree' and then click the tree you want to load from the drop down menu."
+
+  utter_ask_if_tree_saved:
+  - text: "Has your tree been saved?"
+
+  utter_just_delete:
+  - text: "Just click 'Delete' and your tree will be deleted."
+
+  utter_select_then_delete:
+  - text: "On the 'Create Tree' page, select your tree before clicking on 'Delete'."
+
+  utter_delete_a_node: 
+  - text: "To delete a node, right click that node, then scroll down to left click 'Delete node'."
+
+  utter_ask_num_of_nodes:
+  - text: "Would you like to add one or more than one node?"
+
+  utter_add_one_node:
+  - text: "To add one node, right click the parent node, then left click on 'Create child node', then add a name to the text box, then right click 'Create'."
+
+  utter_add_many_nodes: 
+  - text: "First, right click on the parent node, then left click on 'Add 5 Nodes', or after clicking on the parent node, left click on 'Create child node', then press on the '+' symbol on the left of the input box to add more nodes and their names before right clicking 'Create'."
+
+# Julio
+
+# Maya
+
+  utter_change_file_type:
+  - text: "Click on the drop down list 'file type' and select one of the three options."
+
+  utter_remove_json: 
+  - text: "Simply replace the json file by browsing for another json file to submit."
+
+  utter_change_json_name: 
+  - text: "Before submitting json file, please rename your file locally."
+
+  utter_submit_json: 
+  - text: "Navigate to Get Started --> Data Administration. Click on 'browse' to select a json file to submit. Hit submit when ready."
+
+  utter_browse_json: 
+  - text: "Click on the browse button to browse through your json files."
+
+  utter_edit_json:
+  - text: "You will need to make edits to your json file before submitting."
+
+  utter_changing_file_type:
+  - text: "Click on the drop down list 'file type' and select one of the three options."
+  
+  utter_create_group_name:
+  - text: "Navigate to Get Started --> Test Case Group and create a New Group to set a name."
+
+  utter_edit_product_version:
+  - text: "Click on the up/down arrow next to 'Product Version' to bring it up or down in number."
+
+  utter_edit_product_sub-version:
+  - text: "Click on the up/down arrow next to 'Product Sub-Version' to bring it up or down in number."
+
+  utter_edit_input_file_type:
+  - text: "Click on the up/down arrow next to 'Input File Name' to bring it up or down. To change the file type, you wil need to resubmit the new group."
+
+  utter_edit_input_file_name:
+  - text: "Click on the up/down arrow next to 'Input File Name' to bring it up or down. To change the file name, you wil need to resubmit the new group."
+
+  utter_edit_context_file_name:
+  - text: "Click on the up/down arrow next to 'Context File Name' to bring it up or down. To change the file name, you wil need to resubmit the new group."
+
+  utter_output_file_name:
+  - text: "Click on the up/down arrow next to 'Output File Name' to bring it up or down. To change the file name, you wil need to resubmit the new group."
+
+  utter_refresh_test_case_groups:
+  - text: "Click on the circular arrows on the top right of the screen to refresh the test case groups."
+
+  utter_view_test_case_groups_in_full_screen:
+  - text: "Click on the arrows that form a cross on the top right of the page to view the test case groups in full screen."
+
+  utter_toggle:
+  - text: "Click on the toggle button that is location in the middle of two buttons on the top right of the page."
+
+  utter_browsing_json: 
+  - text: "Click on the browse button to browse through your json files."
+
+  utter_removing_json: 
+  - text: "Simply replace the json file by browsing for another json file to submit."
+
+  utter_changing_json_name: 
+  - text: "Before submitting json file, please rename your file locally."
+
+  utter_create_new_test_group: 
+  - text: "To create a new test group, navigatin to Get Started --> Test Case Group and click on Create New Group."
+
+  utter_execute_test_case:
+  - text: "To create a new test group, navigatin to Get Started --> Test Case Group and click on Execute Test Case."
+
+  utter_learn_to_execute_action:
+  - text: "To execute an action, navigate to the Action tab and generate test cases to execute."
+
+  utter_editing_json:
+  - text: "You will need to make edits to your json file before submitting."
+
+  utter_submiting_json: 
+  - text: "Navigate to Get Started --> Data Administration. Click on 'browse' to select a json file to submit. Hit submit when ready."
+
 
 session_config:
   session_expiration_time: 60
