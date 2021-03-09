@@ -67,6 +67,59 @@ stories:
   - intent: many
   - action: utter_add_many_nodes
 
+# Julio 
+- story: learn about image modulation 
+  steps:
+  - intent: learn_image_modulation_features
+  - action: utter_ask_if_image_uploaded
+  - checkpoint: check_image_uploaded
+
+- story: image modulation image upload affirm
+  steps:
+  - checkpoint: check_image_uploaded
+  - intent: affirm
+  - action: utter_awesome
+  - action: utter_image_modulation_features_initial
+  - action: utter_learn_more
+  - checkpoint: check_learn_more_image_modulation
+
+- story: image modulation image upload deny
+  steps:
+  - checkpoint: check_image_uploaded
+  - intent: deny
+  - action: utter_upload_image
+  - action: utter_image_modulation_features_initial
+  - action: utter_learn_more
+  - checkpoint: check_learn_more_image_modulation
+
+- story: image modulation learn more affirm
+  steps:
+  - checkpoint: check_learn_more_image_modulation
+  - intent: affirm
+  - action: utter_image_modulation_features_secondary
+  - action: utter_did_that_help
+  - checkpoint: check_learn_image_modulation_helped
+
+- story: image modulation learn more deny
+  steps:
+  - checkpoint: check_learn_more_image_modulation
+  - intent: deny
+  - action: utter_did_that_help
+  - checkpoint: check_learn_image_modulation_helped
+
+- story: learn image modulation help affirm
+  steps:
+  - checkpoint: check_learn_image_modulation_helped
+  - intent: affirm
+  - action: utter_awesome
+  - action: utter_goodbye
+
+- story: learn image modulation help deny
+  steps:
+  - checkpoint: check_learn_image_modulation_helped
+  - intent: deny
+  - action: utter_goodbye
+
   #Maya Test Case Group Stories
 - story: how to create new test group path
   steps:

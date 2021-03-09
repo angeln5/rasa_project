@@ -66,6 +66,11 @@ rules:
   - intent: howto_reset_image
   - action: utter_reset_image
 
+- rule: tell user how to apply filters
+  steps:
+  - intent: howto_apply_filters
+  - action: utter_apply_filters
+
   #Maya Data Administration
 - rule: tell user how to submit json
   steps:
