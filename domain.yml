@@ -74,6 +74,13 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_awesome:
+  - text: "Awesome!"
+
+  utter_learn_more:
+  - text: "Want to learn more?"
+
+
 # Angel
   utter_start_tree:
   - text: "Click on DATA ADMINISTRATION WITH GRAPH to create a tree."
@@ -129,6 +136,18 @@ responses:
 
   utter_reset_image:
   - text: "To reset ALL the modifications done to your image, click on the reset button denoted with two arrows at the top of the INPUT IMAGE MODULATION page."
+
+  utter_apply_filters:
+  - text: "You can apply filters in the INPUT IMAGE MODULATION section. If you do not see the different options to add filters, there is a 'Filter' button that you can click to show different options such as blur, invert, brightness, pixeleate, and others."
+
+  utter_ask_if_image_uploaded:
+  - text: "Have you uploaded the image you want to modify?"
+
+  utter_image_modulation_features_initial:
+  - text: "In the INPUT IMAGE MODULATION section, you can make changes and modifications to your input image and then save the final result."
+
+  utter_image_modulation_features_secondary:
+  - text: "Some of the things you can do in the INPUT IMAGE MODULATION section include adding blur, sharpness, noise, draw, shapes, icons, and even text!"
 
 # Maya
   utter_change_file_type:
