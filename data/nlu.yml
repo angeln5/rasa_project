@@ -401,7 +401,7 @@ nlu:
     - I want to update a json
     - help with updating json
 
-- intent: how to_browse_json_files
+- intent: Howto_browse_json_files
   examples: |
     - how do I browse json files
     - how to get an old json file

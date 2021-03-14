@@ -37,9 +37,9 @@ intents:
   - Howto_remove_json
   - Howto_change_name_of_json 
   - Howto_edit_json 
-  - howto_browse_json_files
-  - howto_browse_json_files
+  - Howto_browse_json_files
   - Howto_change_file_type
+
   - Howto_create_group_name 
   - Howto_edit_product_version 
   - Howto_edit_product_sub-version
