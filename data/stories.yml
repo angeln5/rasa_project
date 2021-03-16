@@ -30,21 +30,21 @@ stories:
   - action: utter_goodbye
   
 # Angel
-- story: delete tree 1, tree user just made
+- story: delete tree 1 tree user just made
   steps:
   - intent: howto_delete_tree
   - action: utter_ask_if_tree_saved
   - intent: deny
   - action: utter_just_delete
 
-- story: delete tree 2, tree has already been saved & user knows how to select tree
+- story: delete tree 2 tree has already been saved and user knows how to select tree
   steps:
   - intent: howto_delete_tree
   - action: utter_ask_if_tree_saved
   - intent: affirm
   - action: utter_select_then_delete
 
-- story: delete tree 3, tree has already been saved but user doesn't know how to select the tree
+- story: delete tree 3 tree has already been saved but user doesn't know how to select the tree
   steps:
   - intent: howto_delete_tree
   - action: utter_ask_if_tree_saved
@@ -53,14 +53,14 @@ stories:
   - intent: howto_select_tree
   - action: utter_select_tree
 
-- story: adding node 1, 1 node
+- story: adding node 1 comma 1 node
   steps:
   - intent: howto_create_child_node
   - action: utter_ask_num_of_nodes
   - intent: only_one
   - action: utter_add_one_node
 
-- story: adding node 2, many nodes
+- story: adding node 2 many nodes
   steps:
   - intent: howto_create_child_node
   - action: utter_ask_num_of_nodes
