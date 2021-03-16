@@ -1,0 +1,232 @@
+version: "2.0"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - am I talking to a bot?
+- intent: Howto_edit_input_file_type
+  examples: |
+    - I want to select input file type to edit
+- intent: only_one
+  examples: |
+    - just one
+- intent: affirm
+  examples: |
+    - y
+- intent: howto_save_tree
+  examples: |
+    - how to retain a copy of a tree
+    - help with saving tree
+- intent: Howto_edit_json
+  examples: |
+    - how to edit my json
+- intent: Howto_change_file_type
+  examples: |
+    - I want to change a json file type
+- intent: Howto_create_group_name
+  examples: |
+    - help with naming test case group
+- intent: Howto_edit_product_version
+  examples: |
+    - I want to select product version
+- intent: Howto_edit_product_sub-version
+  examples: |
+    - how to update product sub-version
+    - what to do to edit product sub-version
+- intent: Howto_edit_input_file_name
+  examples: |
+    - how to update input file type name
+- intent: Howto_edit_context_file_name
+  examples: |
+    - how do I edit context file name
+- intent: Howto_output_file_name
+  examples: |
+    - what to do to edit output file name
+- intent: many
+  examples: |
+    - I want multiple
+- intent: deny
+  examples: |
+    - I don't think so
+    - n
+- intent: howto_download_tree
+  examples: |
+    - how to get a tree that I made?
+- intent: Howto_remove_json
+  examples: |
+    - I don't need a json
+    - how do you delete a json?
+- intent: Howto_submit_json
+  examples: |
+    - what to do to submit a json
+    - how to submit a json
+- intent: howto_delete_a_node
+  examples: |
+    - take out unnecessary node
+    - how to delete a node
+- intent: howto_create_child_node
+  examples: |
+    - how do you create a child node
+    - I want to add on to my tree
+- intent: Howto_browse_json_files
+  examples: |
+    - I made a json yesterday, how do I get it?
+    - where to access an old json
+- intent: Howto_refresh_test_case_groups
+  examples: |
+    - what can you do to refresh test case group?
+    - what should I know about refreshing test case groups
+- intent: Howto_view_test_groups_in_full_screen
+  examples: |
+    - tell me how to use full screen
+    - talk about how to toggle full screen
+- intent: Howto_toggle
+  examples: |
+    - More on how to use toggle
+    - talk about how to toggle
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - good by
+- intent: start_tree_build
+  examples: |
+    - how do I create a tree?
+    - how to create a tree
+- intent: howto_make_new_tree
+  examples: |
+    - I don't like the tree and want to start over
+    - how does one make a new tree
+- intent: howto_select_tree
+  examples: |
+    - want to retrieve a tree I made last week
+    - can I get a tree I made previously?
+- intent: Howto_execute_test_case
+  examples: |
+    - I want to know about executing a test case
+    - what can I do to execute a test case
+    - what are the features of executing a test case?
+- intent: Learnto_execute_action
+  examples: |
+    - what can I do to execute an action
+    - what are the features of executing an action?
+- intent: howto_rename_node
+  examples: |
+    - what to do to change the name of a node?
+    - I want to change the name of a node
+- intent: howto_delete_tree
+  examples: |
+    - can I delete a node from a tree?
+    - how to remove a tree I made
+    - what to do to remove a node
+- intent: Howto_change_name_of_json
+  examples: |
+    - how to manage the name of the json
+    - can I change the name of a json?
+- intent: greet
+  examples: |
+    - hey
+    - good evening
+    - hey there
+- intent: learn_image_modulation_features
+  examples: |
+    - I want to learn about the features of image modulation
+    - what can I do in the input image modulation section?
+- intent: howto_upload_image
+  examples: |
+    - I would like to upload my own image
+    - upload image
+    - help uploading picture
+- intent: howto_download_image
+  examples: |
+    - what do I click to download my image?
+    - where do I go to download my image
+- intent: howto_undo_changes
+  examples: |
+    - undo filter
+    - I do not like that filter
+    - where is the undo button
+- intent: howto_reset_image
+  examples: |
+    - I want to start the modifications all over
+    - I do not like how the image turned out
+    - reset filters
+- intent: mood_great
+  examples: |
+    - I am feeling very good
+    - amazing
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - super sad
+    - sad
+- intent: learn_create_tree_features
+  examples: |
+    - what can I do to create a tree
+    - what can you do on the create tree page?
+    - what else can you do with the tree tool
+- intent: Howto_create_new_test_group
+  examples: |
+    - talk about the create test case group feature
+    - what should I know about creating a test group?
+    - what are the features of creating a test case group?
+- intent: get_started
+  examples: |
+    - where does one go to use the tool?
+    - what do I press on to start using the tool?
+    - how do I begin?
+- intent: howto_apply_filters
+  examples: |
+    - apply blur to my image
+    - help applying filters
+    - I want to apply filters to my image
+- synonym: start
+  examples: |
+    - begin
+    - go ahead
+    - kick off
+    - commence
+    - get under way
+    - get going
+    - get started
+- synonym: tree
+  examples: |
+    - ai tree
+    - artificial intelligence tree
+- synonym: build
+  examples: |
+    - create
+    - form
+    - made
+    - make
+    - add
+- synonym: create tree
+  examples: |
+    - create tree
+    - create tree tool
+    - create tree page
+    - tool to create a tree
+    - tool for creating tree
+- synonym: one
+  examples: |
+    - I
+- synonym: page
+  examples: |
+    - app
+    - application
+    - tool
+    - website
+- synonym: delete
+  examples: |
+    - remove
+    - cut out
+- synonym: modulation
+  examples: |
+    - modify
+    - change
+    - update
+    - edit
+- synonym: download
+  examples: |
+    - save
+- synonym: image
+  examples: |
+    - picture

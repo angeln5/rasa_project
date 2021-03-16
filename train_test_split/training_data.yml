@@ -1,0 +1,493 @@
+version: "2.0"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - are you a human?
+    - am I talking to a human?
+    - are you a bot?
+- intent: Howto_edit_input_file_type
+  examples: |
+    - how to update input file type
+    - help with editting input file type
+    - how do I edit input file type
+    - what to do to edit input file type
+- intent: only_one
+  examples: |
+    - 1
+    - a single one
+    - only one
+    - one
+- intent: affirm
+  examples: |
+    - of course
+    - indeed
+    - yes
+    - correct
+    - that sounds good
+- intent: howto_save_tree
+  examples: |
+    - I want to save my tree
+    - what to do to save my tree
+    - how do I save a tree?
+    - how to save a tree?
+- intent: Howto_edit_json
+  examples: |
+    - what to do to edit a json
+    - how do I edit a json?
+    - how to edit json
+    - I want to update a json
+    - help with updating json
+- intent: Howto_change_file_type
+  examples: |
+    - help with changing json
+    - how do I change a json file type?
+    - what to do to change a json file type
+    - how to edit my json file type
+    - how to edit json file type
+- intent: Howto_create_group_name
+  examples: |
+    - I want to name my test case group
+    - how to create a name for test case group
+    - how do I create a group name?
+    - how to rename test case group
+    - what to do to edit a test case group name
+- intent: Howto_edit_product_version
+  examples: |
+    - how to create a product version
+    - how to update product version
+    - how do I edit product version
+    - help with editting product version
+    - what to do to edit product version
+- intent: Howto_edit_product_sub-version
+  examples: |
+    - help with editting product sub-version
+    - I want to select product sub-version
+    - how to create a product sub-version
+    - how do I edit product sub-version
+- intent: Howto_edit_input_file_name
+  examples: |
+    - I want to select input file type to rename
+    - how do I edit input file type name
+    - what to do to edit input file type name
+    - I want to select input file type to name
+    - help with naming input file type
+- intent: Howto_edit_context_file_name
+  examples: |
+    - I want to select context file type to name
+    - I want to select context file to rename
+    - help with naming context file
+    - what to do to edit context file name
+    - how to update context file name
+- intent: Howto_output_file_name
+  examples: |
+    - I want to select output file to name
+    - how to update output file name
+    - I want to select output file to rename
+    - how do I name output file
+    - help with naming output file
+- intent: many
+  examples: |
+    - many more
+    - not just one
+    - a bunch
+    - multiple
+    - more than one
+- intent: deny
+  examples: |
+    - don't like that
+    - no way
+    - never
+    - no
+    - not really
+- intent: howto_download_tree
+  examples: |
+    - help to download tree
+    - how do I download a tree?
+    - help downloading tree
+    - how to download an old tree
+    - how do I get a tree I previously made?
+    - download a tree I created
+- intent: Howto_remove_json
+  examples: |
+    - how to remove a json I submitted
+    - can I delete a json
+    - removing a json
+    - what to do to remove a json
+    - I want to delete a json
+    - I don't like my json
+- intent: Howto_submit_json
+  examples: |
+    - submitting a json?
+    - where is the submit json page?
+    - how to get to submit json
+    - how to get started submitting a json
+    - how do I submit a json?
+    - how to upload a json
+    - can I submit a json
+- intent: howto_delete_a_node
+  examples: |
+    - how do I delete only specific nodes?
+    - I want to remove a node
+    - how to remove node
+    - how do you delete only certain nodes?
+    - remove some but not all nodes
+    - can I delete only some nodes?
+    - removing a node
+    - I accidently added a node I don't want
+- intent: howto_create_child_node
+  examples: |
+    - how to add more nodes
+    - I want to expand my tree
+    - adding a node
+    - how to add a node
+    - how to add a child node
+    - make the tree larger
+    - I need more nodes
+    - how do you grow the tree?
+- intent: Howto_browse_json_files
+  examples: |
+    - how to get an old json file
+    - want to retrieve a json I made last week
+    - how can I get a previously made json
+    - how do I browse json files
+    - accessing saved json
+    - I want to access a json I already made
+    - I want to get my json
+    - can I get a json I made previously?
+- intent: Howto_refresh_test_case_groups
+  examples: |
+    - More on how to refresh test case group
+    - say more about how to refresh test case group
+    - what should I do to refresh test case group?
+    - talk about how to refresh a test case group
+    - teach me about refreshing a test case group on this website
+    - I want to know about refreshing a test case group
+    - tell me about refreshing a test case group
+    - what can I do to refresh a test case group
+- intent: Howto_view_test_groups_in_full_screen
+  examples: |
+    - what should I do to see test case groups in full screen
+    - teach me where I can find the full screen button
+    - More on how to use full screen
+    - what can you do to view test case groups in full screen
+    - can I see test case groups in full screen
+    - say more about full screen
+    - I want to know about full screen mode
+    - what can I do to view test case group in full screen
+- intent: Howto_toggle
+  examples: |
+    - tell me how to toggle
+    - can I toggle a test case group
+    - what can I do to toggle
+    - say more about toggle feature
+    - what can you do to toggle test case group
+    - I want to know about toggling
+    - teach me where I can find the toggle button
+    - what should I do to toggle test case group
+- intent: goodbye
+  examples: |
+    - have a nice day
+    - cee you later
+    - see you around
+    - cu
+    - bye
+    - good night
+    - goodbye
+    - bye bye
+    - see you later
+- intent: start_tree_build
+  examples: |
+    - how to build a tree
+    - how to get to create tree
+    - where is the create tree page
+    - what to do to form a tree
+    - building a tree?
+    - can I build a tree?
+    - build ai tree
+    - how to start a tree
+    - how to get started on a tree
+- intent: howto_make_new_tree
+  examples: |
+    - how to restart tree
+    - I messed up and want to restart
+    - start over with new tree
+    - how to create a new tree?
+    - make a new tree
+    - need a new tree
+    - I want to start over with the tree
+    - I need to make another tree
+    - how do you create a new tree?
+- intent: howto_select_tree
+  examples: |
+    - how do I select a tree
+    - I want to access a tree I already made
+    - how can I get a previously made tree
+    - how to get an old tree
+    - accessing saved tree
+    - I made a tree yesterday, how do I get it?
+    - I want to get my saved tree
+    - what does the select tree tab do?
+    - where to access an old tree
+- intent: Howto_execute_test_case
+  examples: |
+    - tell me about executing a test case
+    - teach me about executing a test case on this website
+    - More on executing a test case
+    - say more about how to execute a test case
+    - talk about the executing test case feature
+    - what can you do to execute a test case
+    - what should I do to execute a test case
+    - what should I know about executing a test case?
+- intent: Learnto_execute_action
+  examples: |
+    - teach me about executing an action on this page
+    - tell me about executing an action
+    - talk about the executing action feature
+    - what should I know about executing an action?
+    - say more about how to execute an action
+    - what should I do to execute an action
+    - what can you do to execute an action
+    - I want to know about executing an action
+    - More on executing an action
+- intent: howto_rename_node
+  examples: |
+    - how to re-label nodes on a tree?
+    - how does re-labeling nodes work?
+    - how to change the label of a node
+    - how to rename a node
+    - how do you change a node's name?
+    - changing a node
+    - can I change the name of a node?
+    - how do you change a node's label?
+    - how to manage the names of the nodes
+    - how to change a node label
+- intent: howto_delete_tree
+  examples: |
+    - I don't need a tree
+    - take out a child node
+    - removing a tree
+    - I want to delete a tree
+    - I only want to delete part of a tree
+    - how do you delete a tree?
+    - I don't like my tree
+    - removing a parent node
+    - remove a parent node
+- intent: Howto_change_name_of_json
+  examples: |
+    - how to re-label a json
+    - what to do to change the name of a json
+    - I want to change the name of a json
+    - how to change the json name
+    - how to change a json name
+    - changing json name
+    - how to rename a json
+    - how do you change a json's label?
+    - how do you change a json's name?
+    - how does re-naming json work
+- intent: greet
+  examples: |
+    - hey dude
+    - good afternoon
+    - let's go
+    - good morning
+    - hi
+    - hello
+    - goodmorning
+    - moin
+    - hello there
+    - goodevening
+- intent: learn_image_modulation_features
+  examples: |
+    - how can I modify an image?
+    - tell me more about image modulation?
+    - what can I do to modifiy an image?
+    - where can I modify an image?
+    - what else can I do for image modulation?
+    - what is image modulation?
+    - I want information on the features on input image modulation
+    - are there any more features for image modulation?
+    - what features are offered for input image modulation?
+    - I want to modify an image
+    - can you tell me about image modulation?
+- intent: howto_upload_image
+  examples: |
+    - I have an image I want to upload
+    - can I upload an image to edit
+    - help to upload image
+    - I have my own image I want to use
+    - uploading my own image
+    - upload image for modulation
+    - what do I click to upload an image of my own
+    - help uploading
+    - how to upload an image
+    - is it possible for me to upload my own image?
+- intent: howto_download_image
+  examples: |
+    - save finished image
+    - can I download my image
+    - help to download image
+    - I finished modifying my image
+    - I want to download my image
+    - downloading finished image
+    - I do not want to modify my image anymore
+    - help downloading
+    - download image
+    - done modifiying image
+    - is it possible to download the image
+- intent: howto_undo_changes
+  examples: |
+    - I want to undo the last modification
+    - is there a way to undo changes
+    - I accidentally made a change I did not want
+    - undo change
+    - I want to remove a filter
+    - undo
+    - I made a mistake with a filter
+    - can I undo that last modification?
+    - I do not like the last change I made to the image
+    - I want to undo multiple changes
+- intent: howto_reset_image
+  examples: |
+    - help to reset changes to the image
+    - remove all edits to picture
+    - start over modifications
+    - I want to reset the image of all changes
+    - can I reset the image
+    - reset changes to image
+    - reset image
+    - remove all filters
+    - can I start over again
+    - help reseting image
+- intent: mood_great
+  examples: |
+    - feeling like a king
+    - I am going to save the world
+    - so good
+    - great
+    - so so perfect
+    - super stoked
+    - I am great
+    - perfect
+    - I am amazing
+    - so perfect
+    - wonderful
+    - extremely good
+- intent: mood_unhappy
+  examples: |
+    - very sad
+    - so saad
+    - I don't feel very well
+    - so sad
+    - unhappy
+    - not very good
+    - extremly sad
+    - I'm so sad
+    - I am sad
+    - I am disappointed
+    - not good
+- intent: learn_create_tree_features
+  examples: |
+    - I want to know about the create tree tool
+    - talk about the create tree feature
+    - what should I do on the create tree
+    - More on the tree tool
+    - tell me about the create tree page
+    - what other features are available for the tree tool
+    - what are the features of create tree?
+    - list features on creating a tree
+    - say more about create tree
+    - what should I know about creating a tree?
+    - teach me about creating a tool on this website
+- intent: Howto_create_new_test_group
+  examples: |
+    - More on the test case group tool
+    - what should I do on the test case group
+    - tell me about the test case group page
+    - what can I do to create a test case group
+    - teach me about creating a test case group on this website
+    - what other features are available for the test case group
+    - what else can you do with the test case group
+    - say more about test case group
+    - what can you do on the test case group page?
+    - list features on creating a test case group
+    - I want to know about the create test case group
+- intent: get_started
+  examples: |
+    - I want to start
+    - why can't I start?
+    - how can one use the application?
+    - how can I use the application?
+    - I am starting
+    - where should I start?
+    - what to do to begin?
+    - where should I go to start?
+    - lets begin
+    - how do I use the tool?
+    - what do I click on to begin?
+    - how do I get started?
+- intent: howto_apply_filters
+  examples: |
+    - apply filters
+    - help with image filters
+    - help to apply filters
+    - I want to draw on my image
+    - applying filters to image
+    - rotate my image
+    - how can I apply filters
+    - can you tel me how I can apply filters
+    - modify image using filters
+    - I want to change the color of my image
+    - noise to my image
+    - can I apply filters to my image
+- synonym: start
+  examples: |
+    - begin
+    - go ahead
+    - kick off
+    - commence
+    - get under way
+    - get going
+    - get started
+- synonym: tree
+  examples: |
+    - ai tree
+    - artificial intelligence tree
+- synonym: build
+  examples: |
+    - create
+    - form
+    - made
+    - make
+    - add
+- synonym: create tree
+  examples: |
+    - create tree
+    - create tree tool
+    - create tree page
+    - tool to create a tree
+    - tool for creating tree
+- synonym: one
+  examples: |
+    - I
+- synonym: page
+  examples: |
+    - app
+    - application
+    - tool
+    - website
+- synonym: delete
+  examples: |
+    - remove
+    - cut out
+- synonym: modulation
+  examples: |
+    - modify
+    - change
+    - update
+    - edit
+- synonym: download
+  examples: |
+    - save
+- synonym: image
+  examples: |
+    - picture

@@ -1,0 +1,18 @@
+[
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6182764172554016
+    }
+  },
+  {
+    "text": "how do I get a tree I previously made?",
+    "intent": "howto_download_tree",
+    "intent_prediction": {
+      "name": "howto_select_tree",
+      "confidence": 0.7079969048500061
+    }
+  }
+]
