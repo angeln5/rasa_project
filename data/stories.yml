@@ -28,23 +28,60 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+# General stories
   
-# Angel
-- story: delete tree 1, tree user just made
+# Stories about creating trees
+- story: how to start tell user to create a tree
+  steps:
+  - intent: get_started
+  - action: utter_should_start_tree
+  - action: utter_or
+  - action: utter_want_to_learn_tree_features
+  - intent: start_tree_build
+  - action: utter_howto_start_tree
+
+- story: user asks how to start but doesn't want to create a tree and hasn't created one before
+  steps:
+  - intent: get_started
+  - action: utter_should_start_tree
+  - intent: refuse
+  - action: utter_no
+  - action: utter_submit_json
+  - intent: start_tree_build
+  - action: utter_should_start_tree
+
+- story: user wants to learn how to create a tree bot tells then asks if user wants to learn about its features & user affirms
+  steps:
+  - intent: start_tree_build
+  - action: utter_howto_start_tree
+  - action: utter_want_to_learn_tree_features
+  - intent: affirm
+  - action: utter_tell_tree_features
+
+- story: user wants to learn how to create a tree bot tells then asks if user wants to learn about its features & user denies
+  steps:
+  - intent: start_tree_build
+  - action: utter_howto_start_tree
+  - action: utter_want_to_learn_tree_features
+  - intent: deny
+  - action: utter_ask_for_questions
+
+- story: delete tree 1 tree user just made
   steps:
   - intent: howto_delete_tree
   - action: utter_ask_if_tree_saved
   - intent: deny
   - action: utter_just_delete
 
-- story: delete tree 2, tree has already been saved & user knows how to select tree
+- story: delete tree 2 tree has already been saved & user knows how to select tree
   steps:
   - intent: howto_delete_tree
   - action: utter_ask_if_tree_saved
   - intent: affirm
   - action: utter_select_then_delete
 
-- story: delete tree 3, tree has already been saved but user doesn't know how to select the tree
+- story: delete tree 3 tree has already been saved but user doesn't know how to select the tree
   steps:
   - intent: howto_delete_tree
   - action: utter_ask_if_tree_saved
@@ -53,21 +90,22 @@ stories:
   - intent: howto_select_tree
   - action: utter_select_tree
 
-- story: adding node 1, 1 node
+- story: adding node 1 1 node
   steps:
   - intent: howto_create_child_node
   - action: utter_ask_num_of_nodes
   - intent: only_one
   - action: utter_add_one_node
 
-- story: adding node 2, many nodes
+- story: adding node 2 many nodes
   steps:
   - intent: howto_create_child_node
   - action: utter_ask_num_of_nodes
   - intent: many
   - action: utter_add_many_nodes
 
-# Julio 
+
+# Stories about uploading/editing images
 - story: learn about image modulation 
   steps:
   - intent: learn_image_modulation_features
@@ -120,7 +158,7 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-  #Maya Test Case Group Stories
+# Stories about test cases
 - story: how to create new test group path
   steps:
   - intent: Howto_create_new_test_group

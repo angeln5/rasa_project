@@ -3,7 +3,7 @@ version: "2.0"
 # Rule has a "name":description of the rule, treat this like comments
 
 rules:
-
+# General rules not specific to the tool
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
@@ -14,7 +14,43 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
-# Angel
+# General rules related to the testing tool
+- rule: tell user about the ai testing tool
+  steps:
+  - intent: whatis_the_ai_test_tool
+  - action: utter_what_ai_tool_is
+
+- rule: tell user about the dashboard
+  steps:
+  - intent: whatis_the_dashboard
+  - action: utter_about_dashboard
+
+- rule: tell user where the dashboard is
+  steps:
+  - intent: where_dashboard
+  - action: utter_dashboard_location
+
+- rule: tell users about what they can do with the testing tool
+  steps:
+  - intent: learn_tool_features
+  - action: utter_tool_features
+
+- rule: tell user why the tool allows uploading images
+  steps:
+  - intent: why_upload_image
+  - action: utter_reason_for_image_upload
+
+- rule: tell users why they should create trees
+  steps:
+  - intent: why_have_testing_trees
+  - action: utter_what_trees_are_for
+
+- rule: tell users why there are test case groupings
+  steps:
+  - intent: what_are_test_case_groups
+  - action: utter_why_have_test_case_groups
+
+# Rules about creating trees
 - rule: tell user how to save
   steps: 
   - intent: howto_save_tree
@@ -24,6 +60,11 @@ rules:
   steps:
   - intent: howto_download_tree
   - action: utter_download_tree
+
+- rule: user wants to learn about tree features
+  steps:
+  - intent: learn_create_tree_features
+  - action: utter_tell_tree_features
 
 - rule: tell user how to rename a node
   steps:
@@ -45,7 +86,7 @@ rules:
   - intent: howto_delete_a_node
   - action: utter_delete_a_node
 
-# Julio 
+# Rules about uploading/editing images
 - rule: tell the user how to upload an image
   steps:
   - intent: howto_upload_image
@@ -71,7 +112,7 @@ rules:
   - intent: howto_apply_filters
   - action: utter_apply_filters
 
-  #Maya Data Administration
+# Rules about uploading json files (trees)
 - rule: tell user how to submit json
   steps:
   - intent: Howto_submit_json
@@ -94,7 +135,7 @@ rules:
 
 - rule: tell user how to browse json files
   steps:
-  - intent: how to_browse_json_files
+  - intent: Howto_browse_json_files
   - action: utter_browsing_json
 
 - rule: tell user how to change file type
@@ -102,7 +143,7 @@ rules:
   - intent: Howto_change_file_type
   - action: utter_changing_file_type
 
-#Maya Test Case Group
+# Rules about test cases
 - rule: tell user how to create test group name
   steps:
   - intent: Howto_create_group_name
