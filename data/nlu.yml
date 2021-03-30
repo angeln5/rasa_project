@@ -214,6 +214,73 @@ nlu:
     - are test categories necessary
     - I don't want test case groups
 
+- intent: why_app_isnt_done
+  examples: | 
+    - why does the app look unfinished
+    - is the app not done
+    - nothing happens when I click on portfolio
+    - nothing happens when I click on about
+    - why does the portfolio button do nothing
+    - why does the about button do nothing
+    - can't click on portfolio
+    - can't click on about
+    - is the app done
+    - app incomplete
+    - when will the app be done
+    - nothing happens when I click on about
+    - nothing happens when I click on portfolio
+    - tool is not finished
+
+- intent: howto_give_feedback
+  examples: |
+    - how do you give feedback
+    - how to give feedback
+    - there are problems with the app
+    - I can't get the application to work
+    - how can I contact the programmers of the AI testing tool
+    - I have some suggestions for the app
+    - the testing tool needs some improvements
+    - more work needs to be done for the app
+    - I want to let the programmers know how I feel about the app
+    - what I think about the app
+
+- intent: why_new_group
+  examples: |
+    - why would you want to add a new group
+    - why is there the option to add new groups
+    - why can you add new groups
+    - what are multiple test groups used for
+    - are multiple test groups necessary
+    - what is the point in having many groups
+    - do you have to add more groups
+    - why add more test case groups
+    - what is the new group button used for
+
+- intent: account_pwd_needed
+  examples: |
+    - do you have to create an account and password
+    - why have an account and password
+    - do you need an account
+    - do you need a password
+    - I refuse to create an account
+    - I don't want to use a password
+    - a password and account is not necessary
+    - account and passwords are not needed for this tool
+
+- intent: what_are_tree_types
+  examples: |
+    - why are there 3 types of trees
+    - tell me about the types of trees
+    - explain the different tree types
+    - teach me about the three types of trees
+    - what is an input classification tree
+    - what is an output classification tree
+    - what is a context classfication tree
+    - explain the differences between the input, output, and context classification trees
+    - what is the point in having 3 types of trees
+    - I want to learn more about the different types of trees
+    - how are the trees combined to create test cases
+
 # Intents about building a tree 
 - intent: get_started
   examples: |
@@ -732,6 +799,7 @@ nlu:
     - application
     - tool
     - website
+    - ai testing tool
 
 - synonym: delete
   examples: |
@@ -772,3 +840,24 @@ nlu:
     - default page
     - summary page
     - page with summary information
+  
+- synonym: finished
+  examples: |
+    - done
+    - completed
+
+- synonym: click
+  examples: |
+    - press
+    - tap
+    - double tap
+
+- synonym: feedback
+  examples: |
+    - suggestions
+    - recommendations
+
+- synonym: creators
+  examples: |
+    - programmers
+    - engineers

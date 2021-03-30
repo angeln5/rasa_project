@@ -22,6 +22,11 @@ intents:
   - why_upload_image
   - why_have_testing_trees
   - what_are_test_case_groups
+  - why_app_isnt_done
+  - howto_give_feedback
+  - why_new_group
+  - account_pwd_needed
+  - what_are_tree_types
 
 # intents about creating a tree using the tool
   - get_started
@@ -146,6 +151,34 @@ responses:
   utter_why_have_test_case_groups:
   - text: "Test case groups are a set of test cases associated with a group consisting of a context, input and output 
           \nclassification tree."
+
+  utter_work_in_progress:
+  - text: "The AI testing tool is an active graduate student project that is still a work in progress."
+
+  utter_steps_to_give_feedback:
+  - text: "To give feeback: 
+                            \n1. Click on the 'CONTACT' tab on the left side of the screen.
+                            \n2. Click on the phrase 'Click to view Google Feedback Form'.
+                            \n3. Fill out all required parts on the Google form.
+                            \n4. Click the 'Submit' button at the bottom of the form.
+                            \nFeedback on the testing tool is appreciated!"
+
+  utter_why_new_group:
+  - text: "You are not required to have multiple test groups, but the 'New Goup' button allows you to add more 
+          \ntest case groups.  Adding new test groups helps you organize and create multiple versions of tests."
+
+  utter_need_pwd:
+  - text: "Accessing the AI testing tool requires the use of an account and password for security purposes."
+
+  utter_dif_tree_types:
+  - text: "A set of test cases will use an input, context, and output classification tree to determine the different 
+          \ncombination of test cases.  
+          \n- An input classification tree represents the different types of inputs that are being tested when testing
+          \nfunction of an application that uses AI.
+          \n- A context classification tree is like an input classification tree but represents the different contexts 
+          \nbeing tested.
+          \n- An output classification tree is like an input classification tree but represents the different outputs 
+          \nbeing tested."
 
 # Responses about creating a tree
   utter_want_to_learn_tree_features:
