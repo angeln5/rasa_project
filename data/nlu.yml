@@ -48,6 +48,9 @@ nlu:
     - indeed
     - of course
     - that sounds good
+    - sure
+    - I guess
+    - why not
     - correct
 
 - intent: deny
@@ -100,8 +103,118 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-    
-# Angel
+
+# General intents    
+- intent: refuse
+  examples: |
+    - I don't want to 
+    - I'm not going to
+    - Do I have to?
+    - I have no intention do
+    - Do I have to 
+    - Won't do that
+
+- intent: many
+  examples: |
+    - more than one
+    - multiple
+    - not just one
+    - I want multiple
+    - many more
+    - a bunch
+
+- intent: only_one
+  examples: |
+    - one
+    - just one
+    - only one
+    - a single one
+    - 1
+
+# General questions about the tool
+- intent: whatis_the_ai_test_tool
+  examples: |
+    - what does the AI testing tool do
+    - why use the test tool
+    - what does this app do
+    - what is the AI testing tool used for
+    - why should I use this testing tool
+    - what is the point in using this tool
+    - how is the testing tool useful to me
+    - why would anyone use this software
+
+- intent: whatis_the_dashboard
+  examples: |
+    - what is the dashboard
+    - why have a dashboard
+    - why have a test case group summary
+    - dashboard page
+    - what is the main page for
+    - what do you use the dashboard for
+    - what is the page with a bolt, total test case, test cases with input and output
+    - how can I find the summary
+
+- intent: where_dashboard
+  examples: |
+    - where is the dashboard
+    - how can I get to the dashboard
+    - how to navigate back to the dashboard
+    - I want to get back to the dashboard
+    - wanna get back to the default page
+    - how to get to the page with all the summary information
+    - return to dashboard
+    - getting to the dashboard
+    - go to summary page
+
+- intent: learn_tool_features
+  examples: |
+    - what are the features of the testing tool
+    - what can you do with the AI testing tool
+    - what can users do with the testing tool
+    - tool features
+    - what are some uses for the tool
+    - I don't know what to do with the tool
+    - what else can I do with the tool
+    - what can this tool do
+    - besides making trees, what else can the app do
+
+- intent: why_upload_image
+  examples: |
+    - why would you upload images to the tool
+    - what's the point in uploading images
+    - why are you able to upload images
+    - why upload images
+    - why upload pictures
+    - why have image feature
+    - point of image feature
+    - what are uploaded images for
+    - loading images for what reason
+    - why even have images for testing
+
+- intent: why_have_testing_trees
+  examples: |
+    - what are testing trees used for
+    - why have trees
+    - do I have to have trees
+    - do I have to create trees
+    - what's the reason for using trees
+    - must I have trees
+    - can I avoid using trees
+    - are there any other alternatives to using trees
+    - why are trees so necessary
+
+- intent: what_are_test_case_groups
+  examples: |
+    - what are test case groups
+    - what is the point of test case groups
+    - why have test case groups
+    - test case grouping
+    - why are there test groupings
+    - do test cases have to be grouped
+    - are test categories necessary
+    - I don't want test case groups
+
+# Intents about building a tree 
 - intent: get_started
   examples: |
     - how do I get started?
@@ -123,7 +236,7 @@ nlu:
 - intent: start_tree_build
   examples: |
     - how to build a tree
-    - how to start a tree
+    - I have no tree
     - how to create a tree
     - building a tree?
     - build ai tree
@@ -133,6 +246,8 @@ nlu:
     - how do I create a tree?
     - where is the create tree page
     - how to get to create tree
+    - but I haven't created a tree yet
+    - I want to learn about creating a tree
 
 - intent: learn_create_tree_features
   examples: |
@@ -254,7 +369,7 @@ nlu:
     - how to add more nodes 
     - I need more nodes
 
-# Julio
+# Intents about uploading/editing images
 - intent: learn_image_modulation_features
   examples: |
     - can you tell me about image modulation?
@@ -275,18 +390,18 @@ nlu:
   examples: |
     - is it possible for me to upload my own image?
     - I have an image I want to upload
-    - upload image
     - what do I click to upload an image of my own
     - I have my own image I want to use
     - help to upload image
     - help uploading
+    - upload image
     - I would like to upload my own image
     - upload image for modulation
     - help uploading picture
     - how to upload an image
     - can I upload an image to edit
     - uploading my own image
-       
+
 - intent: howto_download_image
   examples: |
     - I finished modifying my image
@@ -353,7 +468,7 @@ nlu:
     - I want to draw on my image
     - I want to change the color of my image
 
-#Maya - Data administration
+# Intents about uploading json files (trees)
 - intent: Howto_submit_json
   examples: |
     - how to submit a json
@@ -401,7 +516,7 @@ nlu:
     - I want to update a json
     - help with updating json
 
-- intent: how to_browse_json_files
+- intent: Howto_browse_json_files
   examples: |
     - how do I browse json files
     - how to get an old json file
@@ -423,7 +538,7 @@ nlu:
     - I want to change a json file type
     - help with changing json
 
-#Maya - Test Case Group
+# Intents about test cases
 - intent: Howto_create_new_test_group
   examples: |
     - what are the features of creating a test case group?
@@ -544,7 +659,7 @@ nlu:
     - More on how to refresh test case group
     - teach me about refreshing a test case group on this website
 
-- intent: Howto_view_test_groups_in_full_screen
+- intent: Howto_view_test_case_groups_in_full_screen
   examples: |
     - what can I do to view test case group in full screen
     - what can you do to view test case groups in full screen
@@ -570,23 +685,6 @@ nlu:
     - More on how to use toggle
     - teach me where I can find the toggle button
 
-- intent: many
-  examples: |
-    - more than one
-    - multiple
-    - not just one
-    - I want multiple
-    - many more
-    - a bunch
-
-- intent: only_one
-  examples: |
-    - one
-    - just one
-    - only one
-    - a single one
-    - 1
-
 # Synonyms 
 - synonym: start
   examples: |
@@ -602,6 +700,11 @@ nlu:
   examples: |
     - ai tree
     - artificial intelligence tree
+    - classification tree
+    - ai classification tree
+    - ai testing tree
+    - classification/testing tree
+    - testing tree
 
 - synonym: build
   examples: |
@@ -649,3 +752,23 @@ nlu:
 - synonym: image
   examples: |
     - picture
+    - images
+    - pictures
+
+- synonym: ai testing tool
+  examples: |
+    - artificial intelligent testing tool
+    - ai tool
+    - testing tool
+    - testing software
+    - ai testing software
+    - ai testing sw
+    - tt
+    - aitt
+
+- synonym: dashboard
+  examples: |
+    - main page
+    - default page
+    - summary page
+    - page with summary information
