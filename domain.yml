@@ -24,7 +24,6 @@ intents:
   - what_are_test_case_groups
   - why_app_isnt_done
   - howto_give_feedback
-  - why_new_group
   - account_pwd_needed
   - what_are_tree_types
 
@@ -119,7 +118,7 @@ responses:
 
   utter_about_dashboard:
   - text: "The dashboard is the main page containing a summary on the different test cases a team/user currently has.
-          \nOn this page the total number of groups, total number of test cases, the total number of 
+          \nThe dashboard displays the total number of groups, total number of test cases, the total number of 
           \ntest cases with inputs, and the total number of test cases with output are displayed."
 
   utter_dashboard_location:
@@ -150,7 +149,9 @@ responses:
 
   utter_why_have_test_case_groups:
   - text: "Test case groups are a set of test cases associated with a group consisting of a context, input and output 
-          \nclassification tree."
+          \nclassification tree.
+          \nYou are not required to have multiple test groups, but the 'New Goup' button allows you to add more 
+          \ntest case groups.  Adding new test groups helps you organize and create multiple versions of tests."
 
   utter_work_in_progress:
   - text: "The AI testing tool is an active graduate student project that is still a work in progress."
@@ -162,10 +163,6 @@ responses:
                             \n3. Fill out all required parts on the Google form.
                             \n4. Click the 'Submit' button at the bottom of the form.
                             \nFeedback on the testing tool is appreciated!"
-
-  utter_why_new_group:
-  - text: "You are not required to have multiple test groups, but the 'New Goup' button allows you to add more 
-          \ntest case groups.  Adding new test groups helps you organize and create multiple versions of tests."
 
   utter_need_pwd:
   - text: "Accessing the AI testing tool requires the use of an account and password for security purposes."
@@ -206,7 +203,7 @@ responses:
   - text: "On the 'Create Tree' page, click on 'Save Tree' or 'Copy and Save Tree' to copy the tree."
 
   utter_download_tree:
-  - text: "On the 'Create Tree' page, click on 'Download' to download the tree after creating a tree or selecting a tree."
+  - text: "On the 'Create Tree' page, click on 'Download' to download the tree after creating a tree or selecting a saved tree."
 
   utter_rename_node:
   - text: "Right click the node you want to rename, then left click on 'Rename node'.  Then type in the new name and click 'Rename'."
