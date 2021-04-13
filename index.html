@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>AI Testing Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <div id ="aiTesting">
+      <h2>AI TESTING</h2>
+    </div>
+</header>
+
+<body>
+<section id="banner">
+    <img src="images/icons8-pokemon-90.png" class="logo">
+    <div class="banner-text">
+        <h3>Test Case Summary</h3>
+    </div>
+</section>
+<div id="sideNav">
+    <nav>
+    <ul>
+        <li><a href="#">DASHBOARD</a></li>
+        <li><a href="#">GET STARTED</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">LOGOUT</a></li>
+    </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="images/iconfinder_ld_menu_closed_white.png" id="menu">
+</div>
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.left = "-250px";
+
+menuBtn.onclick = function(){
+    if(sideNav.style.left == "-250px"){
+      sideNav.style.left = "0";
+    }
+    else{
+      sideNav.style.left = "-250px";
+    }
+}
+</script>>
+
+<script>!(function () {
+    let e = document.createElement("script"),
+      t = document.head || document.getElementsByTagName("head")[0];
+    (e.src =
+      "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
+      (e.async = !0),
+      (e.onload = () => {
+        window.WebChat.default(
+          {
+            customData: { language: "en" },
+            socketUrl: "http://localhost:5005",
+            socketPath: "/socket.io/",
+            title: "AI Testing Tool Bot",
+            inputTextFieldHint: "Type a question",
+            subtitle: "Happy to help!"
+            // add other props here
+          },
+          null
+        );
+      }),
+      t.insertBefore(e, t.firstChild);
+  })();
+  </script>
+</body>
+</html>
