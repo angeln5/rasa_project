@@ -597,8 +597,8 @@ nlu:
     - how to add more nodes 
     - I need more nodes
 
-# Intents about uploading/editing images #(80)
-- intent: learn_image_modulation_features #13
+# Intents about uploading/editing images #(80)  #NOW ITS (221)
+- intent: learn_image_modulation_features #13  #NOW ITS 26
   examples: |
     - can you tell me about image modulation?
     - what can I do to modifiy an image?
@@ -613,8 +613,21 @@ nlu:
     - what can I do in the input image modulation section?
     - I want to modify an image
     - where can I modify an image?
+    - can you tell me about the modulation technique?
+    - can you tell me how to modulate an image?
+    - can you tell me how to modify an image?
+    - can you describe the modulation of images?
+    - I would like to learn more about image modulation
+    - i 'd like to learn more about modulation
+    - i 'd like to learn more about modulating an image.
+    - i 'd like to learn more about the modulation of the image.
+    - i 'd like to find out more about the modulation of the image
+    - i 'd like to hear more about modulation
+    - i 'd like to know more about modulation of images.
+    - i want to learn more about how image modulations work.
+    - i 'd also like to learn more about image modulation.
     
-- intent: howto_upload_image #13
+- intent: howto_upload_image #13 #NOW ITS 25
   examples: |
     - is it possible for me to upload my own image?
     - I have an image I want to upload
@@ -629,8 +642,21 @@ nlu:
     - how to upload an image
     - can I upload an image to edit
     - uploading my own image
+    - i have images i want to upload to you
+    - i have an image to upload, please.
+    - i have an image i wanted to upload.
+    - i have a picture
+    - i want to upload a photo.
+    - i have a picture, i want to upload it.
+    - i have an image to upload.
+    - I would like to upload my own image
+    - i 'd like to upload a photo.
+    - i 'd like to upload my own pictures
+    - i want to upload my own picture
+    - i 'd like to upload my image.
+    - i 'd like to upload a copy of my picture.
 
-- intent: howto_download_image #13
+- intent: howto_download_image #13 #NOW ITS 41
   examples: |
     - I finished modifying my image
     - I want to download my image
@@ -645,8 +671,36 @@ nlu:
     - downloading finished image
     - is it possible to download the image
     - save finished image
+    - i 'll download my image now
+    - can i download the photo
+    - can i download the picture?
+    - can i download the photo?
+    - can i download the image?
+    - i don't want to change the image anymore.
+    - i don't want to change my image.
+    - i don't want to change the appearance of the picture anymore.
+    - what do i select to download an image?
+    - what do i click on to download my image?
+    - how do i download images?
+    - how do i download my photo?
+    - i've finished editing my image.
+    - i made my picture's adjustment.
+    - i am done editing my picture.
+    - i finished the editing of my image.
+    - i'm finished with my image.
+    - i've finished editing.
+    - i've finished changing the picture.
+    - i'm finished with my picture.
+    - i'm done with my image editing.
+    - downloading complete image
+    - downloading image
+    - downloading photo
+    - I have finished the image
+    - image download
+    - downloading the finished image 
+    - finished image downloaded	
     
-- intent: howto_undo_changes #13
+- intent: howto_undo_changes #13  #NOW ITS 41
   examples: |
     - I accidentally made a change I did not want
     - I do not like the last change I made to the image
@@ -661,8 +715,36 @@ nlu:
     - undo
     - I made a mistake with a filter
     - I do not like that filter
+    - I accidentally made a change I did not want
+    - i made a change i didn't want to.
+    - i accidentally changed something i didn't want.
+    - i made a change that didn't feel like i wanted.
+    - i made a change i don't want.
+    - i made a mistake i didn't want
+    - i accidentally changed something i wouldn't want.
+    - i want to cancel the previous modification
+    - i want to cancel the last edit
+    - i want to cancel the last modification
+    - i 'd like to undo the last change.
+    - i 'd like to undo the last edit
+    - i want to cancel the last change.
+    - i want to undo the last change.
+    - i want to delete the last modification
+    - i want to undo last adjustment
+    - i want to remove the last modification.
+    - i want to delete the last modification.
+    - i want to delete the last edit
+    - where's the undo button?
+    - where's the button to undo?
+    - where's the button button to undo the action?
+    - where's the button button to undo the filter
+    - i want to remove the filter
+    - i want to delete the filter.
+    - remove the filter.
+    - i 'd like to remove the filter
+    - i want to remove filter
 
-- intent: howto_reset_image #13
+- intent: howto_reset_image #13  #NOW ITS 36
   examples: |
     - I want to reset the image of all changes
     - reset changes to image
@@ -677,8 +759,31 @@ nlu:
     - start over modifications
     - can I reset the image
     - I want to start the modifications all over
+    - i want to reset all the changes.
+    - i want to reset all the changes I made to image
+    - i 'd like to reset the image of all changes
+    - reset image of all changes
+    - i want to reset the image.
+    - reset image of all changes.
+    - i want to reset the image
+    - i want to reset all changes
+    - i want to delete all changes i made to picture
+    - i want to delete all changes
+    - i can start over
+    - can i start over?
+    - maybe i can start over.
+    - can i start again, please?
+    - may i begin again
+    - i 'd like to start the adjustments all over again
+    - i wanted to make changes all over again.
+    - delete all filters.
+    - can i delete all filters.
+    - i 'll delete all filters.
+    - i want to delete all filters.
+    - can i delete everything?
+    - can i delete all changes
     
-- intent: howto_apply_filters #15
+- intent: howto_apply_filters #15  #NOW ITS 52
   examples: |
     - how can I apply filters
     - apply filters
@@ -688,13 +793,50 @@ nlu:
     - help applying filters
     - help to apply filters
     - help with image filters
-    - can you tel me how I can apply filters
+    - can you tell me how I can apply filters
     - applying filters to image
     - apply blur to my image
     - rotate my image
     - noise to my image
     - I want to draw on my image
     - I want to change the color of my image
+    - how to apply filters
+    - how do i apply filters
+    - how to use filters
+    - how i can apply filters.
+    - how can i use filters
+    - how can i choose filters
+    - how can i set filters
+    - i want to change the colour of my picture.
+    - i want to make my image change color
+    - change the color of the picture
+    - i want to take the colours of my image to improve.
+    - i want to apply my filters to the photo
+    - i want to apply filters in my photos.
+    - i want to apply filters.
+    - i want to apply the filters to my image.
+    - i 'd like to apply filters to my image.
+    - i wanted to apply the filters
+    - i want to set up filters for this picture
+    - i want to apply the filter to my pictures.
+    - i 'd like to use filters on my picture.
+    - i want to use a filter for the image
+    - i want to use filters on my picture.
+    - i want to get some filters into the picture.
+    - i want to apply some filters to the image.
+    - edit image using filter
+    - edit image using filters.
+    - editing the image using filter.
+    - would you mind telling me how i can use filters
+    - you can tell me how to filter
+    - how do you want me to use filters
+    - can you explain how i can use filters
+    - can you tell me how to use filters?
+    - tell me how i can adjust filters.
+    - and can you tell me how i can add filters?
+    - can you explain how i can use filters?
+    - can you tell me how i 'll use filters, please?
+    - tell me how i can use filters
 
 # Intents about uploading json files (trees) #(53)
 - intent: Howto_submit_json #9
@@ -966,6 +1108,7 @@ nlu:
   examples: |
     - remove
     - cut out
+    - cancel
     
 - synonym: modulation
   examples: |
@@ -973,6 +1116,8 @@ nlu:
     - change
     - update
     - edit
+    - adjustment
+    - filter
  
 - synonym: download
   examples: |
@@ -987,6 +1132,8 @@ nlu:
     - a photo
     - photograph
     - photographs
+    - pic
+    - photos
 
 - synonym: ai testing tool
   examples: |
