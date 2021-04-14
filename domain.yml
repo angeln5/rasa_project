@@ -1,6 +1,7 @@
 version: "2.0"
 
 intents:
+# general intents
   - greet
   - goodbye
   - affirm
@@ -8,11 +9,29 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+
+  - many
+  - only_one
+  - refuse
   
-  # Angel
+# intents related to more general questions about the tool
+  - whatis_the_ai_test_tool
+  - whatis_the_dashboard
+  - where_dashboard
+  - learn_tool_features
+  - why_upload_image
+  - why_have_testing_trees
+  - what_are_test_case_groups
+  - why_app_isnt_done
+  - howto_give_feedback
+  - why_new_group
+  - account_pwd_needed
+  - what_are_tree_types
+
+# intents about creating a tree using the tool
   - get_started
   - start_tree_build
-  - learn_create_tree
+  - learn_create_tree_features
   - howto_save_tree
   - howto_download_tree
   - howto_rename_node
@@ -21,10 +40,8 @@ intents:
   - howto_select_tree
   - howto_delete_a_node
   - howto_create_child_node
-  - many
-  - only_one
 
-  # Julio
+# intents about uploading & editing images
   - learn_image_modulation_features
   - howto_upload_image
   - howto_download_image
@@ -32,7 +49,7 @@ intents:
   - howto_reset_image
   - howto_apply_filters
 
-  #Maya
+# intents about uploading json files (tree)
   - Howto_submit_json
   - Howto_remove_json
   - Howto_change_name_of_json 
@@ -40,6 +57,7 @@ intents:
   - Howto_browse_json_files
   - Howto_change_file_type
 
+# intents about test cases
   - Howto_create_group_name 
   - Howto_edit_product_version 
   - Howto_edit_product_sub-version
@@ -48,13 +66,14 @@ intents:
   - Howto_edit_context_file_name 
   - Howto_output_file_name 
   - Howto_refresh_test_case_groups 
-  - Howto_view_test_groups_in_full_screen 
+  - Howto_view_test_case_groups_in_full_screen 
   - Howto_toggle
   - Howto_create_new_test_group 
   - Howto_execute_test_case 
   - Learnto_execute_action 
 
 responses:
+# general responses
   utter_greet:
   - text: "Hey! How are you?"
 
@@ -80,10 +99,105 @@ responses:
   utter_learn_more:
   - text: "Want to learn more?"
 
+  utter_no: 
+  - text: "No."
 
-# Angel
-  utter_start_tree:
+  utter_or:
+  - text: " or "
+
+  utter_ask_for_questions:
+  - text: "Let me know if you have any questions about the AI testing tool."
+
+# General responses related to the tool
+  utter_what_ai_tool_is:
+  - text: "The AI testing tool helps organize test cases for software utilizing artificial intelligence.
+          \nMost software including AI related software contain multiple functions that need to be tested 
+          \nunder a multitude of conditions.  This application helps testers organize their many test cases
+          \nby providing tools to create input, context, & output trees.  The trees are saved as json files
+          \nthat can be uploaded onto the site.  The AI testing tool can also create test cases from the json 
+          \nfiles, which are organized into tables for testers to keep track of their test cases."
+
+  utter_about_dashboard:
+  - text: "The dashboard is the main page containing a summary on the different test cases a team/user currently has.
+          \nOn this page the total number of groups, total number of test cases, the total number of 
+          \ntest cases with inputs, and the total number of test cases with output are displayed."
+
+  utter_dashboard_location:
+  - text: "The dashboard is the default page of the AI testing tool. You can navigate there by clicking on 
+          \nthe 'DASHBOARD' button that is part of the left vertical menu."
+
+  utter_tool_features:
+  - text: "The AI testing tool is designed to help software testers organize & form test cases.
+          \nSome of the things users can do with the tool are: 
+          \n- Create, save, copy, edit, & download AI testing trees.
+          \n- Edit, generate & remove test cases created from context, input, & output classification trees.
+          \n- Upload images & save them as part of a test case.
+          \n- Group test cases based on how you want to organize testing.
+          \n- Give feedback on the testing tool to help improve it."
+      
+  utter_reason_for_image_upload:
+  - text: "The AI testing tool is designed to help with testing AI functions of a software.  Many applications
+          \nnow offer image recognition that utilizes AI. Testing Those types of features requires documentation of 
+          \nthe expected and actual image outputs. Each image can be uploaded onto the tool and linked to a test case 
+          \nfor testers to keep track of testing results."
+
+  utter_what_trees_are_for:
+  - text: "Each AI test/classification tree represents characteristics of an AI function that is tested. Each test
+          \ncase group should have a context tree to represent the different contexts being tested, an input tree
+          \nfor the different inputs, and an output tree for the different outputs. When creating a test case group, 
+          \nyou will need to give the 3 types of trees so that the tool can generate the different combination of 
+          \ntest cases. That is why trees are crucial to using the testing tool."
+
+  utter_why_have_test_case_groups:
+  - text: "Test case groups are a set of test cases associated with a group consisting of a context, input and output 
+          \nclassification tree."
+
+  utter_work_in_progress:
+  - text: "The AI testing tool is an active graduate student project that is still a work in progress."
+
+  utter_steps_to_give_feedback:
+  - text: "To give feeback: 
+                            \n1. Click on the 'CONTACT' tab on the left side of the screen.
+                            \n2. Click on the phrase 'Click to view Google Feedback Form'.
+                            \n3. Fill out all required parts on the Google form.
+                            \n4. Click the 'Submit' button at the bottom of the form.
+                            \nFeedback on the testing tool is appreciated!"
+
+  utter_why_new_group:
+  - text: "You are not required to have multiple test groups, but the 'New Goup' button allows you to add more 
+          \ntest case groups.  Adding new test groups helps you organize and create multiple versions of tests."
+
+  utter_need_pwd:
+  - text: "Accessing the AI testing tool requires the use of an account and password for security purposes."
+
+  utter_dif_tree_types:
+  - text: "A set of test cases will use an input, context, and output classification tree to determine the different 
+          \ncombination of test cases.  
+          \n- An input classification tree represents the different types of inputs that are being tested when testing
+          \nfunction of an application that uses AI.
+          \n- A context classification tree is like an input classification tree but represents the different contexts 
+          \nbeing tested.
+          \n- An output classification tree is like an input classification tree but represents the different outputs 
+          \nbeing tested."
+
+# Responses about creating a tree
+  utter_want_to_learn_tree_features:
+  - text: "Would you like to learn about features of the testing tool?"
+
+  utter_tell_tree_features:
+  - text: "There are different things you can do with a tree besides creating a tree. 
+          \n- You can name & rename each node.
+          \n- You can add 1 or more child nodes. 
+          \n- You can delete nodes.
+          \n- You can copy and save trees you create using the tool.
+          \n- You can download a tree.
+          \n- You can view a tree that has been uploaded to the tool."
+
+  utter_howto_start_tree:
   - text: "Click on DATA ADMINISTRATION WITH GRAPH to create a tree."
+
+  utter_should_start_tree:
+  - text: "You can start by creating a tree."
 
   utter_upload_tree:
   - text: "Click on GET STARTED, then DATA ADMINISTRATION to create a tree."
@@ -124,7 +238,7 @@ responses:
   utter_add_many_nodes: 
   - text: "First, right click on the parent node, then left click on 'Add 5 Nodes', or after clicking on the parent node, left click on 'Create child node', then press on the '+' symbol on the left of the input box to add more nodes and their names before right clicking 'Create'."
 
-# Julio
+# Responses about image uploading & editing
   utter_upload_image:
   - text: "In the INPUT IMAGE MODULATION section under GET STARTED, there is a 'Load' button that you can press to upload an image from your computer."
 
@@ -149,7 +263,7 @@ responses:
   utter_image_modulation_features_secondary:
   - text: "Some of the things you can do in the INPUT IMAGE MODULATION section include adding blur, sharpness, noise, draw, shapes, icons, and even text!"
 
-# Maya
+# Responses about uploading json files (trees)
   utter_change_file_type:
   - text: "Click on the drop down list 'file type' and select one of the three options."
 
@@ -171,6 +285,7 @@ responses:
   utter_changing_file_type:
   - text: "Click on the drop down list 'file type' and select one of the three options."
   
+# Responses about test cases
   utter_create_group_name:
   - text: "Navigate to Get Started --> Test Case Group and create a New Group to set a name."
 
@@ -211,10 +326,10 @@ responses:
   - text: "Before submitting json file, please rename your file locally."
 
   utter_create_new_test_group: 
-  - text: "To create a new test group, navigatin to Get Started --> Test Case Group and click on Create New Group."
+  - text: "To create a new test group, navigate to Get Started --> Test Case Group and click on Create New Group."
 
   utter_execute_test_case:
-  - text: "To create a new test group, navigatin to Get Started --> Test Case Group and click on Execute Test Case."
+  - text: "To create a new test group, navigate to Get Started --> Test Case Group and click on Execute Test Case."
 
   utter_learn_to_execute_action:
   - text: "To execute an action, navigate to the Action tab and generate test cases to execute."

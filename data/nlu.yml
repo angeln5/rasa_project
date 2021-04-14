@@ -48,6 +48,9 @@ nlu:
     - indeed
     - of course
     - that sounds good
+    - sure
+    - I guess
+    - why not
     - correct
 
 - intent: deny
@@ -100,9 +103,347 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-    
-# Angel
-- intent: get_started
+
+# General intents #(17)
+- intent: refuse #6
+  examples: |
+    - I don't want to 
+    - I'm not going to
+    - Do I have to?
+    - I have no intention do
+    - Do I have to 
+    - Won't do that
+
+- intent: many #8
+  examples: |
+    - more than one
+    - multiple
+    - not just one
+    - I want multiple
+    - many more
+    - a bunch
+    - numerous
+    - countless
+
+- intent: only_one #5
+  examples: |
+    - one
+    - just one
+    - only one
+    - a single one
+    - 1
+
+# General questions about the tool #(113)
+- intent: whatis_the_ai_test_tool #9+17=26
+  examples: |
+    - what does the AI testing tool do
+    - why use the test tool
+    - what does this app do
+    - what is this app used for
+    - what is the AI testing tool used for
+    - why should I use this testing tool
+    - what is the point in using this tool
+    - how is the testing tool useful to me
+    - why would anyone use this software
+    - what do the testing tools do
+    - what do testing tools do
+    - what kind of testing does it do
+    - but what does the ai test do
+    - what this app is
+    - what is ai testing tool
+    - what is the ai-testing tool used for
+    - why should I employ testing tools
+    - why employ this testing tool
+    - why do I need this tool
+    - why should i use this test of yours
+    - why do you use the tool
+    - what's the point of using this tool
+    - but what purpose does the tool serve
+    - how does the tool help me with testing
+    - how does a test tool help
+    - how useful is the test tool
+
+
+- intent: whatis_the_dashboard #8+19=27
+  examples: |
+    - what is the dashboard
+    - why have a dashboard
+    - why have a test case group summary
+    - dashboard page
+    - what is the main page for
+    - what do you use the dashboard for
+    - what is the page with a bolt, total test case, test cases with input and output
+    - how can I find the summary/
+    - what does the dashboard represent
+    - what's the dashboard
+    - what kind of dashboard are you
+    - what's the dashboard...
+    - what's on the dashboard
+    - what does the dashboard show
+    - why the dashboard
+    - why do you have a dashboard
+    - why do the summary of the testing group
+    - why do aggregate summary of the test cases
+    - why do a summary of the test case group
+    - what is on the main page
+    - what is the main page for this site
+    - what's the main page
+    - what's the page with the bolt test case
+    - how do I find the summary of the findings
+    - how do I find a summary
+    - how to find summary
+    - can I find a summary
+
+- intent: where_dashboard #9+22=31
+  examples: |
+    - where is the dashboard
+    - how can I get to the dashboard
+    - how to navigate back to the dashboard
+    - I want to get back to the dashboard
+    - wanna get back to the default page
+    - how to get to the page with all the summary information
+    - return to dashboard
+    - getting to the dashboard
+    - go to summary page/
+    - how do I get on the dashboard
+    - how can I get on my dashboard
+    - how do I get to the dashboard
+    - can I get to the dashboard
+    - how to return to the dashboard
+    - how to navigate back to the dashboard page
+    - how to move back to the main page
+    - how to move back to the dashboard
+    - I want to go back to the dashboard page
+    - I want to go back to the control panel
+    - would like to start the default page
+    - want to go back to the default
+    - want to move back to default
+    - want to return to the default
+    - how do I get to the page with all the information that is available
+    - how to load the page with all relevant information
+    - how to get to the page with all your summary data
+    - return to the start menu
+    - return to control panel
+    - get back to the dashboard
+    - move to the dashboard
+    - get summary page
+
+- intent: learn_tool_features #9+26=35
+  examples: |
+    - what are the features of the testing tool
+    - what can you do with the AI testing tool
+    - what can users do with the testing tool
+    - tool features
+    - what are some uses for the tool
+    - I don't know what to do with the tool
+    - what else can I do with the tool
+    - what can this tool do
+    - besides making trees, what else can the app do
+    - what are the characteristics of the testing instrument
+    - what are the characteristics of the test
+    - what are the features of the test instrument
+    - what can you do with ai testing
+    - what can you do with ai tests
+    - what can you do with an ``ai testing" tool
+    - what do you want with the testing tool
+    - what do you do with the ai testing machine
+    - what would users do with the ai testing tool
+    - feature capabilities
+    - tool tips
+    - tooltips
+    - tool capabilities
+    - what are some uses for the testing tool
+    - what are some useful uses for the tool
+    - what are some things the tool can help me with
+    - what are some things the tool can help us with
+    - what are some of the ways of using the testing tool
+    - what are some uses of the tool
+    - I don't know what to do with a tool like that
+    - what do I do with the tool
+    - what else can I use the tools for
+    - what else can you do with the tool
+    - what else could I do with the tool
+    - what else can I do with this little tool
+    - what else am I supposed to do with this tool
+
+- intent: why_upload_image #9+22=31
+  examples: |
+    - why would you upload images to the tool
+    - what's the point in uploading images
+    - why are you able to upload images
+    - why upload images
+    - why have image feature
+    - point of image feature
+    - what are uploaded images for
+    - loading images for what reason
+    - why even have images for testing/
+    - why do you upload images to the website
+    - why do you upload the images
+    - but why do you upload images
+    - why do you have the ability to upload images to the testing tool
+    - why are you able to upload your pictures
+    - why do you allow picture uploads
+    - why do you let pictures be uploaded
+    - why are you  uploading the photographs
+    - why are the image features displayed
+    - why have image
+    - why use the image
+    - why do you have a picture
+    - why have a picture preview
+    - reason for image feature
+    - reasons for the use of the image
+    - explanation for the image feature
+    - what do you upload images for
+    - why do upload images
+    - why do you have pictures for testing
+    - why would they have images for testing purposes
+    - why have images for testing purposes
+    - why do they have an image for testing
+
+- intent: why_have_testing_trees #9+18=27
+  examples: |
+    - what are testing trees used for
+    - why have trees
+    - do I have to have trees
+    - do I have to create trees
+    - what's the reason for using trees
+    - must I have trees
+    - can I avoid using trees
+    - are there any other alternatives to using trees
+    - why are trees so necessary
+    - why do they use testing trees
+    - do I need trees
+    - do you want me to have trees
+    - do I have to have a tree here
+    - I don't have to create a tree
+    - why do you use trees
+    - why use trees
+    - what reasons do we use trees
+    - what's the reason why trees are used
+    - what's the reason behind the trees
+    - if I could avoid tree-making
+    - avoid making trees
+    - avoid tree-making
+    - can I avoid trees
+    - I refuse to make a tree
+    - avoid trees
+    - reject making a tree
+    - other options instead of using trees
+
+- intent: what_are_test_case_groups #10+19=29
+  examples: |
+    - what are test case groups
+    - what is the point of test case groups
+    - why have test case groups
+    - test case grouping
+    - why are there test groupings
+    - do test cases have to be grouped
+    - are test categories necessary
+    - why are test cases grouped
+    - why do you allow grouping of test cases
+    - I don't want test case groups
+    - what are the testing groups for
+    - what's the point in having test case groups
+    - what's the point in grouping tests
+    - what is the purpose of test case groups
+    - what is the main point of test case groups
+    - test group configuration
+    - why are tests grouped
+    - why are there groups of tests
+    - tests should not be combined in a group of tests
+    - tests shouldn't be combined into groups
+    - do you need to have categories of tests
+    - are categories of tests needed
+    - why are the cases grouped
+    - why do you have groups of tests
+    - why do you have grouping of test cases
+    - why are you allowing the grouping of tests
+    - I don't want groups of test cases
+    - I don't wanna test groups
+    - I don't want groups of tests
+
+- intent: why_app_isnt_done #14+13=27
+  examples: | 
+    - why does the app look unfinished
+    - is the app not done
+    - nothing happens when I click on portfolio
+    - nothing happens when I click on about
+    - why does the portfolio button do nothing
+    - why does the about button do nothing
+    - can't click on portfolio
+    - can't click on about
+    - is the app done
+    - app incomplete
+    - when will the app be done
+    - nothing happens when I click on about
+    - nothing happens when I click on portfolio
+    - tool is not finished/
+    - why does the app look incomplete
+    - the app is not completed
+    - why is the app not complete
+    - is the app finished
+    - the app is not done yet
+    - if I click on portfolio, nothing happens
+    - if I click on about, nothing happens
+    - why do some buttons not work
+    - you can't click portfolio
+    - you can't click about
+    - when can the app be completed
+    - nothing happens if I click on
+    - app looks unfinished
+
+- intent: howto_give_feedback #10
+  examples: |
+    - how do you give feedback
+    - how to give feedback
+    - there are problems with the app
+    - I can't get the application to work
+    - how can I contact the programmers of the AI testing tool
+    - I have some suggestions for the app
+    - the testing tool needs some improvements
+    - more work needs to be done for the app
+    - I want to let the programmers know how I feel about the app
+    - what I think about the app
+
+- intent: why_new_group #9
+  examples: |
+    - why would you want to add a new group
+    - why is there the option to add new groups
+    - why can you add new groups
+    - what are multiple test groups used for
+    - are multiple test groups necessary
+    - what is the point in having many groups
+    - do you have to add more groups
+    - why add more test case groups
+    - what is the new group button used for
+
+- intent: account_pwd_needed #8
+  examples: |
+    - do you have to create an account and password
+    - why have an account and password
+    - do you need an account
+    - do you need a password
+    - I refuse to create an account
+    - I don't want to use a password
+    - a password and account is not necessary
+    - account and passwords are not needed for this tool
+
+- intent: what_are_tree_types #11
+  examples: |
+    - why are there 3 types of trees
+    - tell me about the types of trees
+    - explain the different tree types
+    - teach me about the three types of trees
+    - what is an input classification tree
+    - what is an output classification tree
+    - what is a context classfication tree
+    - explain the differences between the input, output, and context classification trees
+    - what is the point in having 3 types of trees
+    - I want to learn more about the different types of trees
+    - how are the trees combined to create test cases
+
+# Intents about building a tree #(121)
+- intent: get_started #15
   examples: |
     - how do I get started?
     - how do I begin?
@@ -120,10 +461,10 @@ nlu:
     - I am starting
     - I want to start
 
-- intent: start_tree_build
+- intent: start_tree_build #13
   examples: |
     - how to build a tree
-    - how to start a tree
+    - I have no tree
     - how to create a tree
     - building a tree?
     - build ai tree
@@ -133,8 +474,10 @@ nlu:
     - how do I create a tree?
     - where is the create tree page
     - how to get to create tree
+    - but I haven't created a tree yet
+    - I want to learn about creating a tree
 
-- intent: learn_create_tree_features
+- intent: learn_create_tree_features #14
   examples: |
     - what are the features of create tree?
     - what can I do to create a tree
@@ -151,7 +494,7 @@ nlu:
     - what else can you do with the tree tool
     - teach me about creating a tool on this website
 
-- intent: howto_save_tree
+- intent: howto_save_tree #6
   examples: |
     - how do I save a tree?
     - how to save a tree?
@@ -160,7 +503,7 @@ nlu:
     - I want to save my tree
     - help with saving tree
 
-- intent: howto_download_tree
+- intent: howto_download_tree #7
   examples: |
     - how do I download a tree?
     - how do I get a tree I previously made?
@@ -170,7 +513,7 @@ nlu:
     - help downloading tree
     - how to get a tree that I made?
 
-- intent: howto_rename_node
+- intent: howto_rename_node #12
   examples: |
     - I want to change the name of a node
     - how to rename a node
@@ -185,7 +528,7 @@ nlu:
     - can I change the name of a node?
     - changing a node 
 
-- intent: howto_make_new_tree
+- intent: howto_make_new_tree #11
   examples: |
     - how to create a new tree?
     - how do you create a new tree?
@@ -199,7 +542,7 @@ nlu:
     - I messed up and want to restart
     - how to restart tree
 
-- intent: howto_delete_tree
+- intent: howto_delete_tree #12
   examples: |
     - how to remove a tree I made
     - removing a tree
@@ -214,7 +557,7 @@ nlu:
     - remove a parent node
     - removing a parent node
 
-- intent: howto_select_tree
+- intent: howto_select_tree #11
   examples: |
     - how do I select a tree
     - how to get an old tree
@@ -228,7 +571,7 @@ nlu:
     - I want to get my saved tree
     - accessing saved tree    
 
-- intent: howto_delete_a_node
+- intent: howto_delete_a_node #10
   examples: |
     - how to delete a node
     - how to remove node
@@ -241,7 +584,7 @@ nlu:
     - can I delete only some nodes?
     - remove some but not all nodes
 
-- intent: howto_create_child_node
+- intent: howto_create_child_node #10
   examples: |
     - how to add a child node
     - how do you create a child node
@@ -254,8 +597,8 @@ nlu:
     - how to add more nodes 
     - I need more nodes
 
-# Julio
-- intent: learn_image_modulation_features
+# Intents about uploading/editing images #(80)  #NOW ITS (221)
+- intent: learn_image_modulation_features #13  #NOW ITS 26
   examples: |
     - can you tell me about image modulation?
     - what can I do to modifiy an image?
@@ -270,24 +613,50 @@ nlu:
     - what can I do in the input image modulation section?
     - I want to modify an image
     - where can I modify an image?
+    - can you tell me about the modulation technique?
+    - can you tell me how to modulate an image?
+    - can you tell me how to modify an image?
+    - can you describe the modulation of images?
+    - I would like to learn more about image modulation
+    - i 'd like to learn more about modulation
+    - i 'd like to learn more about modulating an image.
+    - i 'd like to learn more about the modulation of the image.
+    - i 'd like to find out more about the modulation of the image
+    - i 'd like to hear more about modulation
+    - i 'd like to know more about modulation of images.
+    - i want to learn more about how image modulations work.
+    - i 'd also like to learn more about image modulation.
     
-- intent: howto_upload_image
+- intent: howto_upload_image #13 #NOW ITS 25
   examples: |
     - is it possible for me to upload my own image?
     - I have an image I want to upload
-    - upload image
     - what do I click to upload an image of my own
     - I have my own image I want to use
     - help to upload image
     - help uploading
+    - upload image
     - I would like to upload my own image
     - upload image for modulation
     - help uploading picture
     - how to upload an image
     - can I upload an image to edit
     - uploading my own image
-       
-- intent: howto_download_image
+    - i have images i want to upload to you
+    - i have an image to upload, please.
+    - i have an image i wanted to upload.
+    - i have a picture
+    - i want to upload a photo.
+    - i have a picture, i want to upload it.
+    - i have an image to upload.
+    - I would like to upload my own image
+    - i 'd like to upload a photo.
+    - i 'd like to upload my own pictures
+    - i want to upload my own picture
+    - i 'd like to upload my image.
+    - i 'd like to upload a copy of my picture.
+
+- intent: howto_download_image #13 #NOW ITS 41
   examples: |
     - I finished modifying my image
     - I want to download my image
@@ -302,8 +671,36 @@ nlu:
     - downloading finished image
     - is it possible to download the image
     - save finished image
+    - i 'll download my image now
+    - can i download the photo
+    - can i download the picture?
+    - can i download the photo?
+    - can i download the image?
+    - i don't want to change the image anymore.
+    - i don't want to change my image.
+    - i don't want to change the appearance of the picture anymore.
+    - what do i select to download an image?
+    - what do i click on to download my image?
+    - how do i download images?
+    - how do i download my photo?
+    - i've finished editing my image.
+    - i made my picture's adjustment.
+    - i am done editing my picture.
+    - i finished the editing of my image.
+    - i'm finished with my image.
+    - i've finished editing.
+    - i've finished changing the picture.
+    - i'm finished with my picture.
+    - i'm done with my image editing.
+    - downloading complete image
+    - downloading image
+    - downloading photo
+    - I have finished the image
+    - image download
+    - downloading the finished image 
+    - finished image downloaded	
     
-- intent: howto_undo_changes
+- intent: howto_undo_changes #13  #NOW ITS 41
   examples: |
     - I accidentally made a change I did not want
     - I do not like the last change I made to the image
@@ -318,8 +715,36 @@ nlu:
     - undo
     - I made a mistake with a filter
     - I do not like that filter
+    - I accidentally made a change I did not want
+    - i made a change i didn't want to.
+    - i accidentally changed something i didn't want.
+    - i made a change that didn't feel like i wanted.
+    - i made a change i don't want.
+    - i made a mistake i didn't want
+    - i accidentally changed something i wouldn't want.
+    - i want to cancel the previous modification
+    - i want to cancel the last edit
+    - i want to cancel the last modification
+    - i 'd like to undo the last change.
+    - i 'd like to undo the last edit
+    - i want to cancel the last change.
+    - i want to undo the last change.
+    - i want to delete the last modification
+    - i want to undo last adjustment
+    - i want to remove the last modification.
+    - i want to delete the last modification.
+    - i want to delete the last edit
+    - where's the undo button?
+    - where's the button to undo?
+    - where's the button button to undo the action?
+    - where's the button button to undo the filter
+    - i want to remove the filter
+    - i want to delete the filter.
+    - remove the filter.
+    - i 'd like to remove the filter
+    - i want to remove filter
 
-- intent: howto_reset_image
+- intent: howto_reset_image #13  #NOW ITS 36
   examples: |
     - I want to reset the image of all changes
     - reset changes to image
@@ -334,8 +759,31 @@ nlu:
     - start over modifications
     - can I reset the image
     - I want to start the modifications all over
+    - i want to reset all the changes.
+    - i want to reset all the changes I made to image
+    - i 'd like to reset the image of all changes
+    - reset image of all changes
+    - i want to reset the image.
+    - reset image of all changes.
+    - i want to reset the image
+    - i want to reset all changes
+    - i want to delete all changes i made to picture
+    - i want to delete all changes
+    - i can start over
+    - can i start over?
+    - maybe i can start over.
+    - can i start again, please?
+    - may i begin again
+    - i 'd like to start the adjustments all over again
+    - i wanted to make changes all over again.
+    - delete all filters.
+    - can i delete all filters.
+    - i 'll delete all filters.
+    - i want to delete all filters.
+    - can i delete everything?
+    - can i delete all changes
     
-- intent: howto_apply_filters
+- intent: howto_apply_filters #15  #NOW ITS 52
   examples: |
     - how can I apply filters
     - apply filters
@@ -345,16 +793,53 @@ nlu:
     - help applying filters
     - help to apply filters
     - help with image filters
-    - can you tel me how I can apply filters
+    - can you tell me how I can apply filters
     - applying filters to image
     - apply blur to my image
     - rotate my image
     - noise to my image
     - I want to draw on my image
     - I want to change the color of my image
+    - how to apply filters
+    - how do i apply filters
+    - how to use filters
+    - how i can apply filters.
+    - how can i use filters
+    - how can i choose filters
+    - how can i set filters
+    - i want to change the colour of my picture.
+    - i want to make my image change color
+    - change the color of the picture
+    - i want to take the colours of my image to improve.
+    - i want to apply my filters to the photo
+    - i want to apply filters in my photos.
+    - i want to apply filters.
+    - i want to apply the filters to my image.
+    - i 'd like to apply filters to my image.
+    - i wanted to apply the filters
+    - i want to set up filters for this picture
+    - i want to apply the filter to my pictures.
+    - i 'd like to use filters on my picture.
+    - i want to use a filter for the image
+    - i want to use filters on my picture.
+    - i want to get some filters into the picture.
+    - i want to apply some filters to the image.
+    - edit image using filter
+    - edit image using filters.
+    - editing the image using filter.
+    - would you mind telling me how i can use filters
+    - you can tell me how to filter
+    - how do you want me to use filters
+    - can you explain how i can use filters
+    - can you tell me how to use filters?
+    - tell me how i can adjust filters.
+    - and can you tell me how i can add filters?
+    - can you explain how i can use filters?
+    - can you tell me how i 'll use filters, please?
+    - tell me how i can use filters
 
-#Maya - Data administration
-- intent: Howto_submit_json
+# Intents about uploading json files (trees) #(53)
+- intent: Howto_submit_json #9
   examples: |
     - how to submit a json
     - how to upload a json
@@ -366,7 +851,7 @@ nlu:
     - where is the submit json page?
     - how to get to submit json
 
-- intent: Howto_remove_json
+- intent: Howto_remove_json #8
   examples: |
     - how to remove a json I submitted
     - removing a json
@@ -377,7 +862,7 @@ nlu:
     - can I delete a json
     - what to do to remove a json
 
-- intent: Howto_change_name_of_json
+- intent: Howto_change_name_of_json #12
   examples: |
     - I want to change the name of a json
     - how to rename a json
@@ -392,7 +877,7 @@ nlu:
     - can I change the name of a json?
     - changing json name
 
-- intent: Howto_edit_json
+- intent: Howto_edit_json #6
   examples: |
     - how do I edit a json?
     - how to edit json
@@ -401,7 +886,7 @@ nlu:
     - I want to update a json
     - help with updating json
 
-- intent: Howto_browse_json_files
+- intent: Howto_browse_json_files #10
   examples: |
     - how do I browse json files
     - how to get an old json file
@@ -414,7 +899,7 @@ nlu:
     - I want to get my json
     - accessing saved json
 
-- intent: Howto_change_file_type
+- intent: Howto_change_file_type #6
   examples: |
     - how do I change a json file type?
     - how to edit json file type
@@ -423,8 +908,8 @@ nlu:
     - I want to change a json file type
     - help with changing json
 
-#Maya - Test Case Group
-- intent: Howto_create_new_test_group
+# Intents about test cases #(107)
+- intent: Howto_create_new_test_group #14
   examples: |
     - what are the features of creating a test case group?
     - what can I do to create a test case group
@@ -441,7 +926,7 @@ nlu:
     - what else can you do with the test case group
     - teach me about creating a test case group on this website
 
-- intent: Howto_execute_test_case
+- intent: Howto_execute_test_case #11
   examples: |
     - what are the features of executing a test case?
     - what can I do to execute a test case
@@ -455,7 +940,7 @@ nlu:
     - More on executing a test case
     - teach me about executing a test case on this website
 
-- intent: Howto_create_group_name
+- intent: Howto_create_group_name #6
   examples: |
     - how do I create a group name?
     - how to create a name for test case group
@@ -464,7 +949,7 @@ nlu:
     - I want to name my test case group
     - help with naming test case group
 
-- intent: Howto_edit_product_version
+- intent: Howto_edit_product_version #6
   examples: |
     - how do I edit product version
     - how to create a product version
@@ -473,7 +958,7 @@ nlu:
     - I want to select product version
     - help with editting product version
 
-- intent: Howto_edit_product_sub-version
+- intent: Howto_edit_product_sub-version #6
   examples: |
     - how do I edit product sub-version
     - how to create a product sub-version
@@ -482,7 +967,7 @@ nlu:
     - I want to select product sub-version
     - help with editting product sub-version
 
-- intent: Howto_edit_input_file_type
+- intent: Howto_edit_input_file_type #5
   examples: |
     - how do I edit input file type
     - what to do to edit input file type
@@ -490,7 +975,7 @@ nlu:
     - I want to select input file type to edit
     - help with editting input file type
 
-- intent: Howto_edit_input_file_name
+- intent: Howto_edit_input_file_name #6
   examples: |
     - how do I edit input file type name
     - what to do to edit input file type name
@@ -499,7 +984,7 @@ nlu:
     - help with naming input file type
     - I want to select input file type to name
 
-- intent: Howto_edit_context_file_name
+- intent: Howto_edit_context_file_name #6
   examples: |
     - how do I edit context file name
     - what to do to edit context file name
@@ -508,7 +993,7 @@ nlu:
     - help with naming context file 
     - I want to select context file type to name
 
-- intent: Howto_output_file_name
+- intent: Howto_output_file_name #6
   examples: |
     - how do I name output file 
     - what to do to edit output file name
@@ -517,7 +1002,7 @@ nlu:
     - help with naming output file 
     - I want to select output file to name
 
-- intent: Learnto_execute_action
+- intent: Learnto_execute_action #11
   examples: |
     - what are the features of executing an action?
     - what can I do to execute an action
@@ -531,7 +1016,7 @@ nlu:
     - More on executing an action
     - teach me about executing an action on this page
 
-- intent: Howto_refresh_test_case_groups
+- intent: Howto_refresh_test_case_groups #10
   examples: |
     - what can I do to refresh a test case group
     - what can you do to refresh test case group?
@@ -544,7 +1029,7 @@ nlu:
     - More on how to refresh test case group
     - teach me about refreshing a test case group on this website
 
-- intent: Howto_view_test_groups_in_full_screen
+- intent: Howto_view_test_case_groups_in_full_screen #10
   examples: |
     - what can I do to view test case group in full screen
     - what can you do to view test case groups in full screen
@@ -557,7 +1042,7 @@ nlu:
     - More on how to use full screen
     - teach me where I can find the full screen button
 
-- intent: Howto_toggle
+- intent: Howto_toggle #10
   examples: |
     - what can I do to toggle 
     - what can you do to toggle test case group
@@ -569,23 +1054,6 @@ nlu:
     - I want to know about toggling
     - More on how to use toggle
     - teach me where I can find the toggle button
-
-- intent: many
-  examples: |
-    - more than one
-    - multiple
-    - not just one
-    - I want multiple
-    - many more
-    - a bunch
-
-- intent: only_one
-  examples: |
-    - one
-    - just one
-    - only one
-    - a single one
-    - 1
 
 # Synonyms 
 - synonym: start
@@ -602,6 +1070,11 @@ nlu:
   examples: |
     - ai tree
     - artificial intelligence tree
+    - classification tree
+    - ai classification tree
+    - ai testing tree
+    - classification/testing tree
+    - testing tree
 
 - synonym: build
   examples: |
@@ -627,13 +1100,15 @@ nlu:
   examples: |
     - app
     - application
-    - tool
     - website
+    - program
+    - screen
 
 - synonym: delete
   examples: |
     - remove
     - cut out
+    - cancel
     
 - synonym: modulation
   examples: |
@@ -641,6 +1116,8 @@ nlu:
     - change
     - update
     - edit
+    - adjustment
+    - filter
  
 - synonym: download
   examples: |
@@ -649,3 +1126,90 @@ nlu:
 - synonym: image
   examples: |
     - picture
+    - images
+    - pictures
+    - photo
+    - a photo
+    - photograph
+    - photographs
+    - pic
+    - photos
+
+- synonym: ai testing tool
+  examples: |
+    - artificial intelligent testing tool
+    - ai tool
+    - testing tool
+    - testing instrument
+    - testing software
+    - ai testing software
+    - ai testing sw
+    - tt
+    - aitt
+    - tool
+    - test tool
+    - test equipment
+    - ai testing machine
+
+- synonym: dashboard
+  examples: |
+    - main page
+    - default page
+    - summary page
+    - page with summary information
+  
+- synonym: finished
+  examples: |
+    - done
+    - completed
+    - ready
+
+- synonym: unfinished
+  examples: |
+    - not done
+    - not completed
+    - not ready
+    - not finished
+    - incomplete
+
+- synonym: click
+  examples: |
+    - press
+    - tap
+    - double tap
+
+- synonym: feedback
+  examples: |
+    - suggestions
+    - recommendations
+
+- synonym: creators
+  examples: |
+    - programmers
+    - engineers
+
+- synonym: upload
+  examples: |
+    - load
+
+- synonym: necessary
+  examples: |
+    - needed
+
+- synonym: portfolio
+  examples: |
+    - 'portfolio'
+    - ``portfolio"
+
+- synonym: about
+  examples: |
+    - 'about'
+    - ``about"
+
+- synonym: can't
+  examples: |
+    - cannot
+    - can not
+    - couldn't
+    - could not
+    - canna
