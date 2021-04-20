@@ -276,7 +276,7 @@ nlu:
     - point of image feature
     - what are uploaded images for
     - loading images for what reason
-    - why even have images for testing/
+    - why even have images for testing
     - why do you upload images to the website
     - why do you upload the images
     - but why do you upload images
@@ -330,7 +330,7 @@ nlu:
     - reject making a tree
     - other options instead of using trees
 
-- intent: what_are_test_case_groups #10+19=29
+- intent: what_are_test_case_groups #10+9+19=38
   examples: |
     - what are test case groups
     - what is the point of test case groups
@@ -361,6 +361,15 @@ nlu:
     - I don't want groups of test cases
     - I don't wanna test groups
     - I don't want groups of tests
+    - why would you want to add a new group
+    - why is there the option to add new groups
+    - why can you add new groups
+    - what are multiple test groups used for
+    - are multiple test groups necessary
+    - what is the point in having many groups
+    - do you have to add more groups
+    - why add more test case groups
+    - what is the new group button used for
 
 - intent: why_app_isnt_done #14+13=27
   examples: | 
@@ -392,7 +401,7 @@ nlu:
     - nothing happens if I click on
     - app looks unfinished
 
-- intent: howto_give_feedback #10
+- intent: howto_give_feedback #12+27=39
   examples: |
     - how do you give feedback
     - how to give feedback
@@ -404,20 +413,37 @@ nlu:
     - more work needs to be done for the app
     - I want to let the programmers know how I feel about the app
     - what I think about the app
+    - how can I communicate with website creator
+    - broken app
+    - how do you let me give feedback
+    - how do you give feedback to a website
+    - how can you give feedback
+    - how feedback is delivered
+    - how to submit feedback
+    - there are some problem with the app
+    - program problems
+    - there are many problems with the app
+    - there is a problem with app
+    - how do I contact the administrators of ai testing
+    - how to contact the hackers in ai testing tools
+    - I have a suggestion for the app
+    - I have some ideas for the app
+    - I have some suggestions regarding the app
+    - testing tool needs a slight improvement
+    - this tool will need to be improved
+    - tool needs a lot of improvements
+    - some improvements in the testing tools are required
+    - the testing tool needs improvements in order to be better understood
+    - additional work needs to be done in the application
+    - more work must be done for the application
+    - more work has to be done to improve the app
+    - more work needs to be done on this app
+    - it is also necessary to do more for the app
+    - I want to show how I feel about the app
+    - I want to tell the programmer how I feel about your project
+    - what I like about the app
 
-- intent: why_new_group #9
-  examples: |
-    - why would you want to add a new group
-    - why is there the option to add new groups
-    - why can you add new groups
-    - what are multiple test groups used for
-    - are multiple test groups necessary
-    - what is the point in having many groups
-    - do you have to add more groups
-    - why add more test case groups
-    - what is the new group button used for
-
-- intent: account_pwd_needed #8
+- intent: account_pwd_needed #8+25=33
   examples: |
     - do you have to create an account and password
     - why have an account and password
@@ -427,8 +453,34 @@ nlu:
     - I don't want to use a password
     - a password and account is not necessary
     - account and passwords are not needed for this tool
+    - you have to create a password
+    - you should create a password
+    - do you need to create a password
+    - create account
+    - you can create a new account and password
+    - what do you want with the account and password
+    - why do you need a username and password
+    - why do you have an account
+    - why do we have an account and a password
+    - why do you have a password
+    - what do you want with the account and password
+    - you need some kind of password
+    - I reject account creation
+    - I refuse to create a personal account
+    - I reject accounts
+    - I don't want a password
+    - password and account not needed
+    - there is no need to create a password
+    - password and identity are not necessary
+    - account not required for this tool
+    - password not required for this tool
+    - not necessary for these tools to provide data and passwords
+    - you do not need to have a password to use this feature
+    - this utility does not need a password
+    - this tool does not require an account
 
-- intent: what_are_tree_types #11
+
+- intent: what_are_tree_types #11+33=44
   examples: |
     - why are there 3 types of trees
     - tell me about the types of trees
@@ -441,77 +493,239 @@ nlu:
     - what is the point in having 3 types of trees
     - I want to learn more about the different types of trees
     - how are the trees combined to create test cases
+    - what kind of trees are those 3 kinds
+    - why do you see three kinds of trees
+    - what about three types of trees
+    - what are three types of trees
+    - why do you have three tree types
+    - why do these trees look like three kinds
+    - what kinds of trees are those
+    - why do you have 3 kinds of trees
+    - explain the tree types
+    - explain how different kinds of tree are created
+    - explain how different types of trees are used
+    - explain all types of trees
+    - why different tree types
+    - tell me what the three tree types are
+    - what are ``input" trees for
+    - what are ``output" trees for
+    - what are ``context" trees for
+    - explain the differences between input/output and context classification trees
+    - tell me how the different tree types differ
+    - how are the different tree types different
+    - tell me how the various kinds of trees are different
+    - explain to me how different trees work
+    - I don't understand, I want to learn more about different tree types
+    - I want to know more about the different types of trees
+    - how do the trees form test cases
+    - how trees are linked to testing
+    - how do trees form tests in a test case
+    - how do the trees combine to create tests
+    - which are output classification trees
+    - what are context classification trees
+    - explain what input classification trees are used for
+    - explain output classification tree uses
+    - how should context classification trees be used
+
 
 # Intents about building a tree #(121)
-- intent: get_started #15
+- intent: get_started #15+28=43
   examples: |
-    - how do I get started?
-    - how do I begin?
-    - where should I start?
-    - what do I press on to start using the tool?
-    - what do I click on to begin?
-    - where should I go to start?
-    - where does one go to use the tool?
-    - how do I use the tool?
-    - why can't I start?
-    - what to do to begin?
-    - how can one use the application?
-    - how can I use the application?
+    - how do I get started
+    - how do I begin
+    - where should I start
+    - what do I press on to start using the tool
+    - what do I click on to begin
+    - where should I go to start
+    - where does one go to use the tool
+    - how do I use the tool
+    - why can't I start
+    - what to do to begin
+    - how can one use the application
+    - how can I use the application
     - lets begin
     - I am starting
-    - I want to start
+    - I want to start/
+    - what do I start with
+    - how to start
+    - how do I start with all this
+    - so where to start
+    - I should start at
+    - where do I start
+    - what do I press to start using the tool
+    - what do I click on when I want to start
+    - where do you start using the tool
+    - how to use the tool
+    - how do I use this tool
+    - how do I make use of this tool
+    - how to best use this tool
+    - how do you use the application
+    - I'm getting started, but how
+    - I want to start but don't know how
+    - I don't know how to start
+    - where to begin to use the tool
+    - where to begin
+    - I want to start working now
+    - I want to start the job
+    - what do you suggest I do to start
+    - Recommendations on where to start
+    - I don't know how but I want to start
+    - I want to start but I don't know if I can
+    - I need to start right away
+    - why don't you suggest that I start
+    - recommendation for starting
 
-- intent: start_tree_build #13
+- intent: start_tree_build #12+31=43
   examples: |
     - how to build a tree
     - I have no tree
-    - how to create a tree
-    - building a tree?
+    - building a tree
     - build ai tree
     - what to do to form a tree
-    - can I build a tree?
+    - can I build a tree
     - how to get started on a tree
-    - how do I create a tree?
+    - how do I create a tree
     - where is the create tree page
     - how to get to create tree
     - but I haven't created a tree yet
-    - I want to learn about creating a tree
+    - I want to learn about creating a tree/
+    - I don't have a tree
+    - how do you start a tree
+    - how to create the tree
+    - how to create a tree
+    - how do you make a tree
+    - can you build a tree
+    - maybe build a tree
+    - I might want to make a tree
+    - how do you start the trunk of a tree
+    - how to start the base of a tree
+    - how to set up a tree
+    - where is the page where you create a node
+    - where is the page where you create a tree
+    - page for creating a tree
+    - how do I start a tree
+    - how to use the tree
+    - how to get tree
+    - I don't yet have a tree
+    - I haven't created a tree yet
+    - I have not made a tree yet
+    - teach me about starting a tree
+    - I want to learn about the formation of a tree
+    - I want to learn how to make a tree
+    - teach me about how a tree is formed
+    - teach me how to make a tree
+    - I don't know, maybe I should set up a tree
+    - not sure but maybe I will make a tree
+    - I guess I will make a tree now
+    - maybe I should build a tree
+    - I should probably make a tree
+    - I'll probably want to create a tree
 
-- intent: learn_create_tree_features #14
+- intent: learn_create_tree_features #14+28=42
   examples: |
-    - what are the features of create tree?
+    - what are the features of create tree
     - what can I do to create a tree
-    - what can you do on the create tree page?
+    - what can you do on the create tree page
     - what should I do on the create tree
     - tell me about the create tree page
     - say more about create tree
-    - what should I know about creating a tree?
+    - what should I know about creating a tree
     - talk about the create tree feature
     - list features on creating a tree
     - I want to know about the create tree tool
-    - More on the tree tool
+    - more on the tree tool
     - what other features are available for the tree tool
     - what else can you do with the tree tool
     - teach me about creating a tool on this website
+    - what are the properties of creating a tree
+    - what are the characteristics of create a tree
+    - what features create a tree
+    - what do you have in create tree
+    - what can I do when making a tree
+    - I don't know what I can do when making a tree
+    - what do I do with a tree
+    - what do you do on the ``create tree" page
+    - what can you do on the ``create tree" page
+    - what am I supposed to do on the create tree page
+    - what am I supposed to do when making a tree
+    - explain features of creating a tree
+    - explain what you can do when working on a tree
+    - explain what you can do when creating a tree
+    - tell us more about the creation of a tree
+    - tell more about how to build a tree
+    - what should I do with a tree
+    - I don't understand, talk about the creation of a tree
+    - things you can do when building a tree
+    - show information on what you can do with making a tree
+    - list of function to work on a tree
+    - more on how to work on a tree
+    - what other functions are available for the tool that makes the tree
+    - what can you do to edit the tree
+    - what can you do while working on a tree
+    - what can you do to a tree
+    - what do I do when making a tree
+    - I don't know what to do when making a tree
 
-- intent: howto_save_tree #6
+- intent: howto_save_tree #6+20=26
   examples: |
-    - how do I save a tree?
-    - how to save a tree?
+    - how do I save a tree
+    - how to save a tree
     - what to do to save my tree
     - how to retain a copy of a tree
     - I want to save my tree
-    - help with saving tree
+    - help with saving tree/
+    - how do I keep the tree
+    - how do I save the trees
+    - I need to save my tree
+    - save trees
+    - saving tree
+    - I don't know what to do with a tree to save it
+    - what do I need to do to save a tree
+    - what to do to keep a copy of a tree
+    - how to keep the tree
+    - how to save copies of the tree
+    - how to save a copy of the tree
+    - I need help on saving a tree
+    - teach me how to save a tree
+    - I want to keep my tree
+    - help saving tree
+    - save the tree
+    - save my tree
+    - saving my tree
+    - save selected tree
+    - I want to try and save a tree
 
-- intent: howto_download_tree #7
+- intent: howto_download_tree #7+22=29
   examples: |
-    - how do I download a tree?
-    - how do I get a tree I previously made?
+    - how do I download a tree
+    - how do I get a tree I previously made
     - how to download an old tree
     - download a tree I created
     - help to download tree
     - help downloading tree
-    - how to get a tree that I made?
+    - how to get a tree that I made/
+    - how to download tree
+    - how do I get a copy of the tree I made using the tool
+    - how to download a tree from the tool
+    - how do I get a tree from the tool
+    - how do I download the tree
+    - how to download a previously made tree
+    - how to download a tree made just the other day
+    - how to download a tree made just last week
+    - download the tree I created
+    - download tree
+    - help download
+    - how to obtain a tree that I've made
+    - how do I get a copy of the tree I used to build
+    - how do I obtain the tree I had previously worked on
+    - how do I download a tree I've been working on
+    - how do I get a copy of the tree I've been working on
+    - download tree from tool
+    - how to download this tree created today
+    - how to get tree created from last week
+    - how to download a tree that was created yesterday
+    - so do I get the tree I used to work on
+    - how do I get the tree I've been working on
 
 - intent: howto_rename_node #12
   examples: |
@@ -519,19 +733,19 @@ nlu:
     - how to rename a node
     - how to change the label of a node
     - how to manage the names of the nodes
-    - how to re-label nodes on a tree?
-    - how does re-labeling nodes work?
-    - what to do to change the name of a node?
-    - how do you change a node's name?
-    - how do you change a node's label?
+    - how to re-label nodes on a tree
+    - how does re-labeling nodes work
+    - what to do to change the name of a node
+    - how do you change a node's name
+    - how do you change a node's label
     - how to change a node label
-    - can I change the name of a node?
+    - can I change the name of a node
     - changing a node 
 
 - intent: howto_make_new_tree #11
   examples: |
-    - how to create a new tree?
-    - how do you create a new tree?
+    - how to create a new tree
+    - how do you create a new tree
     - I want to start over with the tree
     - make a new tree
     - how does one make a new tree
@@ -548,9 +762,9 @@ nlu:
     - removing a tree
     - I don't like my tree
     - I don't need a tree
-    - how do you delete a tree?
+    - how do you delete a tree
     - I want to delete a tree
-    - can I delete a node from a tree?
+    - can I delete a node from a tree
     - what to do to remove a node
     - I only want to delete part of a tree
     - take out a child node
@@ -1083,7 +1297,19 @@ nlu:
     - made
     - make
     - add
+    - draw
+    - design
+
+- synonym: creating
+  examples: |
+    - making
+    - building
+    - forming
   
+- synonym: formation
+  examples: |
+    - creation
+
 - synonym: create tree
   examples: |
     - create tree
@@ -1091,18 +1317,16 @@ nlu:
     - create tree page
     - tool to create a tree
     - tool for creating tree
+    - tree
 
 - synonym: one
   examples: |
     - I
 
-- synonym: page
+- synonym: some
   examples: |
-    - app
-    - application
-    - website
-    - program
-    - screen
+    - many
+    - multiple
 
 - synonym: delete
   examples: |
@@ -1150,6 +1374,13 @@ nlu:
     - test tool
     - test equipment
     - ai testing machine
+    - page
+    - app
+    - application
+    - website
+    - program
+    - screen
+    - api
 
 - synonym: dashboard
   examples: |
@@ -1172,6 +1403,15 @@ nlu:
     - not finished
     - incomplete
 
+- synonym: types
+  examples: |
+    - kinds
+
+- synonym: download
+  examples: |
+    - collect
+    - obtain
+
 - synonym: click
   examples: |
     - press
@@ -1187,14 +1427,35 @@ nlu:
   examples: |
     - programmers
     - engineers
+    - administrators
 
 - synonym: upload
   examples: |
     - load
 
+- synonym: tell
+  examples: |
+    - show
+    - explain
+
+- synonym: learn
+  examples: |
+    - know
+    - understand
+
 - synonym: necessary
   examples: |
     - needed
+
+- synonym: unnessary
+  examples: |
+    - not needed
+    - not required
+
+- synonym: properties
+  examples: |
+    - features
+    - characteristics
 
 - synonym: portfolio
   examples: |
@@ -1213,3 +1474,13 @@ nlu:
     - couldn't
     - could not
     - canna
+
+- synonym: there are
+  examples: |
+    - there is
+    - there's
+
+- synonym: want to
+  examples: |
+    - wanna
+    - want a
