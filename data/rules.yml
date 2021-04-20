@@ -60,10 +60,10 @@ rules:
   - intent: howto_give_feedback
   - action: utter_steps_to_give_feedback
 
-- rule: tell users why they would want to add more test case groups
-  steps:
-  - intent: why_new_group
-  - action: utter_why_new_group
+#- rule: tell users why they would want to add more test case groups
+  #steps:
+  #- intent: why_new_group
+  #- action: utter_why_new_group
 
 - rule: tell users they need to create an account and password for access
   steps:
