@@ -1,0 +1,500 @@
+{
+  "howto_download_tree": {
+    "precision": 0.9889867841409692,
+    "recall": 0.9955654101995566,
+    "f1-score": 0.9922651933701657,
+    "support": 451,
+    "confused_with": {
+      "howto_download_image": 1,
+      "start_tree_build": 1
+    }
+  },
+  "learn_image_modulation_features": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 443,
+    "confused_with": {}
+  },
+  "Howto_toggle": {
+    "precision": 0.9938650306748467,
+    "recall": 0.9818181818181818,
+    "f1-score": 0.9878048780487805,
+    "support": 165,
+    "confused_with": {
+      "learn_tool_features": 1,
+      "Howto_create_new_test_group": 1
+    }
+  },
+  "Howto_edit_context_file_name": {
+    "precision": 1.0,
+    "recall": 0.98989898989899,
+    "f1-score": 0.9949238578680203,
+    "support": 99,
+    "confused_with": {
+      "Howto_edit_input_file_type": 1
+    }
+  },
+  "Howto_output_file_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 101,
+    "confused_with": {}
+  },
+  "learn_tool_features": {
+    "precision": 0.9923371647509579,
+    "recall": 0.9885496183206107,
+    "f1-score": 0.9904397705544934,
+    "support": 262,
+    "confused_with": {
+      "whatis_the_ai_test_tool": 3
+    }
+  },
+  "many": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "only_one": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "Howto_remove_json": {
+    "precision": 0.9243697478991597,
+    "recall": 0.9649122807017544,
+    "f1-score": 0.944206008583691,
+    "support": 114,
+    "confused_with": {
+      "howto_delete_tree": 2,
+      "Howto_edit_json": 1
+    }
+  },
+  "Howto_change_name_of_json": {
+    "precision": 1.0,
+    "recall": 0.9893048128342246,
+    "f1-score": 0.9946236559139785,
+    "support": 187,
+    "confused_with": {
+      "howto_rename_node": 2
+    }
+  },
+  "Howto_edit_product_version": {
+    "precision": 0.9693877551020408,
+    "recall": 1.0,
+    "f1-score": 0.9844559585492229,
+    "support": 95,
+    "confused_with": {}
+  },
+  "refuse": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "Howto_view_test_case_groups_in_full_screen": {
+    "precision": 1.0,
+    "recall": 0.988950276243094,
+    "f1-score": 0.9944444444444445,
+    "support": 181,
+    "confused_with": {
+      "Howto_refresh_test_case_groups": 1,
+      "Howto_toggle": 1
+    }
+  },
+  "whatis_the_dashboard": {
+    "precision": 0.9828571428571429,
+    "recall": 0.9662921348314607,
+    "f1-score": 0.9745042492917848,
+    "support": 178,
+    "confused_with": {
+      "why_upload_image": 3,
+      "what_are_test_case_groups": 2
+    }
+  },
+  "where_dashboard": {
+    "precision": 1.0,
+    "recall": 0.9763779527559056,
+    "f1-score": 0.9880478087649402,
+    "support": 254,
+    "confused_with": {
+      "whatis_the_dashboard": 3,
+      "start_tree_build": 2
+    }
+  },
+  "howto_delete_tree": {
+    "precision": 0.968421052631579,
+    "recall": 0.9735449735449735,
+    "f1-score": 0.9709762532981532,
+    "support": 189,
+    "confused_with": {
+      "start_tree_build": 4,
+      "howto_delete_a_node": 1
+    }
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "mood_unhappy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "learn_create_tree_features": {
+    "precision": 1.0,
+    "recall": 0.9772079772079773,
+    "f1-score": 0.9884726224783863,
+    "support": 702,
+    "confused_with": {
+      "start_tree_build": 10,
+      "howto_delete_tree": 3
+    }
+  },
+  "Howto_change_file_type": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 96,
+    "confused_with": {}
+  },
+  "Howto_create_new_test_group": {
+    "precision": 0.984375,
+    "recall": 0.9960474308300395,
+    "f1-score": 0.9901768172888016,
+    "support": 253,
+    "confused_with": {
+      "learn_tool_features": 1
+    }
+  },
+  "howto_select_tree": {
+    "precision": 0.9943181818181818,
+    "recall": 1.0,
+    "f1-score": 0.9971509971509972,
+    "support": 175,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "howto_delete_a_node": {
+    "precision": 0.49085365853658536,
+    "recall": 1.0,
+    "f1-score": 0.6584867075664622,
+    "support": 161,
+    "confused_with": {}
+  },
+  "Howto_browse_json_files": {
+    "precision": 1.0,
+    "recall": 0.9939759036144579,
+    "f1-score": 0.9969788519637462,
+    "support": 166,
+    "confused_with": {
+      "howto_select_tree": 1
+    }
+  },
+  "get_started": {
+    "precision": 0.9971098265895953,
+    "recall": 0.9971098265895953,
+    "f1-score": 0.9971098265895953,
+    "support": 692,
+    "confused_with": {
+      "howto_give_feedback": 1,
+      "howto_reset_image": 1
+    }
+  },
+  "what_are_tree_types": {
+    "precision": 0.9943502824858758,
+    "recall": 0.9971671388101983,
+    "f1-score": 0.9957567185289958,
+    "support": 353,
+    "confused_with": {
+      "start_tree_build": 1
+    }
+  },
+  "howto_give_feedback": {
+    "precision": 0.9933774834437086,
+    "recall": 1.0,
+    "f1-score": 0.9966777408637874,
+    "support": 300,
+    "confused_with": {}
+  },
+  "howto_reset_image": {
+    "precision": 0.9980879541108987,
+    "recall": 0.9980879541108987,
+    "f1-score": 0.9980879541108987,
+    "support": 523,
+    "confused_with": {
+      "howto_download_image": 1
+    }
+  },
+  "what_are_test_case_groups": {
+    "precision": 0.9891696750902527,
+    "recall": 1.0,
+    "f1-score": 0.9945553539019965,
+    "support": 274,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 0.9285714285714286,
+    "recall": 1.0,
+    "f1-score": 0.962962962962963,
+    "support": 13,
+    "confused_with": {}
+  },
+  "howto_apply_filters": {
+    "precision": 1.0,
+    "recall": 0.9916167664670659,
+    "f1-score": 0.9957907396271798,
+    "support": 835,
+    "confused_with": {
+      "howto_download_image": 5,
+      "howto_download_tree": 1
+    }
+  },
+  "account_pwd_needed": {
+    "precision": 1.0,
+    "recall": 0.9921875,
+    "f1-score": 0.996078431372549,
+    "support": 256,
+    "confused_with": {
+      "why_upload_image": 1,
+      "start_tree_build": 1
+    }
+  },
+  "howto_undo_changes": {
+    "precision": 1.0,
+    "recall": 0.9967948717948718,
+    "f1-score": 0.9983948635634029,
+    "support": 624,
+    "confused_with": {
+      "howto_delete_a_node": 2
+    }
+  },
+  "mood_great": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "Howto_edit_input_file_name": {
+    "precision": 1.0,
+    "recall": 0.9519230769230769,
+    "f1-score": 0.9753694581280787,
+    "support": 104,
+    "confused_with": {
+      "Howto_edit_input_file_type": 5
+    }
+  },
+  "Howto_edit_product_sub-version": {
+    "precision": 1.0,
+    "recall": 0.9696969696969697,
+    "f1-score": 0.9846153846153847,
+    "support": 99,
+    "confused_with": {
+      "Howto_edit_product_version": 3
+    }
+  },
+  "Howto_edit_input_file_type": {
+    "precision": 0.926829268292683,
+    "recall": 1.0,
+    "f1-score": 0.9620253164556963,
+    "support": 76,
+    "confused_with": {}
+  },
+  "howto_create_child_node": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 161,
+    "confused_with": {
+      "howto_delete_a_node": 161
+    }
+  },
+  "Howto_refresh_test_case_groups": {
+    "precision": 0.994535519125683,
+    "recall": 0.9837837837837838,
+    "f1-score": 0.9891304347826088,
+    "support": 185,
+    "confused_with": {
+      "Howto_create_new_test_group": 3
+    }
+  },
+  "Howto_create_group_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 109,
+    "confused_with": {}
+  },
+  "start_tree_build": {
+    "precision": 0.9538461538461539,
+    "recall": 0.9985358711566618,
+    "f1-score": 0.9756795422031473,
+    "support": 683,
+    "confused_with": {
+      "howto_delete_a_node": 1
+    }
+  },
+  "whatis_the_ai_test_tool": {
+    "precision": 0.9791666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9894736842105264,
+    "support": 188,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 11,
+    "confused_with": {
+      "greet": 1
+    }
+  },
+  "Learnto_execute_action": {
+    "precision": 0.9947643979057592,
+    "recall": 1.0,
+    "f1-score": 0.9973753280839895,
+    "support": 190,
+    "confused_with": {}
+  },
+  "why_upload_image": {
+    "precision": 0.9775784753363229,
+    "recall": 0.990909090909091,
+    "f1-score": 0.9841986455981943,
+    "support": 220,
+    "confused_with": {
+      "howto_upload_image": 2
+    }
+  },
+  "Howto_submit_json": {
+    "precision": 0.9924242424242424,
+    "recall": 0.9632352941176471,
+    "f1-score": 0.9776119402985075,
+    "support": 136,
+    "confused_with": {
+      "Howto_remove_json": 3,
+      "start_tree_build": 2
+    }
+  },
+  "howto_make_new_tree": {
+    "precision": 0.9944444444444445,
+    "recall": 0.9944444444444445,
+    "f1-score": 0.9944444444444445,
+    "support": 180,
+    "confused_with": {
+      "get_started": 1
+    }
+  },
+  "howto_download_image": {
+    "precision": 0.9862068965517241,
+    "recall": 0.9947826086956522,
+    "f1-score": 0.9904761904761905,
+    "support": 575,
+    "confused_with": {
+      "howto_download_tree": 3
+    }
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "why_have_testing_trees": {
+    "precision": 0.9940476190476191,
+    "recall": 0.943502824858757,
+    "f1-score": 0.9681159420289855,
+    "support": 177,
+    "confused_with": {
+      "start_tree_build": 8,
+      "what_are_tree_types": 2
+    }
+  },
+  "howto_upload_image": {
+    "precision": 0.9947916666666666,
+    "recall": 0.9973890339425587,
+    "f1-score": 0.9960886571056062,
+    "support": 383,
+    "confused_with": {
+      "howto_download_image": 1
+    }
+  },
+  "Howto_edit_json": {
+    "precision": 0.9868421052631579,
+    "recall": 0.9259259259259259,
+    "f1-score": 0.9554140127388535,
+    "support": 81,
+    "confused_with": {
+      "Howto_remove_json": 6
+    }
+  },
+  "Howto_execute_test_case": {
+    "precision": 1.0,
+    "recall": 0.9947916666666666,
+    "f1-score": 0.9973890339425587,
+    "support": 192,
+    "confused_with": {
+      "Learnto_execute_action": 1
+    }
+  },
+  "howto_rename_node": {
+    "precision": 0.9900497512437811,
+    "recall": 0.9900497512437811,
+    "f1-score": 0.9900497512437811,
+    "support": 201,
+    "confused_with": {
+      "howto_delete_a_node": 2
+    }
+  },
+  "why_app_isnt_done": {
+    "precision": 1.0,
+    "recall": 0.994535519125683,
+    "f1-score": 0.9972602739726028,
+    "support": 183,
+    "confused_with": {
+      "howto_give_feedback": 1
+    }
+  },
+  "howto_save_tree": {
+    "precision": 1.0,
+    "recall": 0.9868421052631579,
+    "f1-score": 0.9933774834437086,
+    "support": 380,
+    "confused_with": {
+      "start_tree_build": 3,
+      "howto_delete_tree": 1
+    }
+  },
+  "accuracy": 0.9781498074353533,
+  "macro avg": {
+    "precision": 0.9641397434301425,
+    "recall": 0.9709622609898003,
+    "f1-score": 0.9658570025054607,
+    "support": 12723
+  },
+  "weighted avg": {
+    "precision": 0.9723847691045371,
+    "recall": 0.9781498074353533,
+    "f1-score": 0.9740762107839873,
+    "support": 12723
+  }
+}
