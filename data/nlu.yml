@@ -300,7 +300,7 @@ nlu:
     - why have images for testing purposes
     - why do they have an image for testing
 
-- intent: why_have_testing_trees #9+18=27
+- intent: why_have_testing_trees #9+21=30
   examples: |
     - what are testing trees used for
     - why have trees
@@ -329,6 +329,9 @@ nlu:
     - avoid trees
     - reject making a tree
     - other options instead of using trees
+    - I don't want to make a tree
+    - do you have to create a tree
+    - what's the point in creating trees
 
 - intent: what_are_test_case_groups #10+9+19=38
   examples: |
@@ -727,7 +730,7 @@ nlu:
     - so do I get the tree I used to work on
     - how do I get the tree I've been working on
 
-- intent: howto_rename_node #12
+- intent: howto_rename_node #12+36=48
   examples: |
     - I want to change the name of a node
     - how to rename a node
@@ -740,9 +743,46 @@ nlu:
     - how do you change a node's label
     - how to change a node label
     - can I change the name of a node
-    - changing a node 
+    - changing a node
+    - I want to change the name of the node
+    - I want to change the name of node
+    - I want to rename the node
+    - I want to change the node name
+    - I want to change the name of a node, and it seems very strange
+    - how do you rename the node
+    - how to rename nodes
+    - how to rename the node
+    - how to change the name of the node
+    - how do you change the label of a node
+    - how to change nodes on a given tree-
+    - given a tree, how do you change a node
+    - how to manage the names of the nodes
+    - how to change the labels of the nodes that you use
+    - how to add a label to a node
+    - how to change the label of nodes
+    - how do you manage the names of the nodes
+    - how to set a node's name
+    - how to set nodes name
+    - how to manage the names of the nodes that you use
+    - how to add names to nodes
+    - how to manage names of nodes
+    - how do you re-label nodes on the tree
+    - how to rebrand nodes on a tree
+    - how to re-label the tree node
+    - how to label nodes on a tree
+    - how to re-classify nodes on the tree
+    - how to re-label the tree
+    - how to re-mark tree nodes
+    - how to re-label node
+    - how can re-labelling nodes be done
+    - how to change node's name
+    - change name on node
+    - how do you change the label on a node
+    - how can you change the label of a node
+    - how can you change labels on a tree
 
-- intent: howto_make_new_tree #11
+
+- intent: howto_make_new_tree #11+29=40
   examples: |
     - how to create a new tree
     - how do you create a new tree
@@ -755,8 +795,37 @@ nlu:
     - start over with new tree
     - I messed up and want to restart
     - how to restart tree
+    - how do you start a new tree
+    - how to create a new tree of your own
+    - so do you know how to create a new tree
+    - I want to start with a tree
+    - I want to start building a tree over again
+    - now how to start making a tree
+    - I build a new tree
+    - we'll build a new tree
+    - how does a new tree get built
+    - how can one create new trees
+    - how do you do new trees
+    - how can you create a new tree
+    - I don't like the tree, I want to start over
+    - I don't like trees and wanted to start again
+    - I don't like trees and I want to start again
+    - I don't know, I'm going to make another tree
+    - I have to make a new tree
+    - I have to do another tree
+    - start over with a new tree
+    - start with a new tree
+    - start again with the tree
+    - starting over with a new tree
+    - start anew with the new tree
+    - start over, new tree
+    - start over again with the new tree
+    - I screwed up and I want to restart the tree building process
+    - I fucked up and wanted to restart the tree
+    - I screwed up, I want to build another tree
+    - I've screwed up and want to restart a tree
 
-- intent: howto_delete_tree #12
+- intent: howto_delete_tree #9+24=33
   examples: |
     - how to remove a tree I made
     - removing a tree
@@ -765,51 +834,166 @@ nlu:
     - how do you delete a tree
     - I want to delete a tree
     - can I delete a node from a tree
-    - what to do to remove a node
-    - I only want to delete part of a tree
-    - take out a child node
-    - remove a parent node
-    - removing a parent node
+    - what to do to remove a tree
+    - I only want to delete the last tree
+    - how do I remove a tree
+    - how to get rid of a tree
+    - I do I get rid of a tree
+    - I don't understand, removing a tree
+    - I don't know how to delete a tree
+    - tree removal
+    - tree deletion
+    - remove tree
+    - removing the tree
+    - getting rid of a tree
+    - I don't wan na see my tree
+    - I don't like the tree
+    - I don't approve of my tree
+    - how to delete a tree
+    - how do you delete the tree
+    - can't delete tree
+    - to remove a tree
+    - to remove some tree
+    - why don't you do something to get rid of the tree
+    - what to do to get rid of a tree
+    - I'm going to do what I can to remove the tree
+    - why don't you just remove the tree
+    - I only want to delete the entire tree
+    - lets just delete the tree
 
-- intent: howto_select_tree #11
+- intent: howto_select_tree #11+31=42
   examples: |
     - how do I select a tree
     - how to get an old tree
     - I want to access a tree I already made
     - want to retrieve a tree I made last week
-    - can I get a tree I made previously?
+    - can I get a tree I made previously
     - where to access an old tree
-    - what does the select tree tab do?
+    - what does the select tree tab do
     - how can I get a previously made tree
-    - I made a tree yesterday, how do I get it?
+    - I made a tree yesterday, how do I get it
     - I want to get my saved tree
-    - accessing saved tree    
+    - accessing saved tree
+    - so do I choose the tree
+    - how to choose a tree
+    - how do I choose the tree
+    - how do I pick a tree
+    - how do I get the old tree
+    - how to get the old tree of yours
+    - I want to go to the tree I made
+    - I want to get to a tree I've done before
+    - I want to see a tree I made
+    - I want to see a tree I have already made
+    - I want to get a tree that I made last week
+    - I wanted to get a tree from last week
+    - I am going to get a tree I made last week
+    - can I get a tree I once made
+    - if I could get a tree I created before
+    - can I get the tree I used before
+    - can I get a tree that I had before
+    - can I get the tree I made
+    - which way to access the old tree
+    - where to find an old tree
+    - where to get the old tree
+    - can we see an old tree
+    - what does the select tree tab mean
+    - select tree for use
+    - how can I get a previously finished tree
+    - how do you get a previously formed tree
+    - can I get a previous tree for them
+    - I want to get a saved tree
+    - I want to go get a saved tree
+    - access to saved tree
+    - access saved tree
 
-- intent: howto_delete_a_node #10
+- intent: howto_delete_a_node #10+31=41
   examples: |
     - how to delete a node
     - how to remove node
     - I want to remove a node
     - removing a node
-    - how do you delete only certain nodes?
+    - how do you delete only certain nodes
     - I accidently added a node I don't want
     - take out unnecessary node
-    - how do I delete only specific nodes?
-    - can I delete only some nodes?
+    - how do I delete only specific nodes
+    - can I delete only some nodes
     - remove some but not all nodes
+    - how do you delete the node
+    - how to delete only specific nodes
+    - how to delete the node
+    - how to delete a node from the tree
+    - how do I remove the node
+    - how to delete nodes ( nodes )
+    - how to unplug node
+    - I want to disconnect the node
+    - removing node
+    - removing nodes
+    - delete only certain nodes
+    - how do you keep all but one node
+    - how to keep all except certain nodes
+    - how do you delete only selected nodes
+    - only wish to delete some nodes
+    - can you delete a specific node only
+    - accidentally added nodes I don't need
+    - I added a node I don't want
+    - accidentally added another node that I don't want
+    - added a node that doesn't fit
+    - remove unnecessary node
+    - how do I delete the specified nodes
+    - how do I delete nodes of a set
+    - delete only one node
+    - want to delete only parts of the tree-
+    - remove most but not all nodes
+    - remove several but not all nodes
+    - I only want to delete some nodes
+    - please tell me how to delete only some nodes
+    - delete only part of the tree
+    - only parts of the tree will be deleted
 
-- intent: howto_create_child_node #10
+- intent: howto_create_child_node #10+32=42
   examples: |
     - how to add a child node
     - how do you create a child node
     - I want to expand my tree
     - adding a node
-    - how do you grow the tree?
+    - how do you grow the tree
     - I want to add on to my tree
     - how to add a node
     - make the tree larger
     - how to add more nodes 
-    - I need more nodes
+    - I need more nodes/
+    - how do you add a child
+    - how to add nodes
+    - how to add child nodes
+    - how do you add a child node
+    - how does one add a node
+    - how do you create a child node
+    - how to create child node
+    - I want to extend my tree
+    - want to expand tree
+    - how to expand tree by adding nodes
+    - adding node
+    - add node to tree
+    - add to tree node by node
+    - so do you grow a tree
+    - how to grow a tree
+    - how are you growing trees
+    - want to add to tree on my own
+    - want to add to tree
+    - how do I add a node
+    - add one node at a time
+    - adding node by node
+    - how to add the node to a group of nodes
+    - make tree bigger
+    - make a bigger tree
+    - extend the tree a little
+    - my tree needs more nodes
+    - how do you add more branches to the tree
+    - want more branches on tree
+    - expand branches needed
+    - branches of trees need expansion
+    - I need to add more branches onto the tree
+    - grow tree by adding branches
 
 # Intents about uploading/editing images #(80)  #NOW ITS (221)
 - intent: learn_image_modulation_features #13  #NOW ITS 26
@@ -1140,20 +1324,6 @@ nlu:
     - what else can you do with the test case group
     - teach me about creating a test case group on this website
 
-- intent: Howto_execute_test_case #11
-  examples: |
-    - what are the features of executing a test case?
-    - what can I do to execute a test case
-    - what can you do to execute a test case
-    - what should I do to execute a test case
-    - tell me about executing a test case
-    - say more about how to execute a test case
-    - what should I know about executing a test case?
-    - talk about the executing test case feature
-    - I want to know about executing a test case
-    - More on executing a test case
-    - teach me about executing a test case on this website
-
 - intent: Howto_create_group_name #6
   examples: |
     - how do I create a group name?
@@ -1189,61 +1359,149 @@ nlu:
     - I want to select input file type to edit
     - help with editting input file type
 
-- intent: Howto_edit_input_file_name #6
-  examples: |
-    - how do I edit input file type name
-    - what to do to edit input file type name
-    - how to update input file type name
-    - I want to select input file type to rename
-    - help with naming input file type
-    - I want to select input file type to name
-
-- intent: Howto_edit_context_file_name #6
-  examples: |
-    - how do I edit context file name
-    - what to do to edit context file name
-    - how to update context file name
-    - I want to select context file to rename
-    - help with naming context file 
-    - I want to select context file type to name
-
-- intent: Howto_output_file_name #6
+- intent: Howto_reorder_test_case_group #6
   examples: |
     - how do I name output file 
     - what to do to edit output file name
     - how to update output file name
     - I want to select output file to rename
     - help with naming output file 
-    - I want to select output file to name
+    - I want to select output file to name/
 
-- intent: Learnto_execute_action #11
+- intent: Howto_execute_test_case #10+30=40
   examples: |
-    - what are the features of executing an action?
-    - what can I do to execute an action
-    - what can you do to execute an action
-    - what should I do to execute an action
-    - tell me about executing an action
-    - say more about how to execute an action
-    - what should I know about executing an action?
-    - talk about the executing action feature
-    - I want to know about executing an action
-    - More on executing an action
-    - teach me about executing an action on this page
+    - what can I do to execute a test case
+    - what can you do to execute a test case
+    - what should I do to execute a test case
+    - tell me about executing a test case
+    - say more about how to execute a test case
+    - what should I know about executing a test case
+    - talk about the executing test case feature
+    - I want to know about executing a test case
+    - more on executing a test case
+    - teach me about executing a test case on this website
+    - I want to know how to execute test cases
+    - what do I do to run a test case
+    - what can I do to carry out a test execution
+    - execution of tests, how is it done
+    - what do you do to run a test case
+    - how to implement execution of tests
+    - what am I supposed to do for test execution
+    - how to completion of test exection
+    - what should I do to complete the test execution
+    - tell me about test execution 
+    - tell me about the executions of the cases
+    - tell me, how to execute a test case
+    - how to execute the test case
+    - explain the process of executing test cases
+    - I am trying to figure out how to execute my test case
+    - talk about the execution testing
+    - tell me about the execute-test feature
+    - mention the execution test case
+    - I want to know how to execute a test
+    - teach me so I can understand how to execute a test
+    - explain to me how you execute a test case on this site
+    - execution of test, how are they implemented
+    - how exacly does test execution occur
+    - execution of tests where to do
+    - testing execution how to
+    - how are execution of tests done on the test case group page
+    - how does one carry out execution of tests
+    - carrying out test execution using this tool
+    - I want to complete the execution of the test
+    - procedure for completing the test execution
 
-- intent: Howto_refresh_test_case_groups #10
+- intent: Howto_generate_test_cases #10+33=43
+  examples: |
+    - what are the features of generating test cases
+    - what can I do to generate a test case
+    - what should I do to generate case
+    - tell me about generating a testcase
+    - say more about the action of generating test cases
+    - what should I know about generating test case
+    - talk about the generating cases feature
+    - I want to know about generating cases
+    - more on generating test-cases
+    - teach me about generating an action test case on this page/
+    - what's right arrow button in the action column of the test case groups
+    - blue button pointing right on the 'test case group' page
+    - how to you generate test cases on the test case page
+    - give me some characteristics of test generation
+    - what will generate test cases for me
+    - what do I do to get more test cases
+    - tell me what to do in order to generate more testcases
+    - tell me about the way to generate testcases
+    - explain to me the method of generating test cases for my project
+    - say more about the process of preparing a test case
+    - more on the act of generating test cases
+    - tell us more about the activity of making tests
+    - more about the action of issuing test cases
+    - give more about the process of buidling more test cases
+    - say more on the ways of generating test cases
+    - what should I know about the formation of a test case
+    - what should I know about the production of tests
+    - talk about producing new test cases
+    - can we talk about generating new test cases
+    - how to generate more test cases for my testing class
+    - more on the generation of testing cases
+    - more on ``generating test cases"
+    - instruct me on the method of generating more cases of tests
+    - what is the right arrow button in the action column
+    - how does one trigger the generation of test cases
+    - right pointing blue arrow button, what does it do
+    - how do you generate a test sample on the test case page
+    - how can you generate tests on the page with test cases
+    - explain to me the method of preparing test cases for the project
+    - explain the method of producing a test case for my project
+    - explain and show me how to generate some test cases
+    - give the method for generating test cases
+    - I am trying to figure out how to generate my test case
+
+- intent: Howto_refresh_test_case_groups #10+30=40
   examples: |
     - what can I do to refresh a test case group
-    - what can you do to refresh test case group?
-    - what should I do to refresh test case group?
+    - what can you do to refresh test case group
+    - what should I do to refresh test case group
     - tell me about refreshing a test case group
     - say more about how to refresh test case group
     - what should I know about refreshing test case groups
     - talk about how to refresh a test case group
     - I want to know about refreshing a test case group
-    - More on how to refresh test case group
+    - more on how to refresh test case group
     - teach me about refreshing a test case group on this website
+    - what do I do to re-initiate the test group
+    - what can I do to reinitialize the test cases
+    - what do I have to do to update the test group
+    - tell me about about the testing group refresh
+    - talk about the refreshment of test cases
+    - explain to me how one can refresh the test case page
+    - why don't you talk about how to update test cases
+    - how to use the refresh test case button
+    - explain how to refresh test cases
+    - other information about how to update the test case
+    - what about how to refresh the testing group
+    - more information about how to update the group of test cases
+    - what is the button with two arrow in a circle
+    - button with circle made of arrows
+    - what is the button to the left of the toggle button
+    - I recently added more test cases, how can I update
+    - updating after new test cases have been added
+    - how does one update the test case page after more information has been added
+    - why do you need the button with a circular arrow on it
+    - what kind of button is a pair of arrows in a circle
+    - what is the trigger with two arrows in a circle
+    - it's a button with two arrows in a circle
+    - what's the button with two arrows making a circle on the test case page used for
+    - button marked with circle made of arrows on test cases
+    - which button to use to refresh the test case page
+    - I recently added additional tests, how to show them
+    - I recently made another test case. why couldn't I see them
+    - I've recently added a whole batch of test cases, how to make them show
+    - how to make new test cases pop up on test case screen
+    - updating after adding new tests
+    - 
 
-- intent: Howto_view_test_case_groups_in_full_screen #10
+- intent: Howto_view_test_case_groups_in_full_screen #10+29=39
   examples: |
     - what can I do to view test case group in full screen
     - what can you do to view test case groups in full screen
@@ -1253,10 +1511,39 @@ nlu:
     - say more about full screen 
     - talk about how to toggle full screen
     - I want to know about full screen mode
-    - More on how to use full screen
+    - more on how to use full screen
     - teach me where I can find the full screen button
+    - what is the icon with the intersecting double arrows
+    - how to view the entire set of test cases in full screen
+    - how can I see the full-screen test groups
+    - how to display test cases in full screen
+    - what can I do regarding the full screen of the test cases
+    - what can I do to view a test case in screen mode
+    - show full-screen test cases
+    - show test case groups in full screen
+    - can I see the test groups in full-scale
+    - can you show the test group in full screen format
+    - can I see a whole section of tests in frontscreen
+    - show groups of tests cases full screen
+    - show test case groups on large display
+    - what should I do to have a full screen for test cases
+    - how to use full screen
+    - show me how to use the full-screen
+    - tell me how you use the whole screen
+    - tell me how to get the full display of test cases
+    - if you point to me how to find my full screen button
+    - explain to me where the full screen icon is
+    - now tell me where I can find the full-screen button
+    - point to me a button to show full screen
+    - what is the icon with a double arrow that intersects
+    - what's the icon on which the intersecting double arrows are connected
+    - what's the icon with the intersecting cross-arrow
+    - what's the icon to the right of the toggle button
+    - on the test case group page, what is the button with two intersecting arrows
+    - I see a button with intersecting arrows on test cases
+    - which is the intersecting double arrow
 
-- intent: Howto_toggle #10
+- intent: Howto_toggle #10+32=42
   examples: |
     - what can I do to toggle 
     - what can you do to toggle test case group
@@ -1266,8 +1553,40 @@ nlu:
     - say more about toggle feature
     - talk about how to toggle
     - I want to know about toggling
-    - More on how to use toggle
-    - teach me where I can find the toggle button
+    - more on how to use toggle
+    - teach me where I can find the toggle button/
+    - how to change the format on the test case group page
+    - how to switch layout of the test cases
+    - what is the button in between the refresh and full page button
+    - I want to change the format of the test case page
+    - view test cases in a table
+    - display test cases as a grid
+    - test cases should be shown in a grid
+    - change layout of test cases
+    - view test cases in a different format
+    - what does the toggle button do
+    - what is toggling
+    - what is the meaning of toggle
+    - tell me how to change the layout of the test case page
+    - how to manage viewing of test cases
+    - specify what toggling does
+    - explain toggle feature on test cases
+    - toggling is a thing
+    - instruct me on how to change the layout of test cases
+    - how to change formatting on groups of tests
+    - how do you configure the layout of test cases
+    - how to make a change in the layout of the testing cases
+    - show test cases in a list
+    - display test cases in a grid
+    - which button is between the refresh button and the full page
+    - what is between a reset and a full page button
+    - what's the button between refresh and full page
+    - what's the button between round arrow and expansion button
+    - I want to adjust the way the tests are presented on the test cases
+    - show test cases tables
+    - testing cases in grid format is better
+    - cases should be presented in a grid
+    - what is the icon with the oval and circle
 
 # Synonyms 
 - synonym: start
@@ -1290,25 +1609,51 @@ nlu:
     - classification/testing tree
     - testing tree
 
+- synonym: format
+  examples: |
+    - configuration
+    - layout
+
 - synonym: build
   examples: |
     - create
     - form
-    - made
     - make
     - add
     - draw
     - design
+    - generate
+    - produce
+
+- synonym: refresh
+  examples: |
+    - update
+    - revive
+    - reinitialize
+    - re-initialize
+
+- synonym: grow
+  examples: |
+    - expand
+    - extend
+
+- synonym: built
+  examples: |
+    - created
+    - made
+    - generated
 
 - synonym: creating
   examples: |
     - making
     - building
     - forming
+    - generating
   
 - synonym: formation
   examples: |
     - creation
+    - generationg
 
 - synonym: create tree
   examples: |
@@ -1333,12 +1678,17 @@ nlu:
     - remove
     - cut out
     - cancel
+
+- synonym: deleting
+  examples: |
+    - removing
+    - cutting out
+    - cancelling
     
 - synonym: modulation
   examples: |
     - modify
     - change
-    - update
     - edit
     - adjustment
     - filter
@@ -1358,6 +1708,19 @@ nlu:
     - photographs
     - pic
     - photos
+
+- synonym: icon
+  examples: |
+    - button
+    - buttons
+    - icons
+    - emblem
+
+- synonym: list
+  examples: |
+    - matrix
+    - grid
+    - table
 
 - synonym: ai testing tool
   examples: |
@@ -1388,6 +1751,16 @@ nlu:
     - default page
     - summary page
     - page with summary information
+
+- synonym: test cases
+  examples: |
+    - test
+    - tests
+    - test case
+    - test case groups
+    - test-case
+    - testing cases
+    - testing case groups
   
 - synonym: finished
   examples: |
@@ -1407,16 +1780,34 @@ nlu:
   examples: |
     - kinds
 
+- synonym: specific
+  examples: |
+    - particular
+    - certain
+
 - synonym: download
   examples: |
     - collect
     - obtain
 
-- synonym: click
+- synonym: choose
   examples: |
     - press
     - tap
     - double tap
+    - select
+    - click
+
+- synonym: retrieve
+  examples: |
+    - get
+    - access
+
+- synonym: show
+  examples: |
+    - display
+    - view
+    - see
 
 - synonym: feedback
   examples: |
@@ -1457,6 +1848,15 @@ nlu:
     - features
     - characteristics
 
+- synonym: name
+  examples: |
+    - title
+    - label
+
+- synonym: bigger
+  examples: |
+    - larger
+
 - synonym: portfolio
   examples: |
     - 'portfolio'
@@ -1484,3 +1884,14 @@ nlu:
   examples: |
     - wanna
     - want a
+
+- synonym: we will
+  examples: |
+    - we'll 
+    - weel
+
+- synonym: node
+  examples: |
+    - nodes
+    - element
+    - elements

@@ -15,7 +15,7 @@ rules:
   - action: utter_iamabot
 
 # General rules related to the testing tool
-- rule: tell user about the ai testing tool
+- rule: tell user about the ai testing tool and what one can use it for
   steps:
   - intent: whatis_the_ai_test_tool
   - action: utter_what_ai_tool_is
@@ -60,11 +60,6 @@ rules:
   - intent: howto_give_feedback
   - action: utter_steps_to_give_feedback
 
-- rule: tell users why they would want to add more test case groups
-  steps:
-  - intent: why_new_group
-  - action: utter_why_new_group
-
 - rule: tell users they need to create an account and password for access
   steps:
   - intent: account_pwd_needed
@@ -76,7 +71,7 @@ rules:
   - action: utter_dif_tree_types
 
 # Rules about creating trees
-- rule: tell user how to save
+- rule: tell user how to save-
   steps: 
   - intent: howto_save_tree
   - action: utter_save_tree
@@ -189,20 +184,20 @@ rules:
   - intent: Howto_edit_input_file_type
   - action: utter_edit_input_file_type
 
-- rule: tell user how to edit input file name
-  steps:
-  - intent: Howto_edit_input_file_name
-  - action: utter_edit_input_file_name
-
-- rule: tell user how to edit context file name
-  steps:
-  - intent: Howto_edit_context_file_name
-  - action: utter_edit_context_file_name
-
 - rule: tell user how to edit output file name
   steps:
-  - intent: Howto_output_file_name
-  - action: utter_output_file_name
+  - intent: Howto_reorder_test_case_group
+  - action: utter_reordering_test_cases
+
+- rule: tell user how to execute test case group
+  steps:
+  - intent: Howto_execute_test_case
+  - action: utter_howto_execute_test_case
+
+- rule: tell user how to generate test cases
+  steps:
+  - intent: Howto_generate_test_cases
+  - action: utter_learn_to_generate_test_cases
 
 - rule: tell user refresh test case groups
   steps:
