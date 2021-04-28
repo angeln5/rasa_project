@@ -13067,15 +13067,39 @@ nlu:
     - classification/testing tree
     - testing tree
 
+- synonym: format
+  examples: |
+    - configuration
+    - layout
+
 - synonym: build
   examples: |
     - create
     - form
-    - made
     - make
     - add
     - draw
     - design
+    - generate
+    - produce
+
+- synonym: refresh
+  examples: |
+    - update
+    - revive
+    - reinitialize
+    - re-initialize
+
+- synonym: grow
+  examples: |
+    - expand
+    - extend
+
+- synonym: built
+  examples: |
+    - created
+    - made
+    - generated
 
 - synonym: creating
   examples: |
@@ -13086,6 +13110,7 @@ nlu:
 - synonym: formation
   examples: |
     - creation
+    - generationg
 
 - synonym: create tree
   examples: |
@@ -13111,11 +13136,16 @@ nlu:
     - cut out
     - cancel
 
+- synonym: deleting
+  examples: |
+    - removing
+    - cutting out
+    - cancelling
+
 - synonym: modulation
   examples: |
     - modify
     - change
-    - update
     - edit
     - adjustment
     - filter
@@ -13135,6 +13165,19 @@ nlu:
     - photographs
     - pic
     - photos
+
+- synonym: icon
+  examples: |
+    - button
+    - buttons
+    - icons
+    - emblem
+
+- synonym: list
+  examples: |
+    - matrix
+    - grid
+    - table
 
 - synonym: ai testing tool
   examples: |
@@ -13166,6 +13209,16 @@ nlu:
     - summary page
     - page with summary information
 
+- synonym: test cases
+  examples: |
+    - test
+    - tests
+    - test case
+    - test case groups
+    - test-case
+    - testing cases
+    - testing case groups
+
 - synonym: finished
   examples: |
     - done
@@ -13184,16 +13237,34 @@ nlu:
   examples: |
     - kinds
 
+- synonym: specific
+  examples: |
+    - particular
+    - certain
+
 - synonym: download
   examples: |
     - collect
     - obtain
 
-- synonym: click
+- synonym: choose
   examples: |
     - press
     - tap
     - double tap
+    - select
+    - click
+
+- synonym: retrieve
+  examples: |
+    - get
+    - access
+
+- synonym: show
+  examples: |
+    - display
+    - view
+    - see
 
 - synonym: feedback
   examples: |
@@ -13234,6 +13305,15 @@ nlu:
     - features
     - characteristics
 
+- synonym: name
+  examples: |
+    - title
+    - label
+
+- synonym: bigger
+  examples: |
+    - larger
+
 - synonym: portfolio
   examples: |
     - 'portfolio'
@@ -13261,3 +13341,14 @@ nlu:
   examples: |
     - wanna
     - want a
+
+- synonym: we will
+  examples: |
+    - we'll 
+    - weel
+
+- synonym: node
+  examples: |
+    - nodes
+    - element
+    - elements
