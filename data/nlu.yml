@@ -1237,30 +1237,92 @@ nlu:
     - tell me how i can use filters
 
 # Intents about uploading json files (trees) #(53)
-- intent: Howto_submit_json #9
+- intent: Howto_submit_json #18+31=49
   examples: |
     - how to submit a json
-    - how to upload a json
-    - submitting a json?
+    - submitting a json
     - what to do to submit a json
     - can I submit a json
     - how to get started submitting a json
-    - how do I submit a json?
-    - where is the submit json page?
+    - how do I submit a json
+    - where is the submit json page
     - how to get to submit json
+    - how does one go about submitting a json file
+    - how to submit a json file
+    - I need to submit a json file
+    - json file submission
+    - neccessary to submit json file onto website
+    - json submit required
+    - I'm trying to upload a json file onto the 'upload JSON tree' webpage
+    - I'm having difficulty submitting a json file
+    - I already created a tree I want to put onto the testing tool
+    - I have a tree I want to submit onto the ai testing tool
+    - I have a tree on my computer I want to submit onto the testing tool-
+    - how can I put my tree on the ai tool from my local drive
+    - my tree is on my local computer, how to get it on the website
+    - what should I do to submit a json
+    - what can I do to submit a json
+    - how do I send my json onto the testing tool
+    - I want to get my json tree submitted to the website
+    - how to add a tree to the testing tool
+    - why do you need to add a json
+    - to give a json to the website
+    - what to do to submit a single json file
+    - where is the upload-json page
+    - where is the submitjson page
+    - where to submit a file of a tree into the tool
+    - page where I can submit a json file
+    - where's the json page of yours
+    - how do you use the upload json tree page to upload a tree
+    - I created a tree I want to place on the website
+    - I already created a tree I want to test
+    - is it difficult to submit a json file
+    - explain the process of submitting a json file
+    - how to get an old json file
+    - I want to access a json I already made
+    - want to retrieve a json I made last week
+    - can I get a json I made previously
+    - where to access an old json
+    - how can I get a previously made json
+    - I made a json yesterday, how do I get it
+    - I want to get my json
+    - accessing saved json
 
-- intent: Howto_remove_json #8
+- intent: Howto_remove_json #8+23=31
   examples: |
     - how to remove a json I submitted
     - removing a json
     - I don't like my json
     - I don't need a json
-    - how do you delete a json?
-    - I want to delete a json
-    - can I delete a json
+    - how do you remove a json
+    - I want to remove a json
+    - can I remove a json
     - what to do to remove a json
+    - there's a json file I need to remove
+    - how to go about removing a json file from the testing tool
+    - need a removal of a tree
+    - I need to remove a json file
+    - is it difficult to remove a json file
+    - explain to me the process of removing a json
+    - json file must be removed
+    - json file can't be used anymore
+    - I must be rid of the json file
+    - an uploaded json file is no longer of use
+    - I don't know, there's a file that I want to remove
+    - I need to get rid of a file from the testing tool
+    - there's a json file on the tool that I need to take down
+    - how do you remove the new json file form the testing tool
+    - how to move the json file away from the website
+    - moving the json file off of the website
+    - what is the process of removing a json file like
+    - if it isn't too hard to remove json off website
+    - explain how removing the json file from the website works
+    - explain procedure of json file removal
+    - must get rid of useless json
+    - the json file is no longer valid so lets remove
+    - uploaded json no usable so must remove
 
-- intent: Howto_change_name_of_json #12
+- intent: Howto_change_name_of_json #10+26=36
   examples: |
     - I want to change the name of a json
     - how to rename a json
@@ -1269,53 +1331,122 @@ nlu:
     - how to re-label a json
     - how does re-naming json work
     - what to do to change the name of a json
-    - how do you change a json's name?
-    - how do you change a json's label?
+    - how do you change a json's name
     - how to change a json name
-    - can I change the name of a json?
-    - changing json name
+    - can I change the name of a json
+    - changing json name/
+    - explain to me the process of changing a json file name
+    - explain how I can rename a classification tree-
+    - I've uploaded a json file already and want to change its name
+    - existing classification tree needs to be renamed
+    - wanna rename json file of a classification tree
+    - renaming classification tree is needed so I want the steps
+    - renaming json file, so how's it done
+    - I must rename my tree so teach me how
+    - explain each step of re-naming a json file
+    - change the name of the classification tree
+    - changing name of json file already on the website
+    - must rename an existing json file on the website
+    - how to change 'json' file name
+    - how to change classification tree name
+    - how to manage a name for a json file
+    - managing names for different classification trees
+    - how to handle name changes for json files
+    - handling name changes of classification tree
+    - how do you re-label a json
+    - how to reset the name of json file
+    - reset name of classification tree on website
+    - wanna reset the label of a classification tree
+    - how does renaming json files occur
+    - how does it work with renaming classification tree
+    - to change the name of json
+    - explain and change the name of the file for a classification tree
 
-- intent: Howto_edit_json #6
+- intent: Howto_edit_json #6+23=29
   examples: |
-    - how do I edit a json?
+    - how do I edit a json
     - how to edit json
     - what to do to edit a json
     - how to edit my json
     - I want to update a json
     - help with updating json
+    - changes to a json file were necessary, how to make them
+    - can edits to json file be done on the website
+    - editing json file occurs where
+    - I want to make changes to the json file
+    - how can changes to a json file be done
+    - where can I make changes to a json file
+    - I want to edit my tree that I have uploaded-
+    - changing a single json file needed how to make
+    - changes to my json were done, how to do
+    - i need to make changes to the json file
+    - how can I make changes to my tree that I uploaded
+    - editing json file needed, where to
+    - can the edits to a file be done on the website
+    - can editing of json file be performed with the website
+    - editing a single json file
+    - using the website to edit an uploaded json file
+    - where does editing of uploaded json occur
+    - changes to json file needed so how can that be done
+    - I'm going to make changes to my json file where
+    - where to make changes to a json file
+    - can I change a json file that I've uploaded
+    - where can I change a json file that has been uploaded to the website
+    - I want to edit the tree I've uploaded
 
-- intent: Howto_browse_json_files #10
+- intent: Howto_change_file_type #6+34=40
   examples: |
-    - how do I browse json files
-    - how to get an old json file
-    - I want to access a json I already made
-    - want to retrieve a json I made last week
-    - can I get a json I made previously?
-    - where to access an old json
-    - how can I get a previously made json
-    - I made a json yesterday, how do I get it?
-    - I want to get my json
-    - accessing saved json
-
-- intent: Howto_change_file_type #6
-  examples: |
-    - how do I change a json file type?
+    - how do I change a json file type
     - how to edit json file type
     - what to do to change a json file type
     - how to edit my json file type
     - I want to change a json file type
-    - help with changing json
+    - help with changing json type
+    - how to change file type on 'upload json tree' page
+    - changing the type of json file
+    - need help changing the json file type
+    - explain to me how I can change the file type when uploading a json file
+    - teach about changing the type of file
+    - want to change the file type to an input classification tree
+    - I need to change the file type to an output classification tree-
+    - wanna change the file type to a context classification tree
+    - when uploading a tree, how do I change the file type
+    - must change the file type, I'm uploading a tree
+    - help me change the file type when uploading json tree file
+    - json file type needsd changing so how can I do that
+    - how do I change the file type of a json file
+    - changing file type of classification tree I'm uploading
+    - what do I do to change the type of a json file
+    - how to set up the type for a json file being uploaded
+    - how to edit json type
+    - how to edit a json file to be of a given type of classification tree
+    - changing a file type to an input classification tree
+    - change up file type to be an output classification tree
+    - changing the label of a classification tree to context classification tree
+    - what to do for changing the classification of a json file
+    - how do you change the type of a file on 'upload json' tree
+    - can change the type of files for 'upload json'on page
+    - changing type of json
+    - explain how I can change the type of file
+    - teach about changing the file type
+    - show me how to change the file type
+    - show how I can change the type of classification tree
+    - learn how to change the type of file
+    - instructions about changing the type of files
+    - to change file to of tree to input
+    - need change file to that of output tree
+    - don't want an input tree, instead should be context tree
 
 # Intents about test cases #(107)
-- intent: Howto_create_new_test_group #14
+- intent: Howto_create_new_test_group #20+19=39
   examples: |
-    - what are the features of creating a test case group?
+    - what are the features of creating a test case group
     - what can I do to create a test case group
-    - what can you do on the test case group page?
+    - what can you do on the test case group page
     - what should I do on the test case group
     - tell me about the test case group page
     - say more about test case group
-    - what should I know about creating a test group?
+    - what should I know about creating a test group
     - talk about the create test case group feature
     - list features on creating a test case group
     - I want to know about the create test case group
@@ -1323,50 +1454,77 @@ nlu:
     - what other features are available for the test case group
     - what else can you do with the test case group
     - teach me about creating a test case group on this website
-
-- intent: Howto_create_group_name #6
-  examples: |
-    - how do I create a group name?
+    - how do I create a group name
     - how to create a name for test case group
     - what to do to edit a test case group name
     - how to rename test case group
     - I want to name my test case group
     - help with naming test case group
+    - what are the steps to creating test groups
+    - what to do to create a group of tests
+    - what do you think I should start off with on the test case group page
+    - recommendations on what to do on the test case group page
+    - what should I know about the formation of a test group
+    - talk about creating a group of tests
+    - you talk about the create group tests feature
+    - how to create a label for a group of tests
+    - how to add a name to a group for testing
+    - how to create the name for the group I'm testing
+    - want to know how to create a new name for the group
+    - why don't you fix a group name for testing group
+    - edit the name of the tests
+    - how to edit the group name for the tests
+    - to edit the title of the group of tests for the test case
+    - show method for creating a group name
+    - display the procedure of the naming of test case groups
+    - explain to me how to label a group of tests
+    - help naming test groups
 
-- intent: Howto_edit_product_version #6
+- intent: Howto_reorder_test_case_groups #0+43=43
   examples: |
-    - how do I edit product version
-    - how to create a product version
-    - what to do to edit product version
-    - how to update product version 
-    - I want to select product version
-    - help with editting product version
-
-- intent: Howto_edit_product_sub-version #6
-  examples: |
-    - how do I edit product sub-version
-    - how to create a product sub-version
-    - what to do to edit product sub-version
-    - how to update product sub-version 
-    - I want to select product sub-version
-    - help with editting product sub-version
-
-- intent: Howto_edit_input_file_type #5
-  examples: |
-    - how do I edit input file type
-    - what to do to edit input file type
-    - how to update input file type
-    - I want to select input file type to edit
-    - help with editting input file type
-
-- intent: Howto_reorder_test_case_group #6
-  examples: |
-    - how do I name output file 
-    - what to do to edit output file name
-    - how to update output file name
-    - I want to select output file to rename
-    - help with naming output file 
-    - I want to select output file to name/
+    - how do you change the order of the test case groups
+    - how do you reorder test case groups
+    - I want to change order of test case group
+    - I need to change the order of the test case group
+    - needed to change order of test case group
+    - change ordering test case groups please
+    - it is now necessary to change the order of the test case groups
+    - are test case groups in alphabetical order
+    - what's the point of alphabetical order for test cases
+    - logic behind order of test case groups
+    - ordering of 'test case group' page confusing
+    - I'm confused by the ordering of the test case group
+    - to reorder test case groupings
+    - clarification on the order of test case groups
+    - I'm confused by the order of test cases
+    - explain to me the basics of ordering for test cases
+    - ordering by what category with the test cases
+    - I want to order by group name
+    - order based on product version
+    - product sub-version ordering on test case group
+    - order by input file name
+    - order by context file name
+    - order based on context file name
+    - how do you change the grouping of test cases
+    - how do you change the order of groups of test cases
+    - how do you change the group order on the testing
+    - how do you organize the groups of test cases
+    - it's now necessary to order the test cases
+    - I want to make a change in the order of the test case
+    - change the sorting of groups of test cases
+    - change order of testing groups to a specific order please
+    - it is now necessary to adapt the order of the test groups
+    - we must now change the order of test groups
+    - groups are written down alphabetically in order
+    - they are groups of tests in alphabetical order
+    - groups are in alphabetical order
+    - are group tests ordered alphabetically
+    - this is a series of test groups in alphabetical order
+    - what's the reasoning for the order of test case groups
+    - why not order test case groups based on
+    - what's the point of a particular ordering
+    - what's the point in a numerical arrangement of tests
+    - explain the arrangement of test case groups
 
 - intent: Howto_execute_test_case #10+30=40
   examples: |
@@ -1684,6 +1842,8 @@ nlu:
     - removing
     - cutting out
     - cancelling
+    - removal
+    - deletion
     
 - synonym: modulation
   examples: |
@@ -1809,6 +1969,15 @@ nlu:
     - view
     - see
 
+- synonym: order
+  examples: |
+    - ordering
+    - reorder
+    - reordering
+    - re-ordering
+    - reorganizing
+    - reorg
+
 - synonym: feedback
   examples: |
     - suggestions
@@ -1823,6 +1992,17 @@ nlu:
 - synonym: upload
   examples: |
     - load
+    - submit
+
+- synonym: uploading
+  examples: |
+    - loading
+    - submitting
+
+- synonym: uploaded
+  examples: |
+    - loaded
+    - submitted 
 
 - synonym: tell
   examples: |
@@ -1852,6 +2032,12 @@ nlu:
   examples: |
     - title
     - label
+
+- synonym: rename
+  examples: |
+    - re-name
+    - re-label
+    - relabel
 
 - synonym: bigger
   examples: |

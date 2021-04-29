@@ -52,17 +52,12 @@ intents:
   - Howto_submit_json
   - Howto_remove_json
   - Howto_change_name_of_json 
-  - Howto_edit_json 
-  - Howto_browse_json_files
+  - Howto_edit_json
   - Howto_change_file_type
 
 # intents about test cases
-  - Howto_create_group_name 
-  - Howto_edit_product_version 
-  - Howto_edit_product_sub-version
-  - Howto_edit_input_file_type
   - Howto_create_new_test_group
-  - Howto_reorder_test_case_group 
+  - Howto_reorder_test_case_groups
   - Howto_execute_test_case 
   - Howto_generate_test_cases
   - Howto_refresh_test_case_groups 
@@ -238,7 +233,7 @@ responses:
   - text: "In the INPUT IMAGE MODULATION section under GET STARTED, there is a 'Load' button that you can press to upload an image from your computer."
 
   utter_download_image:
-  - text: "In the INPUT IMAGE MODULATION section under GET STARTED, there is a 'Download' button that you can press to download your new image with the changes tou made to it."
+  - text: "In the INPUT IMAGE MODULATION section under GET STARTED, there is a 'Download' button that you can press to download your new image with the changes you made to it."
 
   utter_undo_changes:
   - text: "To undo any unwanted modifications to your image, press the first arrow on the leftmost arrow at the top of the INPUT IMAGE MODULATION page. You can undo one or many edits."
@@ -247,7 +242,7 @@ responses:
   - text: "To reset ALL the modifications done to your image, click on the reset button denoted with two arrows at the top of the INPUT IMAGE MODULATION page."
 
   utter_apply_filters:
-  - text: "You can apply filters in the INPUT IMAGE MODULATION section. If you do not see the different options to add filters, there is a 'Filter' button that you can click to show different options such as blur, invert, brightness, pixeleate, and others."
+  - text: "You can apply filters in the INPUT IMAGE MODULATION section. If you do not see the different options to add filters, there is a 'Filter' button that you can click to show different options such as blur, invert, brightness, pixelate, and others."
 
   utter_ask_if_image_uploaded:
   - text: "Have you uploaded the image you want to modify?"
@@ -260,38 +255,30 @@ responses:
 
 # Responses about uploading json files (trees)
   utter_change_file_type:
-  - text: "Click on the drop down list 'file type' and select one of the three options."
+  - text: "On the 'Upload JSON Tree' page, click on the drop down list 'file type' and select one of the three options.
+          \nChanging the type of classification tree currently can only be done when uploading a tree, creating a tree or copying and saving a tree."
 
   utter_remove_json: 
   - text: "Simply replace the json file by browsing for another json file to submit."
 
   utter_change_json_name: 
-  - text: "Before submitting json file, please rename your file locally."
+  - text: "There are two methods to changing the name of a json file:
+          \n1. Before submitting json file, you can rename your file locally.
+          \n2. On the 'Create Tree' page, you can select the tree you want to rename using the drop down tab,
+            \nthen click the 'Copy and Save Tree' button. Before clicking 'Create', change the file name and choose
+            \nthe file type."
 
   utter_submit_json: 
   - text: "Navigate to Get Started --> Data Administration. Click on 'browse' to select a json file to submit. Hit submit when ready."
 
-  utter_browse_json: 
-  - text: "Click on the browse button to browse through your json files."
-
   utter_edit_json:
-  - text: "You will need to make edits to your json file before submitting."
+  - text: "After uploading a json file of a classification tree, navigate to the 'Create Tree' page on the 
+          \ntool and select that json file.  The tree should be displayed on that page."
 
   utter_changing_file_type:
   - text: "Click on the drop down list 'file type' and select one of the three options."
   
 # Responses about test cases
-  utter_create_group_name:
-  - text: "Navigate to Get Started --> Test Case Group and create a New Group to set a name."
-
-  utter_edit_product_version:
-  - text: "Click on the up/down arrow next to 'Product Version' to bring it up or down in number."
-
-  utter_edit_product_sub-version:
-  - text: "Click on the up/down arrow next to 'Product Sub-Version' to bring it up or down in number."
-
-  utter_edit_input_file_type:
-  - text: "Click on the up/down arrow next to 'Input File Name' to bring it up or down. To change the file type, you wil need to resubmit the new group."
 
   utter_refresh_test_case_groups:
   - text: "Click on the circular arrows on the top right of the screen to refresh the test case groups."
@@ -303,9 +290,6 @@ responses:
   - text: "Toggling changes the layout of the test cases between the grid and list layout. 
           \nOn the 'Test Case Group Page', click on the toggle button that is location in the middle of two buttons on the top right of the page."
 
-  utter_browsing_json: 
-  - text: "Click on the browse button to browse through your json files."
-
   utter_removing_json: 
   - text: "Simply replace the json file by browsing for another json file to submit."
 
@@ -315,11 +299,10 @@ responses:
   utter_create_new_test_group: 
   - text: "To create a new test group, navigate to Get Started --> Test Case Group and click on Create New Group."
 
-  utter_reordering_test_cases:
-  - text: "By default, file names are listed alphabetically according to the input file. 
-          \nTo change to reverse alphabetical ordering or order alphabetically with respect to the output file,
+  utter_reorder_test_case_groups:
+  - text: "To reorder test cases on the 'Test Case Group' page, click the up and down arrows next to the category column  
+          \nthat you want to order your test case groups by.
           \nclick on the up/down arrow next to 'Output File Name'.
-          \nTo alphabatize based on the context file, click on the up/cown arrow next to 'Context File Name'.
           \nTo change the file name, you will need to resubmit a new group after renaming the file."
 
   utter_howto_execute_test_case:
