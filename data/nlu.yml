@@ -332,6 +332,7 @@ nlu:
     - I don't want to make a tree
     - do you have to create a tree
     - what's the point in creating trees
+    - I'd rather not make a tree
 
 - intent: what_are_test_case_groups #10+9+19=38
   examples: |
@@ -1053,6 +1054,9 @@ nlu:
     - i want to upload my own picture
     - i 'd like to upload my image.
     - i 'd like to upload a copy of my picture.
+    - want to put up picture from my local onto the website
+    - have picture on my computer I want to put on the website
+    - how to put an image on website from my local drive
 
 - intent: howto_download_image #13 #NOW ITS 41
   examples: |
@@ -1393,6 +1397,8 @@ nlu:
     - can I change a json file that I've uploaded
     - where can I change a json file that has been uploaded to the website
     - I want to edit the tree I've uploaded
+    - I want to make changes to classification tree using the tool
+    - need to change my classification tree on the website
 
 - intent: Howto_change_file_type #6+34=40
   examples: |
@@ -1438,7 +1444,7 @@ nlu:
     - don't want an input tree, instead should be context tree
 
 # Intents about test cases #(107)
-- intent: Howto_create_new_test_group #20+19=39
+- intent: Howto_create_new_test_group #20+22=42
   examples: |
     - what are the features of creating a test case group
     - what can I do to create a test case group
@@ -1479,6 +1485,9 @@ nlu:
     - display the procedure of the naming of test case groups
     - explain to me how to label a group of tests
     - help naming test groups
+    - new test group
+    - want to create another test group
+    - a different test group is needed
 
 - intent: Howto_reorder_test_case_groups #0+43=43
   examples: |
@@ -1525,6 +1534,7 @@ nlu:
     - what's the point of a particular ordering
     - what's the point in a numerical arrangement of tests
     - explain the arrangement of test case groups
+    - I wanna view the test case groups based on the input classification tree type instead of its current orientation
 
 - intent: Howto_execute_test_case #10+30=40
   examples: |
@@ -1569,7 +1579,7 @@ nlu:
     - I want to complete the execution of the test
     - procedure for completing the test execution
 
-- intent: Howto_generate_test_cases #10+33=43
+- intent: Howto_generate_test_cases #10+34=44
   examples: |
     - what are the features of generating test cases
     - what can I do to generate a test case
@@ -1614,8 +1624,9 @@ nlu:
     - explain and show me how to generate some test cases
     - give the method for generating test cases
     - I am trying to figure out how to generate my test case
+    - current problem has to do with making more test cases for my testing project
 
-- intent: Howto_refresh_test_case_groups #10+30=40
+- intent: Howto_refresh_test_case_groups #10+31=41
   examples: |
     - what can I do to refresh a test case group
     - what can you do to refresh test case group
@@ -1657,7 +1668,7 @@ nlu:
     - I've recently added a whole batch of test cases, how to make them show
     - how to make new test cases pop up on test case screen
     - updating after adding new tests
-    - 
+    - I’ve made changes to my test case group so why do I not see any changes
 
 - intent: Howto_view_test_case_groups_in_full_screen #10+29=39
   examples: |

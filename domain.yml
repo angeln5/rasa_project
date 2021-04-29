@@ -262,8 +262,8 @@ responses:
   - text: "Simply replace the json file by browsing for another json file to submit."
 
   utter_change_json_name: 
-  - text: "There are two methods to changing the name of a json file:
-          \n1. Before submitting json file, you can rename your file locally.
+  - text: "There are two methods to changing the name of a json file.
+          \n1. Before submitting a json file, you can rename your file locally.
           \n2. On the 'Create Tree' page, you can select the tree you want to rename using the drop down tab,
             \nthen click the 'Copy and Save Tree' button. Before clicking 'Create', change the file name and choose
             \nthe file type."
@@ -288,10 +288,7 @@ responses:
 
   utter_toggle:
   - text: "Toggling changes the layout of the test cases between the grid and list layout. 
-          \nOn the 'Test Case Group Page', click on the toggle button that is location in the middle of two buttons on the top right of the page."
-
-  utter_removing_json: 
-  - text: "Simply replace the json file by browsing for another json file to submit."
+          \nOn the 'Test Case Group Page', click on the toggle button that is located in the middle of two buttons on the top right of the page."
 
   utter_changing_json_name: 
   - text: "Before submitting json file, please rename your file locally."
@@ -302,7 +299,6 @@ responses:
   utter_reorder_test_case_groups:
   - text: "To reorder test cases on the 'Test Case Group' page, click the up and down arrows next to the category column  
           \nthat you want to order your test case groups by.
-          \nclick on the up/down arrow next to 'Output File Name'.
           \nTo change the file name, you will need to resubmit a new group after renaming the file."
 
   utter_howto_execute_test_case:
