@@ -56,7 +56,7 @@ menuBtn.onclick = function(){
     let e = document.createElement("script"),
       t = document.head || document.getElementsByTagName("head")[0];
     (e.src =
-      "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
+      "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"),
       (e.async = !0),
       (e.onload = () => {
         window.WebChat.default(
@@ -66,7 +66,10 @@ menuBtn.onclick = function(){
             socketPath: "/socket.io/",
             title: "AI Testing Tool Bot",
             inputTextFieldHint: "Type a question",
-            subtitle: "Happy to help!"
+            subtitle: "Happy to help!",
+            params: {
+              storage: "session"
+            } 
             // add other props here
           },
           null
