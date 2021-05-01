@@ -6677,7 +6677,7 @@ nlu:
 
 - intent: howto_create_child_node 
   examples: |
-     - how a add to child node
+    - how a add to child node
     - how to add a child node
     - nipper how to add a child node
     - how to add a small fry node
