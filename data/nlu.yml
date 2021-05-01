@@ -330,7 +330,6 @@ nlu:
     - what the dashboard
     - what is the splashboard
     - what is the
-    - is the dashboard
     - what is the fascia
     - the dashboard
     - what is the splasher
@@ -390,10 +389,10 @@ nlu:
     - what does the fascia represent
     - what does dashboard represent
     - what does the dashboard play
-    - what does the dashboard
-    - what does the dashboard map
+    - what does the dashboard do
+    - what does the dashboard map do
     - whats the splasher
-    - whats the dashboard
+    - whats the dashboard does
     - whats the splashboard
     - whats the
     - what kind dashboard are you
@@ -404,13 +403,12 @@ nlu:
     - what kind of dashboard are you
     - what kind of fascia are you
     - whats the fascia
-    - the
-    - whats the dashboard
+    - whats the dashboard purpose
     - whats on the fascia
-    - whats on the dashboard
+    - whats on the dashboard for
     - whats on the splashboard
     - whats on dashboard
-    - on the dashboard
+    - on the dashboard purpose
     - whats on the
     - what does the dashboard show
     - what does the dashboard depict
@@ -420,7 +418,7 @@ nlu:
     - what does the dashboard exhibit
     - why the splashboard
     - why the fascia
-    - why the dashboard
+    - why the dashboard summary
     - why do you have a splasher
     - why do you have
     - why you have
@@ -510,12 +508,10 @@ nlu:
 - intent: where_dashboard #9+22=31
   examples: |
     - where is the dashboard
-    - where the dashboard
+    - where the dashboard located
     - where is the splashboard
     - where is the
-    - is the dashboard
     - where is the splasher
-    - the dashboard
     - where is the fascia
     - how can i get to the dashboard
     - how can get to the dashboard
@@ -524,7 +520,7 @@ nlu:
     - how can i get to the splasher
     - how can i get to the fascia
     - how can i mystify to the dashboard
-    - how can i the dashboard
+    - how can i the dashboard location
     - how to navigate vertebral column to the dashboard
     - how navigate back to the dashboard
     - how to navigate spinal column to the dashboard
@@ -615,7 +611,6 @@ nlu:
     - i get to the dashboard
     - can i acquire to the dashboard
     - how to the dashboard
-    - how to the
     - how to return to the
     - how to return to the fascia
     - how to return to the splashboard
@@ -3057,7 +3052,6 @@ nlu:
     - what i start with
     - what do i set about with
     - what do i starting line with
-    - to start
     - how to begin
     - pop how to start
     - how to bug out
@@ -3545,7 +3539,6 @@ nlu:
     - a building tree
     - tree a building
     - building a corner
-    - a tree
     - building a sir herbert beerbohm tree
     - building tree a
     - make a tree
@@ -3640,7 +3633,6 @@ nlu:
     - where is the equal create tree page
     - create is the where tree page
     - where is the create make tree page
-    - where is the page
     - where equal is the create tree page
     - where is the tree page
     - where is the create shoetree page
@@ -3696,7 +3688,6 @@ nlu:
     - i cause dont have a tree
     - i tree have a dont
     - dont i have a tree
-    - i a tree
     - i dont have a tree
     - i dont have a tree diagram
     - i dont have group a a tree
@@ -3936,7 +3927,6 @@ nlu:
     - how to use sir herbert beerbohm tree the tree
     - how to the use tree
     - how to use tree the
-    - how to the
     - to how use the tree
     - how to use the tree diagram
     - how to employment the tree
@@ -3946,7 +3936,6 @@ nlu:
     - how to utilisation the tree
     - how sir herbert beerbohm tree to get tree
     - how to baffle tree
-    - how to tree
     - tree to get how
     - how to get cause tree
     - how to cause get tree
@@ -5400,7 +5389,6 @@ nlu:
     - how to download shoetree
     - how to download sir herbert beerbohm tree
     - how to download tree
-    - how to tree
     - how to download corner
     - download tree
     - how tree
@@ -5541,17 +5529,13 @@ nlu:
     - download the i tree created
     - download i tree the created
     - download tree diagram tree
-    - download
     - tree diagram download tree
     - download corner
     - tree download
     - download tree diagram
-    - tree
     - avail help download
     - download help
-    - help
     - service download
-    - help download
     - help avail download
     - serve download
     - assist download
@@ -5770,10 +5754,8 @@ nlu:
     - how to rename a thickening
     - how a rename to node
     - how to client rename a node
-    - how to rename a
     - how to change client the label of a node
     - a to change the label of how node
-    - how to the of a
     - how to change label the of a node
     - how to transfer the label of a node
     - how to change the label judge of a node
@@ -5940,8 +5922,6 @@ nlu:
     - changing node a
     - transfer a node
     - changing a lymph gland
-    - a node
-    - a
     - changing a node
 
 - intent: howto_make_new_tree 
@@ -6154,7 +6134,6 @@ nlu:
     - removing adenine a tree
     - hit a tree
     - a removing tree
-    - a tree
     - tree a removing
     - absent a tree
     - removing a sir herbert beerbohm tree tree
@@ -6539,7 +6518,6 @@ nlu:
     - i want to remove a lymph gland
     - node want to remove a i
     - i iodin want to remove a node
-    - i want to remove a
     - i want to take out a node
     - i want remove to a node
     - i want to remove a node
@@ -6562,7 +6540,6 @@ nlu:
     - take out a node
     - removing node
     - transfer removing a node
-    - a node
     - dispatch a node
     - removing transfer a node
     - client removing a node
@@ -7881,12 +7858,11 @@ nlu:
     - avail uploading
     - upload image
     - image upload
-    - upload
     - simulacrum upload image
     - upload simulacrum image
     - upload prototype
     - upload figure of speech
-    - image
+    - image uploading help
     - upload trope
     - upload mental image
     - i would own to upload my like image
@@ -8254,11 +8230,10 @@ nlu:
     - aid to download image
     - help downloading
     - help assistance downloading
-    - downloading help
-    - help download
+    - downloading pic help
     - download help downloading
-    - avail downloading
-    - help download downloading
+    - avail downloading picture
+    - help download downloading image
     - helper downloading
     - i do not want to modify my image any longer
     - i do not want to alter my image anymore
@@ -8725,7 +8700,6 @@ nlu:
     - downloading prototype
     - visualise downloading image
     - downloading visualise image
-    - image
     - downloading see
     - downloading download image
     - downloading epitome
@@ -8757,7 +8731,6 @@ nlu:
     - image visualise download
     - range download
     - range of a function download
-    - download
     - visualise image download
     - mental image download
     - simulacrum download
@@ -8778,7 +8751,6 @@ nlu:
     - downloading the complete image
     - visualise downloading the finished image
     - downloading the finished image 
-    - downloaded
     - finished image
     - finished image downloaded
     - polish off image downloaded
@@ -8926,7 +8898,6 @@ nlu:
     - want i to remove a filter
     - i want to remove a filter
     - i want to trickle remove a filter
-    - i want to remove a
     - i want to filter
     - i want to move out a filter
     - i wish to remove a filter
@@ -9547,7 +9518,6 @@ nlu:
     - help changes reset to to the image
     - help changes to the image
     - help to reset shift to the image
-    - image
     - reset picture
     - reset image
     - readjust image
@@ -10950,7 +10920,6 @@ nlu:
     - where is the render json page
     - is the submit json page
     - where is the json submit page
-    - where is the page
     - where is pageboy the submit json page
     - is where the submit json page
     - where is the submit json page 
@@ -11107,7 +11076,6 @@ nlu:
     - how to json a rename
     - how to rename a json
     - how to vitamin a rename a json
-    - how to rename a
     - rename a json
     - a to rename how json
     - how to rename vitamin a a json
