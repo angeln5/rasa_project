@@ -1410,8 +1410,6 @@ nlu:
     - i refuse to make a sir herbert beerbohm tree
     - i refuse to make a tree
     - refuse to make a tree
-    - refuse to make a
-    - i refuse to make a corner
     - i resist to make a tree
     - i refuse to take a crap a tree
     - i refuse to shit a tree
@@ -1550,7 +1548,6 @@ nlu:
     - group configuration
     - test group constellation
     - test group configuration
-    - test
     - psychometric test group configuration
     - trial run group configuration
     - test group
@@ -1895,7 +1892,6 @@ nlu:
     - app looks unfinished
     - app attend unfinished
     - app expect unfinished
-    - app
     - app see unfinished
 
 - intent: howto_give_feedback 
@@ -2460,7 +2456,6 @@ nlu:
     - this pecker does not require an account
     - this tool does not an account
 
-
 - intent: what_are_tree_types 
   examples: |
     - why are there of trees
@@ -2816,7 +2811,6 @@ nlu:
     - how should classification trees be used
     - should context classification trees be used
     - how should context classification trees be used
-
 
 # Intents about building a tree
 - intent: get_started 
@@ -8195,6 +8189,9 @@ nlu:
     - i d like to pic upload a copy of my picture
     - i d like to a upload copy of my picture
     - i d like to upload a copy of my picture
+    - want to put up picture from my local onto the website
+    - have picture on my computer I want to put on the website
+    - how to put an image on website from my local drive
 
 - intent: howto_download_image
   examples: |
@@ -11370,177 +11367,8 @@ nlu:
     - help update with updating json
     - help supporter with updating json
     - aid with updating json
-
-- intent: Howto_browse_json_files
-  examples: |
-    - i do how browse json files
-    - how do i browse json files
-    - how do i browse json
-    - how do i browse json filing cabinet
-    - how do i browse json register
-    - how file cabinet do i browse json files
-    - file cabinet how do i browse json files
-    - how do i answer browse json files
-    - how i do browse json files
-    - how do i json browse files
-    - how do i browsing json files
-    - how do i browse json file cabinet
-    - how do i browse file cabinet json files
-    - how browse i do json files
-    - how do i browse json file away
-    - how json i browse do files
-    - file to get an old json how
-    - how to file cabinet get an old json file
-    - how to get an json file
-    - how to get an old file cabinet json file
-    - how to get an honest to goodness json file
-    - how sure enough to get an old json file
-    - file cabinet how to get an old json file
-    - how to amaze an old json file
-    - how to an old json file
-    - how get to an old json file
-    - how to file an old json get
-    - how to get an old json register
-    - how to get an old json file
-    - how to get an file cabinet old json file
-    - an to get how old json file
-    - i want to approach a json i already made
-    - json want to access a i i already made
-    - i want to a access json i already made
-    - i want to access json i already made
-    - i want to entree a json i already made
-    - i want to access a group a json i already made
-    - i json to access a want i already made
-    - i want to access a json i already made
-    - privation i want to access a json i already made
-    - i want access a json i already made
-    - i want to access a json i already shit
-    - i want to accession a json i already made
-    - i want to access a json i made
-    - i want already access a json i to made
-    - i want to admission a json i already made
-    - i want to clear access a json i already made
-    - i want to access a json already made
-    - i need to access a json i already made
-    - i want privation to access a json i already made
-    - want to retrieve calendar week a json i made last week
-    - want to retrieve a json i made last recover week
-    - wishing to retrieve a json i made last week
-    - want to retrieve a json i made last
-    - to retrieve a json i made last week
-    - want to retrieve a recover json i made last week
-    - want to call up a json i made last week
-    - want to retrieve a json i made last calendar week
-    - want to retrieve a json i made last week
-    - want to retrieve a week i made last json
-    - want last retrieve a json i made to week
-    - lack to retrieve a json i made last week
-    - want to retrieve a json i made week last
-    - want to retrieve a json i made last clear week
-    - retrieve to want a json i made last week
-    - want to retrieve a json i week last made
-    - want to retrieve a json i induce last week
-    - can i get a json made previously
-    - can i json a get i made previously
-    - can i antecedently get a json i made previously
-    - can i get a json i have previously
-    - can i get a json i made previously
-    - can i group a get a json i made previously
-    - can i get a json i bring in previously
-    - can i get json a i made previously
-    - can i get fanny a json i made previously
-    - i can get a json i made previously
-    - can get a json i made previously
-    - can clear i get a json i made previously
-    - can i get a json i pee previously
-    - can i develop a json i made previously
-    - can i get a json i induce previously
-    - can i get capture a json i made previously
-    - can i get a json i made previously 
-    - where to accession an old json
-    - where to old an access json
-    - where to access an old json
-    - where to access an previous json
-    - to access an old
-    - where to access an old sure enough json
-    - where json access an old to
-    - where to access an onetime json
-    - where to access an sure enough json
-    - where to sure enough access an old json
-    - where to access an sure enough old json
-    - to access an old json
-    - where to access access code an old json
-    - where to access an old access code json
-    - where to access old an json
-    - where to an access old json
-    - where an access to old json
-    - how can i get a antecedently made json
-    - how i get a previously made json
-    - can get made json
-    - how can i a previously made json
-    - how can i get a previously made json
-    - how can i stimulate a previously made json
-    - how can i develop a previously made json
-    - how can i a get previously made json
-    - how can clear i get a previously made json
-    - how can i get a previously json made
-    - how group a can i get a previously made json
-    - how can i get a previously wee wee json
-    - how can i get previously a made json
-    - how can json get a previously made i
-    - how can i previously made json
-    - how can i get clear a previously made json
-    - get can i how a previously made json
-    - how can get a previously made json
-    - group a how can i get a previously made json
-    - i bring in a json yesterday how do i get it
-    - i made a json yesterday how do i dumbfound it
-    - information technology i made a json yesterday how do i get it
-    - i made a json yesterday how do i amaze it
-    - a made i json yesterday how do i get it
-    - i stimulate a json yesterday how do i get it
-    - i made a json yesterday how do i incur it
-    - i information technology made a json yesterday how do i get it
-    - i made a json yesterday how do i commence it
-    - i made a yesterday how do get it
-    - i made a json yesterday how i get it
-    - i made a json yesterday group a how do i get it
-    - i made a json it how do i get yesterday
-    - i made a it yesterday how do i get json
-    - i made a json yesterday how do i get it
-    - i made a json yesterday how do get i it
-    - i made a json how do i get it
-    - i made a json yesterday how do i get
-    - i made a yesterday how do i get it
-    - i made a json yesterday how do i get it 
-    - i want get my json
-    - i deficiency to get my json
-    - i want to mystify my json
-    - privation i want to get my json
-    - i want to fix my json
-    - i want to json my get
-    - i to want get my json
-    - i want my get to json
-    - i want to get my json
-    - i want get to my json
-    - i want capture to get my json
-    - i want to capture get my json
-    - i want to privation get my json
-    - i want to arrest my json
-    - i want to obtain my json
-    - accessing saved get at json
-    - get at accessing saved json
-    - saved accessing json
-    - accessing saved preserve json
-    - accessing relieve json
-    - accessing saved
-    - accessing saved json
-    - accessing json saved
-    - access saved json
-    - json saved accessing
-    - accessing bring through json
-    - preserve accessing saved json
-    - accessing get at saved json
+    - I want to make changes to classification tree using the tool
+    - need to change my classification tree on the website
 
 - intent: Howto_change_file_type 
   examples: |
@@ -11900,6 +11728,9 @@ nlu:
     - teach me about creating a test case group maine on this website
     - teach me about group a test case creating on this website
     - teach me about creating a test case group on this website
+    - new test group
+    - want to create another test group
+    - a different test group is needed
 
 - intent: Howto_execute_test_case
   examples: |
@@ -12097,398 +11928,6 @@ nlu:
     - teach me about executing a test on this website
     - teach me maine about executing a test case on this website
     - teach me about executing shell a test case on this website
-
-- intent: Howto_create_group_name
-  examples: |
-    - how group i create a do name
-    - how do i a create group name
-    - how do i create a group constitute
-    - how do i create a make group name
-    - how do i create a grouping name
-    - how do i create a radical name
-    - how do i create chemical group a group name
-    - how do i a group name
-    - how do i ut create a group name
-    - how do i create a group chemical group name
-    - how a i create do group name
-    - how do i name a group create
-    - how do i create a group name
-    - how do i create a group make
-    - how do i produce a group name
-    - how do i create ut a group name
-    - how i do create a group name
-    - how do i create name
-    - how do i create a group cite
-    - how do i create a group name 
-    - how to create make a name for test case group
-    - how to create a case for test name group
-    - how make to create a name for test case group
-    - how to create a name for test case
-    - how to create a name make for test case group
-    - how to produce a name for test case group
-    - to create a name for test case group
-    - how to create a name for test case make group
-    - how to make a name for test case group
-    - how to create a name for test case group
-    - how to create a name for test casing group
-    - how to create a name test for case group
-    - how to create a name case test for group
-    - how create name for test case group
-    - how to make create a name for test case group
-    - how to create a distinguish for test case group
-    - how case create a name for test to group
-    - name to create a how for test case group
-    - what to do to edit a test case make group name
-    - what to do to edit out a test case group name
-    - what to do to case a test edit group name
-    - to what do to edit a test case group name
-    - what to do to edit a test incase group name
-    - what to do edit a test case group name
-    - what to mental test do to edit a test case group name
-    - what to do to name a test case group edit
-    - what mental test to do to edit a test case group name
-    - edit to do to what a test case group name
-    - what make to do to edit a test case group name
-    - what group do to edit a test case to name
-    - what to do to edit a test case group make name
-    - what to do to edit a mental testing case group name
-    - what to do to edit a test case grouping name
-    - what to do to a edit test case group name
-    - what to do to edit a case name
-    - what to do to edit a test case chemical group name
-    - to do to edit a test case group name
-    - what to do to edit ut a test case group name
-    - what to do to edit a test case group name
-    - how to rename try out case group
-    - how to rename casing test case group
-    - test to rename how case group
-    - how to mental test rename test case group
-    - how to rename test case group
-    - how to rename test mental test case group
-    - case to rename test how group
-    - how to case test rename group
-    - how to rename chemical group test case group
-    - how to rename test pillow slip group
-    - how to rename test case chemical group group
-    - how to rename test case grouping
-    - how to rename test display case group
-    - how rename to test case group
-    - group to rename test case how
-    - how to rename test cause group
-    - how to rename test suit group
-    - i want to name make my test case group
-    - i to my test case group
-    - chemical group i want to name my test case group
-    - i want to case my test name group
-    - i want to name my test case aggroup
-    - want to name my test case group
-    - i want to name my test group case
-    - i want to name my test case mathematical group
-    - i my to name want test case group
-    - i want to public figure my test case group
-    - i want to name my test case group
-    - i want to name my test make case group
-    - i want to name group test case my
-    - i want make to name my test case group
-    - i want to distinguish my test case group
-    - i want test name my to case group
-    - i want to name my test lawsuit group
-    - help with case test naming group
-    - help with naming test case group
-    - help test naming with case group
-    - help with naming test case casing group
-    - help with naming test mental test case group
-    - help with advert test case group
-    - help with naming test case chemical group group
-    - help with make test case group
-    - help help oneself with naming test case group
-    - help with test naming case group
-    - help with naming test case grouping
-    - help with naming test case make group
-    - help with naming test case
-    - help group naming test case with
-    - help with naming case test group
-    - help with chemical group naming test case group
-    - help with naming psychometric test case group
-
-- intent: Howto_edit_product_version
-  examples: |
-    - how edit i do product version
-    - how do i edit product version
-    - production how do i edit product version
-    - how do i edit product interpretation
-    - how do i edit product interlingual rendition
-    - how interlingual rendition do i edit product version
-    - how i edit product version
-    - how do i edit product delete version
-    - how do i product edit version
-    - how product i edit do version
-    - how do i delete product version
-    - how version i edit product do
-    - how do i edit product translation
-    - version do i edit product how
-    - how do i edit interlingual rendition product version
-    - how do i redact product version
-    - how to axerophthol create a product version
-    - how to make a product version
-    - how to create a product version
-    - how to create a production product version
-    - create to how a product version
-    - how to create a ware version
-    - a to create how product version
-    - how to create a product
-    - how interlingual rendition to create a product version
-    - version to create a product how
-    - to create a product version
-    - how to create a product variation
-    - how to create a intersection version
-    - how to create produce a product version
-    - product to create a how version
-    - production how to create a product version
-    - what to do to delete product version
-    - what to do to cause edit product version
-    - what do to edit product version
-    - what to do to blue pencil product version
-    - what to do to version
-    - cause what to do to edit product version
-    - what to to do edit product version
-    - what to do version edit product to
-    - what to do production to edit product version
-    - what to do to edit product version
-    - what to interlingual rendition do to edit product version
-    - what do to to edit product version
-    - what to do to version product edit
-    - product to do to edit what version
-    - what version do to edit product to
-    - what to do to edit ware version
-    - what to do to edit intersection version
-    - how update to product version
-    - how to update product version
-    - how to update merchandise version
-    - product to update how version
-    - production how to update product version
-    - how to update production version
-    - how to product
-    - update to how product version
-    - how to update ware version
-    - how to update intersection version
-    - how interlingual rendition to update product version
-    - how to update interlingual rendition product version
-    - how to production update product version
-    - how update product version
-    - how product version
-    - version to update product how
-    - i want to version product select
-    - i want to select version product
-    - i want to select product edition
-    - i want to prize product version
-    - i to select product version
-    - i want to select product version
-    - i want wishing to select product version
-    - i want to select prize product version
-    - i want to wishing select product version
-    - production i want to select product version
-    - i want product select to version
-    - i version to select product want
-    - i want product version
-    - i wishing to select product version
-    - i prize want to select product version
-    - i want to select cartesian product version
-    - avail with editting product version
-    - help with editting intersection version
-    - version with editting product help
-    - help with editting product edition
-    - help production with editting product version
-    - help with editting product version
-    - help with interlingual rendition editting product version
-    - help with editting product rendering
-    - help with editting production product version
-    - help with editting mathematical product version
-    - help editting with product version
-    - help with editting version product
-    - help assistance with editting product version
-    - help interlingual rendition with editting product version
-
-- intent: Howto_edit_product_sub-version
-  examples: |
-    - how do i edit mathematical product sub version
-    - how sub i edit product do version
-    - how do i edit product cuban sandwich version
-    - how do i edit merchandise sub version
-    - how production do i edit product sub version
-    - i edit product sub version
-    - how version i edit product sub do
-    - how do i edit product sub
-    - how do i edit product sub version
-    - how do i doctor of osteopathy edit product sub version
-    - how do i edit cartesian product sub version
-    - italian sandwich how do i edit product sub version
-    - how i do edit product sub version
-    - how do i reading edit product sub version
-    - how do i product edit sub version
-    - edit do i how product sub version
-    - how create to a product sub version
-    - how to create a reading product sub version
-    - how to create a production sub version
-    - how to produce a product sub version
-    - how to create a product sub reading version
-    - how to create a product sub version
-    - amp how to create a product sub version
-    - produce how to create a product sub version
-    - how to create product sub version
-    - how produce to create a product sub version
-    - create to how a product sub version
-    - how product create a to sub version
-    - how to sub a product create version
-    - how to create a intersection sub version
-    - how to create a product sub
-    - how to create a product sub variant
-    - to create a product sub version
-    - reading how to create a product sub version
-    - what to do to edit cartesian product sub version
-    - what to product to edit do sub version
-    - what product do to edit to sub version
-    - what to to edit sub version
-    - what to do to edit product sub interlingual rendition
-    - what to do to edit production product sub version
-    - what to version to edit product sub do
-    - what to do to edit product sub version
-    - what to do doctor of osteopathy to edit product sub version
-    - what to do to edit product sub variation
-    - what to do to edit product torpedo version
-    - to do to edit product sub version
-    - sub to do to edit product what version
-    - what to do to edit product submarine sandwich version
-    - what to do to edit redact product sub version
-    - what to doctor of osteopathy do to edit product sub version
-    - what to to edit product sub version
-    - what to do to edit production sub version
-    - how to update product version
-    - how to update product sub version
-    - how to update product version sub
-    - how to update product italian sandwich version
-    - how to update product reading sub version
-    - how production to update product sub version
-    - how to update product sub italian sandwich version
-    - how to update product sub translation
-    - how to update merchandise sub version
-    - how update to product sub version
-    - update to how product sub version
-    - how to update production sub version
-    - how to update cartesian product sub version
-    - how to product sub version
-    - how to update sub product version
-    - how to italian sandwich update product sub version
-    - i want to select product sub version
-    - i want to select mathematical product sub version
-    - i want to select product sub interpretation
-    - i want to product select sub version
-    - i want to select merchandise sub version
-    - i want to reading select product sub version
-    - i want to select product version
-    - want to select product version
-    - i want to pick out product sub version
-    - i want to select product bomber version
-    - i to want select product sub version
-    - i reading want to select product sub version
-    - i want to select product sub variation
-    - sub want to select product i version
-    - i want to select sub version
-    - i take want to select product sub version
-    - help with editting product production sub version
-    - product with editting help sub version
-    - help with helper editting product sub version
-    - assistant with editting product sub version
-    - help with editting product sub rendering
-    - assist with editting product sub version
-    - help with editting product sub version
-    - with help editting product sub version
-    - help with editting sub version
-    - help with editting product version sub
-    - italian sandwich help with editting product sub version
-    - help with editting version sub product
-    - help editting product sub version
-    - help with editting production sub version
-    - editting with help product sub version
-
-- intent: Howto_edit_input_file_type
-  examples: |
-    - how do i edit comment file type
-    - how file i edit input do type
-    - how do i edit input filing cabinet type
-    - how do i edit remark file type
-    - how stimulant do i edit input file type
-    - i edit input file type
-    - how type i edit input file do
-    - how do i edit input file
-    - how do i edit input file type
-    - how do i come edit input file type
-    - how do i edit stimulation file type
-    - charge how do i edit input file type
-    - how i do edit input file type
-    - how do i eccentric edit input file type
-    - how do i input edit file type
-    - edit do i how input file type
-    - what to do to edit type file input
-    - what to do to edit input file type
-    - what to do to edit come input file type
-    - what to do to edit file input type
-    - what to do to blue pencil input file type
-    - what to to edit input file type
-    - what to do to edit input single file type
-    - what to do to edit input file typewrite
-    - what to do blue pencil to edit input file type
-    - what blue pencil to do to edit input file type
-    - what to do to edit stimulant file type
-    - edit to do to what input file type
-    - what to do to delete input file type
-    - what type do to edit input file to
-    - do to edit input file type
-    - what to do to type input file edit
-    - what to do to edit file
-    - how file update input to type
-    - how update input type
-    - how to update input file typewrite
-    - file to update input how type
-    - how to update input charge file type
-    - how stimulant to update input file type
-    - how to update input data file type
-    - how to update input file charge type
-    - how to update input file eccentric
-    - how to update input file case
-    - how to update input signal file type
-    - how to update input file type
-    - how to update input file cabinet type
-    - i want to prime input file type to edit
-    - i want blue pencil to select input file type to edit
-    - i want select to input file type to edit
-    - i want to select input file type to edit
-    - edit want to select input file type to i
-    - i want to select input file type to wishing edit
-    - i charge want to select input file type to edit
-    - i want to pick out input file type to edit
-    - i want to select charge input file type to edit
-    - i require to select input file type to edit
-    - i want to select input file type to
-    - want to select input file type to edit
-    - i want to select type file input to edit
-    - i want to select input file type to blue pencil
-    - i want to select stimulus file type to edit
-    - i to select input file type to
-    - help with editting input data file type
-    - help with editting input file case
-    - help with editting input file type
-    - charge help with editting input file type
-    - help editting with input file type
-    - help with editting input file help oneself type
-    - help with editting input filing cabinet type
-    - help editting input file type
-    - help with editting input file away type
-    - assist with editting input file type
-    - help charge with editting input file type
-    - help file editting input with type
-    - help with editting input file stimulant type
-    - help with file input editting type
 
 - intent: Howto_edit_input_file_name
   examples: |
@@ -13186,6 +12625,7 @@ nlu:
     - teach me about refreshing a test shell group on this website
     - teach me about refreshing a mental test case group on this website
     - teach about me refreshing a test case group on this website
+    - I’ve made changes to my test case group so why do I not see any changes
 
 - intent: Howto_view_test_case_groups_in_full_screen 
   examples: |
@@ -13634,6 +13074,8 @@ nlu:
     - removing
     - cutting out
     - cancelling
+    - removal
+    - deletion
 
 - synonym: modulation
   examples: |
@@ -13759,6 +13201,15 @@ nlu:
     - view
     - see
 
+- synonym: order
+  examples: |
+    - ordering
+    - reorder
+    - reordering
+    - re-ordering
+    - reorganizing
+    - reorg
+
 - synonym: feedback
   examples: |
     - suggestions
@@ -13773,6 +13224,17 @@ nlu:
 - synonym: upload
   examples: |
     - load
+    - submit
+
+- synonym: uploading
+  examples: |
+    - loading
+    - submitting
+
+- synonym: uploaded
+  examples: |
+    - loaded
+    - submitted 
 
 - synonym: tell
   examples: |
@@ -13802,6 +13264,12 @@ nlu:
   examples: |
     - title
     - label
+
+- synonym: rename
+  examples: |
+    - re-name
+    -re-label
+    -relabel
 
 - synonym: bigger
   examples: |
