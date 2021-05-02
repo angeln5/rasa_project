@@ -290,9 +290,6 @@ responses:
   - text: "Toggling changes the layout of the test cases between the grid and list layout. 
           \nOn the 'Test Case Group Page', click on the toggle button that is located in the middle of two buttons on the top right of the page."
 
-  utter_changing_json_name: 
-  - text: "Before submitting json file, please rename your file locally."
-
   utter_create_new_test_group: 
   - text: "To create a new test group, navigate to Get Started --> Test Case Group and click on Create New Group."
 
@@ -308,9 +305,6 @@ responses:
   - text: "To generate test cases on the 'Test Case Group' page, navigate to the Action tab 
             \n(at the far right of the table), and click on the 'Generate Test Cases' 
             \n(the button with an arrow pointing right)."
-
-  utter_editing_json:
-  - text: "You will need to make edits to your json file before submitting."
 
   utter_submiting_json: 
   - text: "Navigate to Get Started --> Data Administration. Click on 'browse' to select a json file to submit. Hit submit when ready."
