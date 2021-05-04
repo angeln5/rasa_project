@@ -5923,6 +5923,40 @@ nlu:
     - transfer a node
     - changing a lymph gland
     - changing a node
+    - I want to change the name of the node
+    - I want to rename the node
+    - I want to change the node name
+    - I want to change the name of a node, and it seems very strange
+    - how do you rename the node
+    - how to rename nodes
+    - how to rename the node
+    - how to change the name of the node
+    - how do you change the label of a node
+    - how to change nodes on a given tree
+    - given a tree, how do you change a node
+    - how to manage the names of the nodes
+    - how to change the labels of the nodes that you use
+    - how to add a label to a node
+    - how to change the label of nodes
+    - how do you manage the names of the nodes
+    - how to set a node's name
+    - how to set nodes name
+    - how to manage the names of the nodes that you use
+    - how to add names to nodes
+    - how to manage names of nodes
+    - how do you re-label nodes on the tree
+    - how to rebrand nodes on a tree
+    - how to re-label the tree node
+    - how to label nodes on a tree
+    - how to re-classify nodes on the tree
+    - how to re-mark tree nodes
+    - how to re-label node
+    - how can re-labelling nodes be done
+    - how to change node's name
+    - change name on node
+    - how do you change the label on a node
+    - how can you change the label of a node
+    - how can you change labels on a tree
 
 - intent: howto_make_new_tree 
   examples: |
@@ -6106,6 +6140,35 @@ nlu:
     - how restart to tree
     - how to tree restart
     - how sir herbert beerbohm tree to restart tree
+    - how do you start a new tree
+    - how to create a new tree of your own
+    - so do you know how to create a new tree
+    - I want to start with a tree
+    - I want to start building a tree over again
+    - now how to start making a tree
+    - I build a new tree
+    - we'll build a new tree
+    - how does a new tree get built
+    - how can one create new trees
+    - how do you do new trees
+    - how can you create a new tree
+    - I don't like the tree, I want to start over
+    - I don't like trees and wanted to start again
+    - I don't like trees and I want to start again
+    - I don't know, I'm going to make another tree
+    - I have to make a new tree
+    - I have to do another tree
+    - start over with a new tree
+    - start with a new tree
+    - start again with the tree
+    - starting over with a new tree
+    - start anew with the new tree
+    - start over, new tree
+    - start over again with the new tree
+    - I screwed up and I want to restart the tree building process
+    - I fucked up and wanted to restart the tree
+    - I screwed up, I want to build another tree
+    - I've screwed up and want to restart a tree
 
 - intent: howto_delete_tree 
   examples: |
@@ -6644,6 +6707,34 @@ nlu:
     - some remove but not all nodes
     - remove some nodes not all but
     - remove some not but all nodes
+    - how do you delete the node
+    - how to delete only specific nodes
+    - how to delete the node
+    - how to delete a node from the tree
+    - how do I remove the node
+    - how to unplug node
+    - I want to disconnect the node
+    - removing nodes
+    - how do you keep all but one node
+    - how to keep all except certain nodes
+    - how do you delete only selected nodes
+    - only wish to delete some nodes
+    - can you delete a specific node only
+    - accidentally added nodes I don't need
+    - I added a node I don't want
+    - accidentally added another node that I don't want
+    - added a node that doesn't fit
+    - remove unnecessary node
+    - how do I delete the specified nodes
+    - how do I delete nodes of a set
+    - delete only one node
+    - want to delete only parts of the tree
+    - remove most but not all nodes
+    - remove several but not all nodes
+    - I only want to delete some nodes
+    - please tell me how to delete only some nodes
+    - delete only part of the tree
+    - only parts of the tree will be deleted
 
 - intent: howto_create_child_node 
   examples: |
@@ -10938,6 +11029,46 @@ nlu:
     - capture how to get to submit json
     - json to get to submit how
     - how to take to submit json
+    - how does one go about submitting a json file
+    - how to submit a json file
+    - I need to submit a json file
+    - json file submission
+    - neccessary to submit json file onto website
+    - json submit required
+    - I'm trying to upload a json file onto the 'upload JSON tree' webpage
+    - I'm having difficulty submitting a json file
+    - I already created a tree I want to put onto the testing tool
+    - I have a tree I want to submit onto the ai testing tool
+    - I have a tree on my computer I want to submit onto the testing tool
+    - how can I put my tree on the ai tool from my local drive
+    - my tree is on my local computer, how to get it on the website
+    - what should I do to submit a json
+    - what can I do to submit a json
+    - how do I send my json onto the testing tool
+    - I want to get my json tree submitted to the website
+    - how to add a tree to the testing tool
+    - why do you need to add a json
+    - to give a json to the website
+    - what to do to submit a single json file
+    - where is the upload-json page
+    - where is the submitjson page
+    - where to submit a file of a tree into the tool
+    - page where I can submit a json file
+    - where's the json page of yours
+    - how do you use the upload json tree page to upload a tree
+    - I created a tree I want to place on the website
+    - I already created a tree I want to test
+    - is it difficult to submit a json file
+    - explain the process of submitting a json file
+    - how to get an old json file
+    - I want to access a json I already made
+    - want to retrieve a json I made last week
+    - can I get a json I made previously
+    - where to access an old json
+    - how can I get a previously made json
+    - I made a json yesterday, how do I get it
+    - I want to get my json
+    - accessing saved json
 
 - intent: Howto_remove_json
   examples: |
@@ -11055,6 +11186,29 @@ nlu:
     - what to do to slay a json
     - what to to do remove a json
     - what to do to withdraw a json
+    - there's a json file I need to remove
+    - there's a json file I need to remove
+    - how to go about removing a json file from the testing tool
+    - I need to remove a json file
+    - is it difficult to remove a json file
+    - explain to me the process of removing a json
+    - json file must be removed
+    - json file can't be used anymore
+    - I must be rid of the json file
+    - an uploaded json file is no longer of use
+    - I don't know, there's a file that I want to remove
+    - I need to get rid of a file from the testing tool
+    - there's a json file on the tool that I need to take down
+    - how do you remove the new json file form the testing tool
+    - how to move the json file away from the website
+    - moving the json file off of the website
+    - what is the process of removing a json file like
+    - if it isn't too hard to remove json off website
+    - explain how removing the json file from the website works
+    - explain procedure of json file removal
+    - must get rid of useless json
+    - the json file is no longer valid so lets remove
+    - uploaded json no usable so must remove
 
 - intent: Howto_change_name_of_json 
   examples: |
@@ -11334,6 +11488,28 @@ nlu:
     - aid with updating json
     - I want to make changes to classification tree using the tool
     - need to change my classification tree on the website
+    - changes to a json file were necessary, how to make them
+    - can edits to json file be done on the website
+    - editing json file occurs where
+    - I want to make changes to the json file
+    - how can changes to a json file be done
+    - where can I make changes to a json file
+    - I want to edit my tree that I have uploaded-
+    - changing a single json file needed how to make
+    - changes to my json were done, how to do
+    - i need to make changes to the json file
+    - how can I make changes to my tree that I uploaded
+    - editing json file needed, where to
+    - can the edits to a file be done on the website
+    - can editing of json file be performed with the website
+    - editing a single json file
+    - using the website to edit an uploaded json file
+    - where does editing of uploaded json occur
+    - changes to json file needed so how can that be done
+    - I'm going to make changes to my json file where
+    - where to make changes to a json file
+    - can I change a json file that I've uploaded
+    - where can I change a json file that has been uploaded to the website
 
 - intent: Howto_change_file_type 
   examples: |
@@ -11434,6 +11610,43 @@ nlu:
     - json with changing help
     - help with changing
     - help with switch json
+    - help with changing json type
+    - how to change file type on 'upload json tree' page
+    - changing the type of json file
+    - need help changing the json file type
+    - changing the type of json file
+    - need help changing the json file type
+    - explain to me how I can change the file type when uploading a json file
+    - teach about changing the type of file
+    - want to change the file type to an input classification tree
+    - I need to change the file type to an output classification tree-
+    - wanna change the file type to a context classification tree
+    - when uploading a tree, how do I change the file type
+    - must change the file type, I'm uploading a tree
+    - help me change the file type when uploading json tree file
+    - json file type needsd changing so how can I do that
+    - how do I change the file type of a json file
+    - changing file type of classification tree I'm uploading
+    - what do I do to change the type of a json file
+    - how to set up the type for a json file being uploaded
+    - how to edit json type
+    - how to edit a json file to be of a given type of classification tree
+    - changing a file type to an input classification tree
+    - change up file type to be an output classification tree
+    - changing the label of a classification tree to context classification tree
+    - what to do for changing the classification of a json file
+    - how do you change the type of a file on 'upload json' tree
+    - can change the type of files for 'upload json'on page
+    - changing type of json
+    - explain how I can change the type of file
+    - teach about changing the file type
+    - show me how to change the file type
+    - show how I can change the type of classification tree
+    - learn how to change the type of file
+    - instructions about changing the type of files
+    - to change file to of tree to input
+    - need change file to that of output tree
+    - don't want an input tree, instead should be context tree
 
 # Intents about test cases 
 - intent: Howto_create_new_test_group 
@@ -11695,7 +11908,33 @@ nlu:
     - teach me about creating a test case group on this website
     - new test group
     - want to create another test group
+    - how do I create a group name
     - a different test group is needed
+    - how to create a name for test case group
+    - what to do to edit a test case group name
+    - how to rename test case group
+    - I want to name my test case group
+    - help with naming test case group
+    - help with naming test case group
+    - what are the steps to creating test groups
+    - what to do to create a group of tests
+    - what do you think I should start off with on the test case group page
+    - recommendations on what to do on the test case group page
+    - what should I know about the formation of a test group
+    - talk about creating a group of tests
+    - you talk about the create group tests feature
+    - how to create a label for a group of tests
+    - how to add a name to a group for testing
+    - how to create the name for the group I'm testing
+    - want to know how to create a new name for the group
+    - why don't you fix a group name for testing group
+    - edit the name of the tests
+    - how to edit the group name for the tests
+    - to edit the title of the group of tests for the test case
+    - show method for creating a group name
+    - display the procedure of the naming of test case groups
+    - explain to me how to label a group of tests
+    - help naming test groups
 
 - intent: Howto_reorder_test_case_groups
   examples: |
@@ -12333,7 +12572,15 @@ nlu:
     - i wanna view the test case groups based on the stimulus classification tree type instead of its current orientation
     - i wanna view the test case radical based on the input classification tree type instead of its current orientation
     - it i wanna view the test case groups based on the input classification tree type instead of its current orientation
-
+    - what's the point of alphabetical order for test cases
+    - ordering of 'test case group' page confusing
+    - I'm confused by the ordering of the test case group
+    - I'm confused by the order of test cases
+    - product sub-version ordering on test case group
+    - it's now necessary to order the test cases
+    - what's the reasoning for the order of test case groups
+    - what's the point of a particular ordering
+    - what's the point in a numerical arrangement of tests
 
 - intent: Howto_execute_test_case
   examples: |
@@ -12531,6 +12778,36 @@ nlu:
     - teach me about executing a test on this website
     - teach me maine about executing a test case on this website
     - teach me about executing shell a test case on this website
+    - I want to know how to execute test cases
+    - what do I do to run a test case
+    - what can I do to carry out a test execution
+    - execution of tests, how is it done
+    - what do you do to run a test case
+    - how to implement execution of tests
+    - what am I supposed to do for test execution
+    - how to completion of test exection
+    - what should I do to complete the test execution
+    - tell me about test execution 
+    - tell me about the executions of the cases
+    - tell me, how to execute a test case
+    - how to execute the test case
+    - explain the process of executing test cases
+    - I am trying to figure out how to execute my test case
+    - talk about the execution testing
+    - tell me about the execute-test feature
+    - mention the execution test case
+    - I want to know how to execute a test
+    - teach me so I can understand how to execute a test
+    - explain to me how you execute a test case on this site
+    - execution of test, how are they implemented
+    - how exacly does test execution occur
+    - execution of tests where to do
+    - testing execution how to
+    - how are execution of tests done on the test case group page
+    - how does one carry out execution of tests
+    - carrying out test execution using this tool
+    - I want to complete the execution of the test
+    - procedure for completing the test execution
 
 - intent: Howto_generate_test_cases
   examples: |
@@ -13363,6 +13640,36 @@ nlu:
     - teach me about refreshing a mental test case group on this website
     - teach about me refreshing a test case group on this website
     - I’ve made changes to my test case group so why do I not see any changes
+    - what do I do to re-initiate the test group
+    - what can I do to reinitialize the test cases
+    - what do I have to do to update the test group
+    - tell me about about the testing group refresh
+    - talk about the refreshment of test cases
+    - explain to me how one can refresh the test case page
+    - why don't you talk about how to update test cases
+    - how to use the refresh test case button
+    - explain how to refresh test cases
+    - other information about how to update the test case
+    - what about how to refresh the testing group
+    - more information about how to update the group of test cases
+    - what is the button with two arrow in a circle
+    - button with circle made of arrows
+    - what is the button to the left of the toggle button
+    - I recently added more test cases, how can I update
+    - updating after new test cases have been added
+    - how does one update the test case page after more information has been added
+    - why do you need the button with a circular arrow on it
+    - what kind of button is a pair of arrows in a circle
+    - what is the trigger with two arrows in a circle
+    - it's a button with two arrows in a circle
+    - what's the button with two arrows making a circle on the test case page used for
+    - button marked with circle made of arrows on test cases
+    - which button to use to refresh the test case page
+    - I recently added additional tests, how to show them
+    - I recently made another test case. why couldn't I see them
+    - I've recently added a whole batch of test cases, how to make them show
+    - how to make new test cases pop up on test case screen
+    - updating after adding new tests
 
 - intent: Howto_view_test_case_groups_in_full_screen 
   examples: |
@@ -13547,6 +13854,35 @@ nlu:
     - teach me where i can the find full screen button
     - teach me where i can find full screen button
     - can me where i teach find the full screen button
+    - what is the icon with the intersecting double arrows
+    - how to view the entire set of test cases in full screen
+    - how can I see the full-screen test groups
+    - how to display test cases in full screen
+    - what can I do regarding the full screen of the test cases
+    - what can I do to view a test case in screen mode
+    - show full-screen test cases
+    - show test case groups in full screen
+    - can I see the test groups in full-scale
+    - can you show the test group in full screen format
+    - can I see a whole section of tests in frontscreen
+    - show groups of tests cases full screen
+    - show test case groups on large display
+    - what should I do to have a full screen for test cases
+    - how to use full screen
+    - show me how to use the full-screen
+    - tell me how you use the whole screen
+    - tell me how to get the full display of test cases
+    - if you point to me how to find my full screen button
+    - explain to me where the full screen icon is
+    - now tell me where I can find the full-screen button
+    - point to me a button to show full screen
+    - what is the icon with a double arrow that intersects
+    - what's the icon on which the intersecting double arrows are connected
+    - what's the icon with the intersecting cross-arrow
+    - what's the icon to the right of the toggle button
+    - on the test case group page, what is the button with two intersecting arrows
+    - I see a button with intersecting arrows on test cases
+    - which is the intersecting double arrow
 
 - intent: Howto_toggle 
   examples: |
@@ -13715,6 +14051,38 @@ nlu:
     - me where i can find the button
     - teach me where i can find clit the toggle button
     - teach me where i toggle find the can button
+    - how to change the format on the test case group page
+    - how to switch layout of the test cases
+    - what is the button in between the refresh and full page button
+    - I want to change the format of the test case page
+    - view test cases in a table
+    - display test cases as a grid
+    - test cases should be shown in a grid
+    - change layout of test cases
+    - view test cases in a different format
+    - what does the toggle button do
+    - what is toggling
+    - what is the meaning of toggle
+    - tell me how to change the layout of the test case page
+    - how to manage viewing of test cases
+    - specify what toggling does
+    - explain toggle feature on test cases
+    - toggling is a thing
+    - instruct me on how to change the layout of test cases
+    - how to change formatting on groups of tests
+    - how do you configure the layout of test cases
+    - how to make a change in the layout of the testing cases
+    - show test cases in a list
+    - display test cases in a grid
+    - which button is between the refresh button and the full page
+    - what is between a reset and a full page button
+    - what's the button between refresh and full page
+    - what's the button between round arrow and expansion button
+    - I want to adjust the way the tests are presented on the test cases
+    - show test cases tables
+    - testing cases in grid format is better
+    - cases should be presented in a grid
+    - what is the icon with the oval and circle
 
 # Synonyms
 - synonym: start
@@ -13776,6 +14144,7 @@ nlu:
     - making
     - building
     - forming
+    - generating
 
 - synonym: formation
   examples: |
