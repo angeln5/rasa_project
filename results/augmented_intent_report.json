@@ -1,0 +1,435 @@
+{
+  "howto_download_tree": {
+    "precision": 1.0,
+    "recall": 0.9955156950672646,
+    "f1-score": 0.9977528089887641,
+    "support": 446,
+    "confused_with": {
+      "howto_save_tree": 1,
+      "howto_download_image": 1
+    }
+  },
+  "howto_create_child_node": {
+    "precision": 1.0,
+    "recall": 0.9893129770992366,
+    "f1-score": 0.9946277820414428,
+    "support": 655,
+    "confused_with": {
+      "howto_save_tree": 4,
+      "start_tree_build": 2
+    }
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "whatis_the_ai_test_tool": {
+    "precision": 0.9946524064171123,
+    "recall": 0.9893617021276596,
+    "f1-score": 0.9919999999999999,
+    "support": 188,
+    "confused_with": {
+      "learn_tool_features": 2
+    }
+  },
+  "learn_tool_features": {
+    "precision": 0.9886792452830189,
+    "recall": 1.0,
+    "f1-score": 0.9943074003795066,
+    "support": 262,
+    "confused_with": {}
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "Howto_edit_json": {
+    "precision": 0.9801980198019802,
+    "recall": 0.9428571428571428,
+    "f1-score": 0.9611650485436893,
+    "support": 105,
+    "confused_with": {
+      "Howto_remove_json": 4,
+      "howto_save_tree": 2
+    }
+  },
+  "Howto_reorder_test_case_groups": {
+    "precision": 1.0,
+    "recall": 0.9968895800933126,
+    "f1-score": 0.9984423676012462,
+    "support": 643,
+    "confused_with": {
+      "what_are_test_case_groups": 2
+    }
+  },
+  "Howto_submit_json": {
+    "precision": 1.0,
+    "recall": 0.9885057471264368,
+    "f1-score": 0.9942196531791908,
+    "support": 174,
+    "confused_with": {
+      "howto_select_tree": 1,
+      "howto_upload_image": 1
+    }
+  },
+  "why_have_testing_trees": {
+    "precision": 0.9876543209876543,
+    "recall": 0.9142857142857143,
+    "f1-score": 0.9495548961424333,
+    "support": 175,
+    "confused_with": {
+      "start_tree_build": 9,
+      "howto_save_tree": 3
+    }
+  },
+  "why_app_isnt_done": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 182,
+    "confused_with": {}
+  },
+  "mood_great": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "get_started": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 691,
+    "confused_with": {}
+  },
+  "start_tree_build": {
+    "precision": 0.9797395079594791,
+    "recall": 0.9985250737463127,
+    "f1-score": 0.9890430971512053,
+    "support": 678,
+    "confused_with": {
+      "howto_delete_tree": 1
+    }
+  },
+  "howto_reset_image": {
+    "precision": 0.9961832061068703,
+    "recall": 1.0,
+    "f1-score": 0.9980879541108987,
+    "support": 522,
+    "confused_with": {}
+  },
+  "howto_give_feedback": {
+    "precision": 1.0,
+    "recall": 0.9966666666666667,
+    "f1-score": 0.9983305509181971,
+    "support": 300,
+    "confused_with": {
+      "howto_select_tree": 1
+    }
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "howto_save_tree": {
+    "precision": 0.9668367346938775,
+    "recall": 0.9973684210526316,
+    "f1-score": 0.9818652849740932,
+    "support": 380,
+    "confused_with": {
+      "why_have_testing_trees": 1
+    }
+  },
+  "learn_create_tree_features": {
+    "precision": 0.9957325746799431,
+    "recall": 0.9971509971509972,
+    "f1-score": 0.9964412811387902,
+    "support": 702,
+    "confused_with": {
+      "howto_delete_tree": 1,
+      "howto_save_tree": 1
+    }
+  },
+  "howto_apply_filters": {
+    "precision": 0.9987893462469734,
+    "recall": 0.9880239520958084,
+    "f1-score": 0.9933774834437086,
+    "support": 835,
+    "confused_with": {
+      "howto_upload_image": 3,
+      "howto_download_image": 2
+    }
+  },
+  "howto_select_tree": {
+    "precision": 0.9887005649717514,
+    "recall": 1.0,
+    "f1-score": 0.9943181818181819,
+    "support": 175,
+    "confused_with": {}
+  },
+  "what_are_test_case_groups": {
+    "precision": 0.9820143884892086,
+    "recall": 1.0,
+    "f1-score": 0.9909255898366606,
+    "support": 273,
+    "confused_with": {}
+  },
+  "mood_unhappy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "Howto_create_new_test_group": {
+    "precision": 0.9722222222222222,
+    "recall": 0.99644128113879,
+    "f1-score": 0.984182776801406,
+    "support": 281,
+    "confused_with": {
+      "learn_tool_features": 1
+    }
+  },
+  "howto_delete_a_node": {
+    "precision": 0.9945945945945946,
+    "recall": 0.983957219251337,
+    "f1-score": 0.9892473118279571,
+    "support": 187,
+    "confused_with": {
+      "howto_delete_tree": 3
+    }
+  },
+  "only_one": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "refuse": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "howto_upload_image": {
+    "precision": 0.9846153846153847,
+    "recall": 0.9974025974025974,
+    "f1-score": 0.9909677419354839,
+    "support": 385,
+    "confused_with": {
+      "start_tree_build": 1
+    }
+  },
+  "what_are_tree_types": {
+    "precision": 0.9971509971509972,
+    "recall": 0.9915014164305949,
+    "f1-score": 0.9943181818181818,
+    "support": 353,
+    "confused_with": {
+      "learn_create_tree_features": 3
+    }
+  },
+  "howto_make_new_tree": {
+    "precision": 1.0,
+    "recall": 0.9952153110047847,
+    "f1-score": 0.9976019184652278,
+    "support": 209,
+    "confused_with": {
+      "start_tree_build": 1
+    }
+  },
+  "learn_image_modulation_features": {
+    "precision": 0.9954954954954955,
+    "recall": 0.9977426636568849,
+    "f1-score": 0.9966178128523112,
+    "support": 443,
+    "confused_with": {
+      "Howto_create_new_test_group": 1
+    }
+  },
+  "whatis_the_dashboard": {
+    "precision": 1.0,
+    "recall": 0.96045197740113,
+    "f1-score": 0.9798270893371758,
+    "support": 177,
+    "confused_with": {
+      "where_dashboard": 5,
+      "what_are_test_case_groups": 2
+    }
+  },
+  "howto_download_image": {
+    "precision": 0.9947643979057592,
+    "recall": 0.9982486865148862,
+    "f1-score": 0.9965034965034966,
+    "support": 571,
+    "confused_with": {
+      "howto_upload_image": 1
+    }
+  },
+  "howto_undo_changes": {
+    "precision": 1.0,
+    "recall": 0.9967897271268058,
+    "f1-score": 0.9983922829581994,
+    "support": 623,
+    "confused_with": {
+      "howto_apply_filters": 1,
+      "howto_reset_image": 1
+    }
+  },
+  "where_dashboard": {
+    "precision": 0.9803921568627451,
+    "recall": 0.9960159362549801,
+    "f1-score": 0.9881422924901185,
+    "support": 251,
+    "confused_with": {
+      "howto_reset_image": 1
+    }
+  },
+  "Howto_execute_test_case": {
+    "precision": 1.0,
+    "recall": 0.9954954954954955,
+    "f1-score": 0.9977426636568849,
+    "support": 222,
+    "confused_with": {
+      "Howto_generate_test_cases": 1
+    }
+  },
+  "Howto_generate_test_cases": {
+    "precision": 0.9984326018808778,
+    "recall": 1.0,
+    "f1-score": 0.9992156862745099,
+    "support": 637,
+    "confused_with": {}
+  },
+  "Howto_refresh_test_case_groups": {
+    "precision": 1.0,
+    "recall": 0.9722222222222222,
+    "f1-score": 0.9859154929577464,
+    "support": 216,
+    "confused_with": {
+      "Howto_create_new_test_group": 6
+    }
+  },
+  "many": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "Howto_change_name_of_json": {
+    "precision": 1.0,
+    "recall": 0.9946236559139785,
+    "f1-score": 0.9973045822102425,
+    "support": 186,
+    "confused_with": {
+      "howto_rename_node": 1
+    }
+  },
+  "Howto_change_file_type": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 131,
+    "confused_with": {}
+  },
+  "why_upload_image": {
+    "precision": 1.0,
+    "recall": 0.9954545454545455,
+    "f1-score": 0.9977220956719818,
+    "support": 220,
+    "confused_with": {
+      "howto_upload_image": 1
+    }
+  },
+  "Howto_remove_json": {
+    "precision": 0.9705882352941176,
+    "recall": 0.9777777777777777,
+    "f1-score": 0.974169741697417,
+    "support": 135,
+    "confused_with": {
+      "Howto_edit_json": 2,
+      "howto_delete_tree": 1
+    }
+  },
+  "Howto_view_test_case_groups_in_full_screen": {
+    "precision": 0.9859154929577465,
+    "recall": 1.0,
+    "f1-score": 0.9929078014184397,
+    "support": 210,
+    "confused_with": {}
+  },
+  "Howto_toggle": {
+    "precision": 0.9948186528497409,
+    "recall": 0.9746192893401016,
+    "f1-score": 0.9846153846153846,
+    "support": 197,
+    "confused_with": {
+      "Howto_view_test_case_groups_in_full_screen": 3,
+      "Howto_create_new_test_group": 1
+    }
+  },
+  "howto_rename_node": {
+    "precision": 0.9956709956709957,
+    "recall": 1.0,
+    "f1-score": 0.9978308026030369,
+    "support": 230,
+    "confused_with": {}
+  },
+  "howto_delete_tree": {
+    "precision": 0.9585492227979274,
+    "recall": 0.9840425531914894,
+    "f1-score": 0.9711286089238844,
+    "support": 188,
+    "confused_with": {
+      "howto_save_tree": 2,
+      "howto_delete_a_node": 1
+    }
+  },
+  "account_pwd_needed": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 256,
+    "confused_with": {}
+  },
+  "accuracy": 0.9933255948926292,
+  "macro avg": {
+    "precision": 0.9936478153187295,
+    "recall": 0.9920493204989517,
+    "f1-score": 0.992776262905742,
+    "support": 13784
+  },
+  "weighted avg": {
+    "precision": 0.9934109218319461,
+    "recall": 0.9933255948926292,
+    "f1-score": 0.9933103313488834,
+    "support": 13784
+  }
+}
