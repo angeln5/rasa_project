@@ -158,7 +158,7 @@ There are two models currently located in this directory.
 #### Choosing which model to run.
 In order to initialize a session with the chatbot, run the following command:
 ```bash
-rasa shell -m .\model_final.tar.gz
+rasa shell -m .\models\model_final.tar.gz
 ```
 This will use the latest model. You can also use the other model by changing the name of the model when you run the command. 
 
